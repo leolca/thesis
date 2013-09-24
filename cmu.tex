@@ -1,0 +1,284 @@
+\chapter{Pronouncing Dictionary}
+\epigraph{People are under the impression that dictionaries legislate language. What a dictionary does is keep track of usages over time.}{Steven Pinker}
+
+%\begin{table}[htbp]
+%\label{tbl:vowels_arpabet_ipa}
+%\caption{Arpabet Symbols and their IPA equivalents : Vowels}
+%\centering
+%\begin{tabular}{|c|c|c|c|c|c|}
+%\hline 
+%Arpabet & IPA & Arpabet & IPA & Arpabet & IPA \\ 
+%\hline  \hline
+%AA & \textipa{[A]} & IH & \textipa{[I]} & AY & \textipa{[aI]} \\ 
+%\hline 
+%AE & \textipa{[\ae]} & IY & \textipa{[i]} & AW & \textipa{[aU]} \\ 
+%\hline 
+%AH0 & \textipa{[@]} & UH & \textipa{[U]} & EY & \textipa{[eI]} \\ 
+%\hline 
+%AH1 & \textipa{[2]} & UW & \textipa{[u]} & OW & \textipa{[oU]} \\ 
+%\hline 
+%AO & \textipa{[O]} & ER0 & \textipa{[@\textrhoticity]} & EH & \textipa{[E]} \\ 
+%\hline 
+%EH & \textipa{[E]} & ER1 & \textipa{[3\textrhoticity]} &  &  \\ 
+%\hline 
+%\end{tabular} 
+%\end{table}
+%
+%
+%
+%
+%\begin{table}[htbp]
+%\label{tbl:vowels_arpabet_ipa}
+%\caption{Arpabet Symbols (AB) and their IPA equivalents : Consonants}
+%\centering
+%\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+%\hline 
+%AB & IPA & AB & IPA & AB & IPA & AB & IPA & AB & IPA & AB & IPA  \\ 
+%\hline  \hline
+%\multicolumn{12}{|c|}{stops} \\
+%\hline
+%P & \textipa{[p]} & B & \textipa{[b]} & T & \textipa{[t]} & D & \textipa{[d]} & K & \textipa{[k]} & G & \textipa{[g]} \\
+%\hline
+%
+%\multicolumn{12}{|c|}{affricates} \\
+%\hline
+%CH & \textipa{[tS]} & JH & \textipa{[dZ]} & & & & & & & & \\
+%\hline
+%
+%\multicolumn{12}{|c|}{fricatives} \\
+%\hline
+%F & \textipa{[f]} & V & \textipa{[v]} & TH & \textipa{[T]} & DH & \textipa{[D]} & S & \textipa{[s]} & Z & \textipa{[z]} \\
+%\hline
+%SH & \textipa{[S]} & ZH & \textipa{[Z]} & HH & \textipa{[h]} & & & & & & \\
+%\hline
+%
+%\multicolumn{12}{|c|}{nasals} \\
+%\hline
+%M & \textipa{[m]} & N & \textipa{[n]} & NG & \textipa{[N]} & & & & & & \\
+%\hline
+%
+%\multicolumn{12}{|c|}{liquids} \\
+%\hline
+%L & \textipa{[l]} & R & \textipa{[r]} & & & & & & & & \\
+%\hline
+%
+%\multicolumn{12}{|c|}{semivowels} \\
+%\hline
+%Y & \textipa{[j]} & W & \textipa{[w]} & Q & \textipa{[P]} & & & & & & \\
+%\hline 
+%\end{tabular} 
+%\end{table}
+%
+
+
+%\newpage
+Pronunciation dictionaries are lists of words or phrases with their
+respective pronunciation transcribed into a phonetic alphabet.
+The pronunciation of words may vary much in spontaneous speech,
+and for that reason many dictionaries include some of the possible variations
+found in spoken interactions. Pronunciation dictionaries usually reflect
+one particular spoken accent, usually chosen as the most neutral 
+among the various accents in a language. They are constructed by hand
+or by a rule-based system. Pronunciation dictionaries are most used in
+speech recognition system and synthesizers, and the usage of an appropriate
+one may improve significantly the system performance \citep{lamel1996}.
+Research efforts have been aiming to build pronouncing dictionaries that are 
+automatically trained with real speech data and preliminary experiments
+have shown the achievement of good results, eliciting higher recognition
+rate systems \citep{fukada97}.
+
+In order to acquire statistical information on speech pronunciation using
+a text database, we may use a pronouncing dictionary to transcribe words
+into a sequence of phones. A few tools are available nowadays to be used
+in this purpose:
+\begin{description}
+\item[Moby Pronunciator II] contains 177,267 words with corresponding pronunciations
+fully International Phonetic Alphabet coded. Stress or emphasis is also marked in the data.
+It was createb by William Grady Ward and in 2007 has been place into the public domain.
+\item[TIMIT] corpus of read speech contains a total of 630 sentences spoken by
+10 different speakers from 8 major dialect regions of the United States. The total
+number of words in the corpus is only 659 words. The corpus has phonemically and lexically 
+transcribed speech. It was created as a joint effort from  the Massachusetts
+Institute of Technology, Stanford Research Institute, and Texas Instruments.
+\item[ICSI Switchboard] is a corpus of several informal speech conversations, containing over
+3 million words, recorded over the telephone. It includes a pronouncing lexicon with 71,100
+entries using a modified Prolex phonetic alphabet.
+\item[CMUdict] is a public domain dictionary created by Carnegie Mellon University. 
+It contains 133,746 entries of English words mapping between its written form and their 
+North American pronunciations.
+\end{description}
+These corpus cited above have been designed to provide data for
+the creation of acoustic-phonetic knowledge and for the development and
+evaluation of automatic speech recognition systems and speech synthesizers.
+
+The present work aims into acquiring statistical knowledge of the patterns found in
+the acoustic-phonetic behavior of the English language. To reach this sort of information
+from textual data, we chose to use the Carnegie Mellon University Pronouncing Dictionary
+(CMUdict) since it is available in public domain, is widely used and has a great number of
+entries.
+
+\section[CMUdict]{The Carnegie Mellon University Pronouncing Dictionary}
+
+The Carnegie Mellon University (CMU) Pronouncing Dictionary is a 
+machine-readable pronunciation dictionary for North American English
+created as public domain resource. It defines a mapping from English
+words to their North American phonetic transcriptions. 
+Those transcriptions are coded by the ARPAbet\footnote{
+``Arpabet is a phonetic transcription code developed by the Advanced Research Projects Agency (ARPA) as a part of their Speech Understanding Project (1971--1976). It represents each phoneme of General American English with a distinct sequence of ASCII characters. Arpabet has been used in several speech synthesizers, like SAM for the Commodore 64, Say for the Amiga and TextAssist for the PC. It is also used in the CMU Pronouncing Dictionary''(Wikipedia).
+} \citep{Shoup1988}, a phonetic transcription 
+code developed by Advanced Research Projects Agency (ARPA).
+``In November of 1971, the Information Processing Technology Office of the
+Advanced Research Projects Agency of the Department of Defense (ARPA) 
+initiated a five-year research and development program with the
+objective of obtaining a breakthrough in speech understanding capability
+that could then be used toward the development of practical man-machine
+communication systems. (...) The objectives were to develop several
+speech understanding systems that accept continuous speech from many 
+cooperative speakers of a General American dialect'' \citep{klatt1977}.
+It uses a set of 39 phones that represents the speech inventory of the 
+General American English\footnote{
+General American English, also known as Standard American English, is the standard
+accent used by most of the American films, TV series, news, advertisements and radio
+broadcasts. The area of eastern Nebraska, southern and central Iowa, and western Illinois
+are considered to be the places where local accent is most similar to General American
+\citep{labov2006atlas}.
+}
+It doesn't make any 
+kind of surface reduction like flapping or reduced vowels, since
+``predicting reduction requires knowledge of things outside the lexicon (the prosodic context, 
+rate of speech, etc.)'' \cite{jurafsky2009speech}.
+Instead, the vowels are marked by a number indicating the stress associated with them: 0 (unstressed),
+1 (stressed), and 2 (secondary stress).
+
+
+Tables \ref{tbl:vowels_arpabet_ipa} and \ref{tbl:consonants_arpabet_ipa} 
+present the equivalence between IPA code and ARPAbet code.
+The CMU Pronouncing Dictionary was chosen to be used since it 
+is the pronouncing dictionary with the most number of words (contains over 133,000 entries) 
+and it is open and free to use.
+The CMU Pronouncing Dictionary is also commonly
+used in many speech processing applications such as the 
+Festival Speech Synthesis System and the CMU Sphinx speech recognition system.
+
+The format used by the CMU Pronouncing Dictionary has mappings from words to their pronunciations
+using the phone set given by a modified ARPAbet system (the difference is the stress marks used on vowels). 
+The current phone set contains 39 phones
+(not counting varia due to lexical stress) and 
+the vowels may be marked by their lexical stress using the scale: 0 (no stress), 1 (primary stress)
+and 2 (secondary stress). When alternate pronunciations exist for a given word, they are
+marked by an index within parentheses. The first version of the dictionary was release on 16th of September 1993.
+The version used was 0.7a, released on 19th February 2008.
+
+\begin{table}[htbp]
+\caption{Arpabet Symbols and their IPA equivalents : Vowels}
+\centering
+\begin{tabular}{|l|l|c|c|l|l|} \hline
+ & & IPA Symbol & ARPAbet & Example & Transcription \\ \hline
+\multirow{23}{*}{Vowels} & \multirow{4}{*}{Front} & \textipa{i} & IY & beat & B IY1 T \\
+  &  & \textipa{I}   & IH & bit & B IH1 T \\ 
+  &  & \textipa{E}   & EH & bet & B EH1 T \\
+  &  & \textipa{\ae} & AE & fast & F AE1 S T \\ \cline{2-5}
+
+  & \multirow{4}{*}{Back} & \textipa{A} & AA & father & F AA1 DH ER0 \\ 
+  &  & \textipa{O} & AO & frost & F R AO1 S T \\
+  &  & \textipa{U} & UH & book & B UH1 K \\
+  &  & \textipa{u} & UW & boot & B UW1 T \\ \cline{2-5}
+
+  & \multirow{2}{*}{Mid} & \textipa{@} & AX & discus & D IH1 S K AX0 S \\ % or  D IH1 S K AH0 S \\
+  &  & \textipa{2} & AH & but & B AH1 T \\ \cline{2-5}
+
+  & \multirow{5}{*}{Diphthongs} & \textipa{eI} & EY & bait & B EY1 T\\ 
+  &  & \textipa{aI} & AY & my  & M AY1 \\
+  &  & \textipa{aU} & AW & how & HH AW1 \\
+  &  & \textipa{OI} & OY & boy & B OY1 \\
+  &  & \textipa{oU} & OW & show & SH OW1 \\ \cline{2-5}
+  
+  & \multirow{8}{*}{R-colored} & \textipa{3\textrhoticity} & ER & her & HH ER0 \\
+  &  & \textipa{@\textrhoticity} & AXR & father & F AA1 DH ER \\
+  &  & \textipa{Er} & EH R & air & EH1 R \\
+  &  & \textipa{Ur} & UH R & cure & K Y UH1 R \\
+  &  & \textipa{Or} & AO R & more & M AO1 R \\
+  &  & \textipa{Ar} & AA R & large & L AA1 R JH \\
+  &  & \textipa{Ir} & IH R or IY R & ear & IY1 R \\
+  &  & \textipa{aUr} & AW R & flower & F L AW1 R \\ \hline % or F L AW1 ER0 \\ \hline
+\end{tabular}
+\label{tbl:vowels_arpabet_ipa}
+\end{table}  
+
+
+%Phonetic reduction most often involves a centralization of the vowel, that is, a reduction in the amount of movement of the tongue in pronouncing the vowel, as with the characteristic change of many unstressed vowels at the ends of English words to something approaching schwa. 
+% non reduced : AH1 : example, but (B AH1 T), sun (S AH1 N)
+% reduced : AH0 = AX : example, sofa (S OW1 F AH0), alone (AH0 L OW1 N), discus (D IH1 S K AX0 S)
+%
+
+
+\begin{table}[htbp]
+\caption{Arpabet Symbols and their IPA equivalents : Consonants}
+\centering
+\begin{tabular}{|l|l|c|c|l|l|} \hline
+ & & IPA Symbol & ARPAbet & Example & Transcription \\ \hline
+\multirow{6}{*}{Stops} & \multirow{3}{*}{Voiced} & \textipa{b} & B & bat & B AE1 T \\
+ &  & \textipa{d} & D & deep & D IY1 P \\
+ &  & \textipa{g} & G & go & G OW1 \\ \cline{2-5}
+ &  \multirow{3}{*}{Unoiced} & \textipa{p} & P & pea & P IY1 \\
+ &  & \textipa{t} & T & tea & T IY1 \\
+ &  & \textipa{k} & K & kick & K IH1 K \\ \hline
+ 
+ 
+\multirow{6}{*}{Fricatives} & \multirow{4}{*}{Voiced} & \textipa{v} & V & very & V EH1 R IY0 \\
+ &  & \textipa{D} & DH & that & DH AE1 T \\
+ &  & \textipa{z} & Z  & zebra & Z IY1 B R AH0 \\
+ &  & \textipa{Z} & ZH & measure & M EH1 ZH ER0 \\ \cline{2-5}
+ &  \multirow{4}{*}{Unoiced} & \textipa{f} & F & five & F AY1 V \\ 
+ &  & \textipa{T} & TH & thing & TH IH1 NG \\
+ &  & \textipa{s} & S  & say & S EY1 \\
+ &  & \textipa{S} & SH & show & SH OW1 \\ \hline
+ 
+\multicolumn{2}{|l|}{ \multirow{2}[4]{*}{Affricates} } & \textipa{tS} & CH & church & CH ER1 CH \\ 
+\multicolumn{2}{|l|}{} & \textipa{dZ} & JH & just & JH AH1 S T \\ \hline
+ 
+ 
+\multicolumn{2}{|l|}{ \multirow{3}[4]{*}{Nasals} } & \textipa{m} & M & mom & M AA1 M \\ 
+\multicolumn{2}{|l|}{} & \textipa{n} & N  & noon & N UW1 N \\
+\multicolumn{2}{|l|}{} & \textipa{N} & NX & sing & S IH1 NG \\ \hline
+  
+\multicolumn{2}{|l|}{ \multirow{3}[4]{*}{Liquids} } & \textipa{l} & L & late & L EY1 T \\ 
+\multicolumn{2}{|l|}{} & \textipa{r} & R  & run & R AH1 N \\
+\multicolumn{2}{|l|}{} & \textipa{R} & DX & wetter & W EH1 T ER0 \\ \hline
+
+\multicolumn{2}{|l|}{ \multirow{2}[4]{*}{Others} } & \textipa{h} & HH & house & HH AW1 S \\ 
+\multicolumn{2}{|l|}{} & \textipa{?} & Q  & glottal stop \\ \hline
+  
+\multicolumn{2}{|l|}{ \multirow{3}[4]{*}{Semivowels} } & \textipa{j} & Y  & yes & Y EH1 S\\ 
+\multicolumn{2}{|l|}{} & \textipa{w} & W  & way & W EY1 \\ 
+\multicolumn{2}{|l|}{} & \textipa{\*w} & WH  & when & WH EH1 N\\ \hline  
+
+%\multirow{5}{*}{Nasals} & \multirow{3}{*}{Non vocalic} & \textipa{m} & M & mom \\ 
+%  &  & \textipa{n} & N  & noon \\
+%  &  & \textipa{N} & NX & sing \\ \cline{2-5}
+%  & \multirow{2}{*}{Vocalic} & \textipa{m} & EM & some \\ 
+%  &  & \textipa{n} & EN & son \\ \hline
+  
+% &  & \textipa{} &  &  \\
+% &  & \textipa{} &  &  \\ 
+\end{tabular}
+\label{tbl:consonants_arpabet_ipa}
+\end{table}
+
+
+
+
+
+The analysis proposed consider words as isolated structures and for that reason poslexical
+phonological rules are not taken in account. Various phonological changes that happen in
+a continuous speech, such as flapping, vowel reduction, and various coarticulation effects that
+happen as a postlexical phonological change are not considered, since we are not evaluating the
+effects of neighbors words on a continuous speech. Although we don't consider these changes,
+we believe that it will not alter the statistical results, since the same phonological changes
+also take places within the lexical structures.
+
+
+
+
+
+

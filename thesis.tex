@@ -1,0 +1,197 @@
+\documentclass[12pt,a4paper,twoside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tipa}
+\usepackage{multicol}
+\usepackage{hyperref}
+%bibliography styles
+\usepackage{natbib}
+% fix natbib-beamer problem
+\def\newblock{}
+
+\usepackage{epigraph}
+\setlength{\epigraphwidth}{.5\textwidth}
+
+
+
+%%% dimenses do documento
+\usepackage[pdftex]{geometry}
+\geometry{a4paper,left=2.5cm,right=2.5cm,top=3.0cm,bottom=3.0cm}
+\usepackage{indentfirst}
+\usepackage[labelfont=sf,font=sf]{caption}
+\usepackage{fancyhdr,fancybox}
+\usepackage{psboxit}
+\PScommands
+
+%% first reset the headers and footers
+\fancyhead{}
+\fancyfoot{}
+%% make the odd pages have the section name on the top right
+\fancyhead[RO]{\sffamily\bfseries\scriptsize \rightmark}
+%% make the even pages have the chapter name on the top left
+\fancyhead[RE]{\sffamily\bfseries\scriptsize \leftmark}
+\fancyfoot[RO]{\thepage}
+\fancyfoot[RE]{\thepage}
+\pagestyle{fancy}
+
+%\usepackage{subcaption}
+\usepackage{subfig}
+%\usepackage{subfloat}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{array}
+
+
+
+% Force LaTeX image to appear in the section in which it's declared
+\usepackage[section]{placeins}
+
+%% this next section (till \makeatother) makes sure that blank pages
+%% are actually completely blank, cause they're not usually
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+	\hbox{}
+	\vspace*{\fill}
+	\thispagestyle{empty}
+	\newpage
+	\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\usepackage[avantgarde]{quotchap}
+\usepackage{setspace}    	%pacote para definir o espaamento entre linhas
+\usepackage{verbatim}
+\onehalfspacing
+\usepackage{xspace}
+\usepackage{bigdelim}		% chaves grandes \ldelim (capitulo metodologia )
+
+
+\hyphenation{Li-ber-man}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% Theorem %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\newenvironment{proof}[1][Proof]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example}[1][Example]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+\newcommand{\qed}{\hfill \ensuremath{\Box}}
+%\newcommand{\qed}{\nobreak \ifvmode \relax \else
+%      \ifdim\lastskip<1.5em \hskip-\lastskip
+%      \hskip1.5em plus0em minus0.5em \fi \nobreak
+%      \vrule height0.75em width0.5em depth0.25em\fi}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% doubleequation %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{calc}
+\makeatletter
+\newcommand*\@dblLabelI {}
+\newcommand*\@dblLabelII {}
+\newcommand*\@dblequationAux {}
+
+\def\@dblequationAux #1,#2,%
+    {\def\@dblLabelI{\label{#1}}\def\@dblLabelII{\label{#2}}}
+
+\newcommand*{\doubleequation}[3][]{%
+    \par\vskip\abovedisplayskip\noindent
+    \if\relax\detokenize{#1}\relax
+       \let\@dblLabelI\@empty
+       \let\@dblLabelII\@empty
+    \else % we assume here that the optional argument
+          % has the required shape A,B
+       \@dblequationAux #1,%
+    \fi
+    \makebox[0.5\linewidth-1.5em]{%
+     \hspace{\stretch1}%
+     \makebox[0pt]{$\displaystyle #2$}%
+     \hspace{\stretch1}%
+    }%
+    \makebox[0.5\linewidth-1.5em]{%
+     \hspace{\stretch1}%
+     \makebox[0pt]{$\displaystyle #3$}%
+     \hspace{\stretch1}%
+    }%
+    \makebox[3em][r]{(%
+  \refstepcounter{equation}\theequation\@dblLabelI, 
+  \refstepcounter{equation}\theequation\@dblLabelII)}%
+  \par\vskip\belowdisplayskip
+}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+\usepackage{titlepage_ufmg}
+\author{Leonardo Araujo}
+\title{Patterns in Language Usage}
+\begin{document}
+\input{capa}
+%\maketitle
+
+\input{abstract.tex}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\input{introduction.tex}
+
+\input{language.tex}
+
+\input{languagestructure.tex}
+
+\input{phonemicmodel.tex}
+
+\input{cmu.tex}
+
+\input{languagestatistics.tex}
+
+\input{artificialnaturallanguage.tex}
+
+%\input{information.tex}
+
+\input{featuretheory.tex}
+
+\input{conclusion.tex}
+
+\input{furtherwork.tex}
+
+%\appendix
+%\input{speechwriting.tex}
+%\input{languagechanges.tex}
+%\input{segmentedlanguage.tex}
+%\input{speechcategorization.tex}
+%%%\input{informationtheory.tex}
+ 
+
+\clearpage
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{apalike}
+\bibliography{bibliography}
+%\nocite{*}
+
+\end{document}

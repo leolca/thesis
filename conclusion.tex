@@ -1,0 +1,237 @@
+\chapter{Conclusions}
+
+The understanding of language origin and evolution requires a deep study
+and identification of what are the universal features that drive language evolution.
+We adopt the usage-based theory of language in which its cognitive organization
+is a product of the speaker experience, rather than a set of abstract rules and structures
+that indirectly relates to the language experience. Grammar is based on usage, contains
+many details of probabilities of occurrence and co-occurrence, and creates a dynamic network
+from categorized instances of language use.
+Frequency of use and its consequent cognitive organization have impact on language 
+structure and usage. Speed of access related to token frequency, priming, the process 
+of grammaticalization and the morphological and phonic characteristics of high and low frequency
+words are examples of the impact frequency has on language and congnition \citep{bybee2001,bybee2003,bybee2007frequency,ellis2002}.
+Studies \citep{saffran1996b,Saffran1999,Saffran2003} show that human track patterns and statistical regularities in artificial
+grammars even when there is no correspondence to meaning or communicative intentions.
+
+The idea of `universals of grammar' may be seen as a by-product of the emergent phenomena
+of grammar, what is dependent on idisyncratic localized interactions and the
+process of spreading and shifting through populations and time.
+From the basic principle that usage is a driven factor to shape language, we 
+expect to observe common patterns and regularities in different languages.
+The UPSID database is very important to analyze the type of segments used by different
+languages in the world to build their speech segments repertoire. From the observation
+of the data in this database we could realize that some speech segments are very
+common among languages, while others are quite rare. The phone \textipa{[m]}, for example,
+happens in 94.2\% of the languages in that database, while 427 speech sounds appear just once
+among all 425 languages.
+
+It is a common place to use more consonants than vowels (90\% of the languages 
+use at most 6 times more consonants than vowels). The median number of vowels used by
+languages is 4, and the median number of consonants is about 18.
+We could observe that just a few phones have many co-occurring segments in their 
+languages and are also found in many different languages. It could give us a hint that 
+they work like wildcards. Although some results might suggest that there is a binding 
+force between voice and unvoiced counterparts, specifically, the existence of
+an unvoiced consonant would make it more probable the existence of its voiced 
+counterpart (not the other way around), it seems this is false, since 
+the probability of a voiced segment given its voiceless counterpart is
+0.406, and the probability of a voiceless segment given its voiced counterpart
+is 0.415. Moreover, the frequency of occurrence of voiced and unvoiced segments
+in UPSID is not so different. Voiced segments appear on 3.8\% of the languages
+and unvoiced on 3.1\%. Another feature is that languages that use fewer 
+segments to build their speech repertoire tend to use mostly common segments,
+and languages that use many speech segments, tend to use rare phones to
+build their repertoire.
+
+%UPSID
+%existence of an unvoiced consonant makes it more probable the existence of it
+%voiced counterpart then the other way around
+%(check)
+%mean P(voiced|unvoiced) = 0.406
+%mean P(unvoiced|voiced) = 0.415
+%unvoiced consonants are more common that voiced consonants
+%(check)
+%mean(freqvoiced)/425 =  0.038159
+%mean(frequnvoiced)/425 =  0.031266
+%std(freqvoiced) =  49.415
+%std(frequnvoiced) =  42.555
+%language that uses fewer segments in its repertoire --> common segments are used in the segments repertoire
+%UPSID occurrence of a voiced stop facilitate the occurrence of its unvoiced counterpart in that language
+
+Our first analysis consisted on observing the segments used by various languages around the
+world to build their speech repertoire. As we understand language as a dynamic self-organized
+system, we believe it is important to investigate how those segments are used, how they
+build larger structures, what are the statistical characteristics of languages.
+We believe there might resemblances on the way languages use their segments and in the way
+they structure themselves through usage. This type of analysis would require a great amount
+of work, and therefore we have restricted our analysis to analyse the linguistic patterns
+observed and their mathematical models. Those patterns observed across different languages
+or phenomena are also called \emph{laws}.
+
+The ubiquity of scaling laws in nature suggests that complex systems organize themselves,
+they are not just a collection of random independent realizations, but exhibit similar patterns
+and relations that are observed in different scales. ``Scaling laws (...) pervade neural,
+behavioral and linguistic activities''\citep{kello2010}. The ubiquity of normal distribution in 
+nature is also well known. Although in the past it was not satisfactorily understood, it became clear
+when the central limit theorem showed that random independent variables always combine to
+produce, in the limit, a normal distribution. Complex systems are more than mere collections
+of independent random variables, they have interdependent effects and behaviours, and therefore
+might not be described by random distributions.
+
+Scaling laws are also present in many cognitive activities. 
+Steven's power law \citep{stevens1957} proposes a relation
+between the magnitude of a physical stimulus and its perceived intensity, which are related 
+by a power law in the form $\Psi(I) = k I^\alpha$, where $I$ is the magnitude of the physical
+stimulus, $\alpha$ is the relating exponent and $k$ is the proportionality constant (which depends
+on the type of the stimulation). Steven's power law is also known as a 
+generalization of Weber-Fechner law to a wider range of sensations.
+This law evidentiates the existence of similar relations among variables at different
+scales, which means that there is a scale invariance in perception.
+Concerning the motor control, \cite{lacquaniti1983} presented a power law relating 
+the angular velocity and the curvature when considering evidences from the execution
+of handwriting and drawing movements. These observed scaling laws are hypothesized 
+to reflect the maximization of sensitivity and dynamic range of sensory systems \citep{copelli2007}
+In the case of motor control systems, it is argued to be used to minimize the effects
+of errors due to noise in the motor system \citep{harris1988}. The idea of a time dynamic scaling
+memory retrieval, proposed by \cite{gordon2007}, is also consistent with the ubiquitous 
+observations of scaling laws in cognition.
+
+Some researchers claim that Zipf's law is shallow, since it is a result of choosing 
+rank as the independent variable and for that reason even random generated texts present 
+a Zipf pattern. However we have presented some arguments claiming that the intermittent silence
+model is shallow itself and it does not hold all features present is a natural communication
+process. A visual analysis of the log-log plots of frequency of occurrence versus rank creates
+a first evidence. The Zipf model presupposes a monotonically decreasing sequence of values
+for the frequency of occurrences, however for a random generated text, all words with the 
+same length share the same probability of occurrence, creating a stair case pattern.
+This is not observed in natural texts, expect for the poorly sampled words, which
+appear at the end of the tail of the decreasing curve.
+Another aspect that makes natural and random texts distinct is evidentiated by
+the histogram of words length. 
+Random generated text present a geometrically distributted frequency of occurrence
+for words length. The same is also present when considering the number of words for a given length.
+%words which probabilities are a exponentially decreasing function of it length. 
+The number of words, as well as the frequency of occurrence of words, suffer a 
+stepper decrease when approaching very short word lengths. A maximum is found for words
+which length is equal to 7 letters, or 5 phones, or 1 syllable, when regarding the
+number of existing words; or a maximum frequency of occurrence is found for letters 
+of length equals to 3 letters, or 2 phones, or 1 syllable (depending on your unit
+adopted to measure a words length). Random texts present an exponentially decreasing
+number of words as the words length increase. The same is observed when regarding 
+the frequency of occurrence. The plots of natural texts also show a much steeper 
+decrease in the number of words and its frequency as the length increases, in comparison 
+with random texts. 
+
+We have simulated the creation of random texts, generating random symbols. We used 
+three different approaches: uniform distributed symbols; symbols with the same
+probabilities as what is observed in natural texts; symbols generated by a Markov
+model with the same transitions probabilities from the natural text. Only the
+random text created by a Markov model gets close to the observed patter of
+2-grams and 3-grams in real texts. The Markov model was also able to produce
+words with the same behaviour found in natural texts, a higher word length around
+2-3 symbols long words.
+
+The inverse Zipf plot is another clue leading to the fact
+that random texts do not present true Zipf distribution. 
+The occurrence of \emph{hapax legomenon} on random texts is 
+greater than in natural texts.
+More over, random texts seems to present a more ragged pattern in the region
+of high occurrence words, 
+%Still rearing the inverse Zipf plot, it is also shown that 
+``real texts fill the lexical spectrum much more efficiently and
+regardless of the word length, suggesting that the meaningfulness of Zipf’s law is high''\citep{cancho2002}.
+Other arguments are presented, such as the evaluation of consistency of ranks, 
+indicating that Zipf's law might in fact be a fundamental law in natural languages
+\citep{cancho2009,cancho2010}.
+
+The exponent parameter in the Zipf distribution is important in determining the
+statistical properties of that distribution. In order to compare data that follow
+a power law relation, we need to find the best fit to the data. We have presented 
+the usage of the maximum likelihood approach to determine the exponent parameters
+that gives the best fit. We have derived the equations which lead to a root finding
+problem, for which the solution is the maximum likelihood estimated parameter.
+The same procedure is used to find the exponent and flattening parameters of
+a Zipf-Mandelbrot model. This procedure was tested using real text data
+and the results show a good performance. 
+ 
+
+A definition of a distance measure between two different phones was proposed, 
+consisting on the number of distinctive feature not share between these phones.
+This definition is in accordance with the natural class definition proposed by \cite{flemming2005}.
+We argue that phones are chosen to built higher order structures according to their
+resemblances and distinctions. We analyzed the formation of triphones according
+to this distance measure and we concluded that, more frequently, the triphones
+are build using phones that have an intermediate distance between them. 
+Too much similarity between consecutive phones must be avoid, in order to create
+easy distinction between them, and so too much disparity must also be avoided,
+to ensure easy in the articulation. This reflects once again the trade off
+between the speaker effort and the listener effort. We have also observed that
+the first pair of phones in a triphone tends to presents more distinctiveness than the
+second pair of phones.
+
+Menzerath's law states a relation on the usage of tiles to create a whole.
+According to this law, the length of the whole is inversely proportional
+%As we considered the use of tiles in the formation of the whole, we also analyzed 
+%the Menzerath's law, which states that the length of the whole is inversely proportional
+to the length of the parts. We considered the duration of words utterance to estimate
+an average duration in the pronunciation of word's parts (syllables and phones). 
+The results show that as the word length (number of syllables of phones) increases,
+the average duration of the parts decreases. We also observe this type of behaviour as
+we analyse the relation between sentences length (number of words) and words length 
+(number of syllables or letters).
+
+As we consider language as a mean to communicate, exchange information, it is important
+to analyse it under the information theory point of view. We want to characterize a source, 
+which produces symbols according to a Zipf distribution, according to the information
+content generated. We used the same steps proposed by \cite{grignetti} to derive an estimate
+of the entropy of such a source. The exponent parameter of the distribution was shown
+to be a sensitive parameter to characterize the source regarding its information production.
+The estimates obtained, when compared with real data are shown to be slightly different,
+what shows that the proposed approximation is good.
+Small discrepancies are explained by numerical errors, small deviation on the
+estimated distribution parameters, and the undersampling on the data, which is
+represented as a staircase pattern on the low frequency region.
+
+\cite{cristelli2012} proposes that Zipfian distributed data hold coherence among them.
+We present the distortion created when the data from a certain range of ranks are 
+extracted from the group. This process may create a distortion on the frequency-rank
+relation. There will be no distortion if the extraction process itself only on high
+rank types. There will be distortion on the low rank types if low rank types are
+extracted. The extraction of the very high frequency types is called 
+as the New York's effect. \cite{cristelli2012} argues that when there is coherence
+among data, you may gather different data and still the Zipf's law will still hold.
+But if you gather data from different sources with distinct characteristics,
+even if they are coherent by themselves, when they are added, the new global data 
+will not be coherent itself, and the Zipf's law will not hold anymore.
+A simple example of the concatenation of different random data, created by 
+different probability distributions, show that the same pattern is also observed
+after the random data is concatenated. This could contradict what was expected 
+by \cite{cristelli2012}, or could corroborate that random data are not truly Zipfian
+distributed, and the Zipf like pattern was once mode generated as a byproduct of
+selecting rank as the independent variable.
+
+\cite{vanLeijenhorst} shows that a source which is distributed according to a 
+generalized Zipf's law will present a Heap's law behaviour, there will be a 
+sublinear relation between the text length and the vocabulary size.
+We present a calculation to show that any source with any distribution will
+present a monotonically growing lexicon size which converges to the 
+underlying lexicon size. The sublinear lexical growth pattern is exemplified 
+using a few examples from the real world.
+
+In order to analyze the patterns of a language under different scales, analysing
+the occurrence of phones and formation of higher order structures, we believe
+the usage of the Feature Theory might be providential since it give us a
+direct and formal way to quantify a phone characteristics making it possible
+to create a distance measure between two phones. We propose to measure the 
+distance between two phones by the number of distinctive features not shared 
+by them. By means of a multidimensional scaling we create a representation
+of the phones in a vectorial space where the given linear distance will
+provide the best match with the proposed distance measure. 
+The graphical representation shows that this measure might be a meaningful choice.
+We believe that its usage concomitantly with frequency of occurrence might
+give us a better hint on the structure and organization of languages.
+
+
+
+
