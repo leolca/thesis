@@ -1,0 +1,57 @@
+%% This style file was created by Jamie Stevens on 09/05/2005
+%% It allows you to put the UniMelb logo on the top of your title
+%% page, as well as keeping all the rest of the maketitle options intact.
+
+%% You'll need the A3_CMYK.eps file in your thesis directory for this
+%% style to work properly.
+
+%% This style file is called by 
+%%    \usepackage[options]{titlepage_melbourne_uni}
+%% where options can be:
+%%     acidfree = puts ``Produced on acid-free paper'' 
+%%                at the bottom of the page
+
+\def\orientador#1{\def\@orientador{#1}}
+
+\ProvidesPackage{titlepage_ufmg}[2007/03/01]
+\RequirePackage{graphicx}
+\newsavebox{\acidfreepaper}
+\DeclareOption{acidfree}{
+\sbox{\acidfreepaper}{\rmfamily Produced on acid-free paper}
+}
+\DeclareOption*{
+\sbox{\acidfreepaper}{}
+}
+\ProcessOptions
+\renewcommand{\maketitle}{
+\thispagestyle{empty}
+\begin{center}
+\includegraphics[scale=1.5]{logo_ufmg.pdf}\\
+\vspace{2cm}
+{\sffamily\Huge \@title}\\
+\vspace{1cm}
+{\rmfamily\Large \@author}\\
+\vspace{0.25cm}
+{\rmfamily\large Orientador: \@orientador}\\
+\vspace{4.5cm}
+\begin{flushright}
+ \begin{minipage}{9cm}
+ Trabalho apresentado ao Programa de ao Programa de P\'os-gradua\c{c}\~ao em Engenharia El\'etrica da Escola de Engenharia da Universidade Federal de Minas Gerais, como requisito parcial para obten\c{c}\~ao do grau de Doutor em Engenharia El\'etrica.
+\end{minipage}
+\end{flushright}
+%{\rmfamily \small Texto de qualifica\c{c}\~ao submetido ao Programa de}\\
+%{\rmfamily \small P\'os-gradua\c{c}\~ao em Engenharia El\'etrica da}\\ 
+%{\rmfamily \small Universidade Federal de Minas Gerais, como requisito}\\
+%{\rmfamily \small parcial \`a obten\c{c}\~ao do T\'itulo de Doutor em}\\
+%{\rmfamily \small Engenharia El\'etrica.}\\
+\vspace{5cm}
+{\rmfamily \@date}\\
+\vspace{0.5cm}
+{\rmfamily Programa de P\'os-Gradua\c{c}\~ao em Engenharia El\'etrica}\\
+{\rmfamily Universidade Federal de Minas Gerais}
+%\vspace{1cm}
+%\usebox{\acidfreepaper}
+\end{center}
+%\cleardoublepage
+\setcounter{page}{1}
+}
