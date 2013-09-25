@@ -1,0 +1,101 @@
+%% Creator: Inkscape inkscape 0.48.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'phones_hist_en.eps' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{550.16064081bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.83885674)%
+    \put(0,0){\includegraphics[width=\unitlength]{phones_hist_en.eps}}%
+    \put(0.07371342,0.10513468){\makebox(0,0)[rb]{\smash{0}}}%
+    \put(0.07371342,0.22480882){\makebox(0,0)[rb]{\smash{2}}}%
+    \put(0.07371342,0.34448295){\makebox(0,0)[rb]{\smash{4}}}%
+    \put(0.07371342,0.46415709){\makebox(0,0)[rb]{\smash{6}}}%
+    \put(0.07371342,0.58383123){\makebox(0,0)[rb]{\smash{8}}}%
+    \put(0.07371342,0.70350536){\makebox(0,0)[rb]{\smash{10}}}%
+    \put(0.07371342,0.8231795){\makebox(0,0)[rb]{\smash{12}}}%
+    \put(0.09770641,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[@]}}}}%
+    \put(0.1216994,0.04987809){\makebox(0,0)[b]{\smash{\textipa{[t]}}}}%
+    \put(0.1456924,0.07896051){\makebox(0,0)[b]{\smash{\textipa{[n]}}}}%
+    \put(0.16968539,0.04987811){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[I]}}}}%
+    \put(0.19367838,0.07896051){\makebox(0,0)[b]{\smash{\textipa{[s]}}}}%
+    \put(0.21752596,0.04987809){\makebox(0,0)[b]{\smash{\textipa{[d]}}}}%
+    \put(0.24151895,0.07896051){\makebox(0,0)[b]{\smash{\textipa{[r]}}}}%
+    \put(0.26551195,0.04987809){\makebox(0,0)[b]{\smash{\textipa{[l]}}}}%
+    \put(0.28950493,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[i]}}}}%
+    \put(0.31349792,0.04987811){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[D]}}}}%
+    \put(0.33734551,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[E]}}}}%
+    \put(0.3613385,0.04987809){\makebox(0,0)[b]{\smash{\textipa{[m]}}}}%
+    \put(0.3853315,0.07896051){\makebox(0,0)[b]{\smash{\textipa{[k]}}}}%
+    \put(0.40932449,0.04987809){\makebox(0,0)[b]{\smash{\textipa{[z]}}}}%
+    \put(0.43317208,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[\ae]}}}}%
+    \put(0.45716508,0.04987811){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[@\textrhoticity]}}}}%
+    \put(0.48115805,0.07896051){\makebox(0,0)[b]{\smash{\textipa{[w]}}}}%
+    \put(0.50515104,0.04987809){\makebox(0,0)[b]{\smash{\textipa{[v]}}}}%
+    \put(0.52914405,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[h]}}}}%
+    \put(0.55299162,0.04987809){\makebox(0,0)[b]{\smash{\textipa{[f]}}}}%
+    \put(0.57698462,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[aI]}}}}%
+    \put(0.60097761,0.04987811){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[u]}}}}%
+    \put(0.6249706,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[A]}}}}%
+    \put(0.64896358,0.04987809){\makebox(0,0)[b]{\smash{\textipa{[p]}}}}%
+    \put(0.67281116,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[O]}}}}%
+    \put(0.69680416,0.04987809){\makebox(0,0)[b]{\smash{\textipa{[b]}}}}%
+    \put(0.72079715,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[eI]}}}}%
+    \put(0.74479018,0.04987811){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[oU]}}}}%
+    \put(0.76878313,0.07896051){\makebox(0,0)[b]{\smash{\textipa{[N]}}}}%
+    \put(0.79263071,0.04987809){\makebox(0,0)[b]{\smash{\textipa{[j]}}}}%
+    \put(0.81662371,0.07896051){\makebox(0,0)[b]{\smash{\textipa{[g]}}}}%
+    \put(0.84061669,0.04987811){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[S]}}}}%
+    \put(0.86460968,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[aU]}}}}%
+    \put(0.8884573,0.04987811){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[tS]}}}}%
+    \put(0.91245026,0.07896051){\makebox(0,0)[b]{\smash{\textipa{[T]}}}}%
+    \put(0.93644328,0.04987811){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[dZ]}}}}%
+    \put(0.96043627,0.07896053){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[U]}}}}%
+    \put(0.98442926,0.04987811){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textipa{[OI]}}}}%
+    \put(0.02574401,0.47088919){\rotatebox{90}{\makebox(0,0)[b]{\smash{freq. of occurrence (%)}}}}%
+    \put(0.54088,0.00706488){\makebox(0,0)[b]{\smash{phones}}}%
+  \end{picture}%
+\endgroup%

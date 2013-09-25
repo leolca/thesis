@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="767"
+   height="575"
+   viewBox="0 0 767 575"
+   id="svg3259"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="zipf_likelihood_k.svg">
+  <metadata
+     id="metadata3493">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1347"
+     inkscape:window-height="711"
+     id="namedview3491"
+     showgrid="false"
+     inkscape:zoom="0.91842053"
+     inkscape:cx="361.89911"
+     inkscape:cy="289.55807"
+     inkscape:window-x="7"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3259" />
+  <desc
+     id="desc3261">Produced by GNUPLOT 4.4 patchlevel 3 </desc>
+  <defs
+     id="defs3263">
+    <circle
+       id="gpDot"
+       r="0.5"
+       stroke-width="0.5" />
+    <path
+       id="gpPt0"
+       stroke-width="0.222"
+       stroke="currentColor"
+       d="M-1,0 h2 M0,-1 v2" />
+    <path
+       id="gpPt1"
+       stroke-width="0.222"
+       stroke="currentColor"
+       d="M-1,-1 L1,1 M1,-1 L-1,1" />
+    <path
+       id="gpPt2"
+       stroke-width="0.222"
+       stroke="currentColor"
+       d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1" />
+    <rect
+       id="gpPt3"
+       stroke-width="0.222"
+       stroke="currentColor"
+       x="-1"
+       y="-1"
+       width="2"
+       height="2" />
+    <rect
+       id="gpPt4"
+       stroke-width="0.222"
+       stroke="currentColor"
+       fill="currentColor"
+       x="-1"
+       y="-1"
+       width="2"
+       height="2" />
+    <circle
+       id="gpPt5"
+       stroke-width="0.222"
+       stroke="currentColor"
+       cx="0"
+       cy="0"
+       r="1" />
+    <use
+       xlink:href="#gpPt5"
+       id="gpPt6"
+       fill="currentColor"
+       stroke="none" />
+    <path
+       id="gpPt7"
+       stroke-width="0.222"
+       stroke="currentColor"
+       d="M0,-1.33 L-1.33,0.67 L1.33,0.67 z" />
+    <use
+       xlink:href="#gpPt7"
+       id="gpPt8"
+       fill="currentColor"
+       stroke="none" />
+    <use
+       xlink:href="#gpPt7"
+       id="gpPt9"
+       stroke="currentColor"
+       transform="rotate(180)" />
+    <use
+       xlink:href="#gpPt9"
+       id="gpPt10"
+       fill="currentColor"
+       stroke="none" />
+    <use
+       xlink:href="#gpPt3"
+       id="gpPt11"
+       stroke="currentColor"
+       transform="rotate(45)" />
+    <use
+       xlink:href="#gpPt11"
+       id="gpPt12"
+       fill="currentColor"
+       stroke="none" />
+  </defs>
+  <g
+     style="fill:none; color:white; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g3279" />
+  <g
+     style="fill:none; color:white; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g3281" />
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g3283">
+    <path
+       d="M99.7,511.8 L112.2,511.8 M694.0,511.8 L681.5,511.8 "
+       id="path3285" />
+    <g
+       transform="translate(91.4,516.3)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:end"
+       id="g3287">
+      <text
+         id="text3289">
+        <tspan
+           id="tspan3291">0</tspan>
+      </text>
+    </g>
+    <path
+       d="M99.7,418.1 L112.2,418.1 M694.0,418.1 L681.5,418.1 "
+       id="path3293"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(91.4,422.6)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:end"
+       id="g3295">
+      <text
+         id="text3297">
+        <tspan
+           id="tspan3299">0.2</tspan>
+      </text>
+    </g>
+    <path
+       d="M99.7,324.4 L112.2,324.4 M694.0,324.4 L681.5,324.4 "
+       id="path3301"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(91.4,328.9)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:end"
+       id="g3303">
+      <text
+         id="text3305">
+        <tspan
+           id="tspan3307">0.4</tspan>
+      </text>
+    </g>
+    <path
+       d="M99.7,230.7 L112.2,230.7 M694.0,230.7 L681.5,230.7 "
+       id="path3309"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(91.4,235.2)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:end"
+       id="g3311">
+      <text
+         id="text3313">
+        <tspan
+           id="tspan3315">0.6</tspan>
+      </text>
+    </g>
+    <path
+       d="M99.7,137.0 L112.2,137.0 M694.0,137.0 L681.5,137.0 "
+       id="path3317"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(91.4,141.5)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:end"
+       id="g3319">
+      <text
+         id="text3321">
+        <tspan
+           id="tspan3323">0.8</tspan>
+      </text>
+    </g>
+    <path
+       d="M99.7,43.3 L112.2,43.3 M694.0,43.3 L681.5,43.3 "
+       id="path3325" />
+    <g
+       transform="translate(91.4,47.8)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:end"
+       id="g3327">
+      <text
+         id="text3329">
+        <tspan
+           id="tspan3331">1</tspan>
+      </text>
+    </g>
+    <path
+       d="M99.7,511.8 L99.7,499.3 M99.7,43.3 L99.7,55.8 "
+       id="path3333" />
+    <g
+       transform="translate(99.7,534.3)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3335">
+      <text
+         id="text3337">
+        <tspan
+           id="tspan3339">0.5</tspan>
+      </text>
+    </g>
+    <path
+       d="M184.6,511.8 L184.6,499.3 M184.6,43.3 L184.6,55.8 "
+       id="path3341"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(184.6,534.3)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3343">
+      <text
+         id="text3345">
+        <tspan
+           id="tspan3347">1</tspan>
+      </text>
+    </g>
+    <path
+       d="M269.5,511.8 L269.5,499.3 M269.5,43.3 L269.5,55.8 "
+       id="path3349"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(269.5,534.3)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3351">
+      <text
+         id="text3353">
+        <tspan
+           id="tspan3355">1.5</tspan>
+      </text>
+    </g>
+    <path
+       d="M354.4,511.8 L354.4,499.3 M354.4,43.3 L354.4,55.8 "
+       id="path3357"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(354.4,534.3)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3359">
+      <text
+         id="text3361">
+        <tspan
+           id="tspan3363">2</tspan>
+      </text>
+    </g>
+    <path
+       d="M439.3,511.8 L439.3,499.3 M439.3,43.3 L439.3,55.8 "
+       id="path3365"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(439.3,534.3)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3367">
+      <text
+         id="text3369">
+        <tspan
+           id="tspan3371">2.5</tspan>
+      </text>
+    </g>
+    <path
+       d="M524.2,511.8 L524.2,499.3 M524.2,43.3 L524.2,55.8 "
+       id="path3373"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(524.2,534.3)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3375">
+      <text
+         id="text3377">
+        <tspan
+           id="tspan3379">3</tspan>
+      </text>
+    </g>
+    <path
+       d="M609.1,511.8 L609.1,499.3 M609.1,43.3 L609.1,55.8 "
+       id="path3381"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(609.1,534.3)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3383">
+      <text
+         id="text3385">
+        <tspan
+           id="tspan3387">3.5</tspan>
+      </text>
+    </g>
+    <path
+       d="M694.0,511.8 L694.0,499.3 M694.0,43.3 L694.0,55.8 "
+       id="path3389" />
+    <g
+       transform="translate(694.0,534.3)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3391">
+      <text
+         id="text3393">
+        <tspan
+           id="tspan3395">4</tspan>
+      </text>
+    </g>
+    <path
+       d="M99.7,43.3 L99.7,511.8 L694.0,511.8 L694.0,43.3 L99.7,43.3 Z "
+       id="path3397"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(53.7,277.6) rotate(-90)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3399">
+      <text
+         id="text3401"
+         x="-0.2473246"
+         y="-6.457242"
+         style="font-size:28.68975067px">
+        <tspan
+           id="tspan3403">L(s|k)</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(396.8,561.3)"
+       style="stroke:none; fill:rgb(0,0,0); font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3405">
+      <text
+         id="text3407"
+         x="0.046846543"
+         y="-2.8905606"
+         style="font-size:26.99271393px">
+        <tspan
+           id="tspan3409">s</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(396.8,20.8)"
+       style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:middle"
+       id="g3411">
+      <text
+         id="text3413"
+         x="0.047169507"
+         y="7.7788014"
+         style="font-size:25.73368263px">
+        <tspan
+           id="tspan3415">likelihood</tspan>
+      </text>
+    </g>
+  </g>
+  <a
+     xlink:title="Plot #1"
+     id="a3417">
+    <g
+       style="fill:none; color:red; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g3419">
+      <g
+         transform="translate(626.9,65.8)"
+         style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:end"
+         id="g3421" />
+      <path
+         style="stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 99.7,509.4 6,-0.6 6,-0.9 6,-1.1 6,-1.4 6,-1.7 6,-2 6,-2.5 6,-3 6,-3.6 6,-4.2 6,-4.8 6,-5.5 6,-6.2 6,-6.9 6,-7.6 6,-8.1 6.1,-8.7 6,-9.1 6,-9.5 6,-9.8 6,-9.9 6,-10.1 6,-10 6,-10 6,-9.9 6,-9.7 6,-9.6 6,-9.3 6,-9.1 6,-8.8 6,-8.6 6,-8.3 6,-8.1 6,-7.7 6,-7.6 6,-7.3 6,-7 6,-6.8 6,-6.6 6,-6.3 6,-6.1 6,-6 6,-5.7 6,-5.5 6,-5.3 6,-5.2 6,-5 6,-4.8 6,-4.7 6.1,-4.5 6,-4.3 6,-4.3 6,-4 6,-4 6,-3.8 6,-3.7 6,-3.6 6,-3.4 6,-3.4 6,-3.2 6,-3.1 6,-3.1 6,-2.9 6,-2.9 6,-2.7 6,-2.7 6,-2.6 6,-2.5 6,-2.4 6,-2.4 6,-2.3 6,-2.2 6,-2.2 6,-2 6,-2.1 6,-1.9 6,-1.9 6,-1.9 6,-1.8 6,-1.7 6,-1.7 6,-1.6 6.1,-1.6 6,-1.5 6,-1.5 6,-1.5 6,-1.4 6,-1.3 6,-1.4 6,-1.2 6,-1.3 6,-1.2 6,-1.2 6,-1.1 6,-1.1 6,-1.1 6,-1.1 6,-1 6,-1"
+         id="path3427" />
+    </g>
+  </a>
+  <a
+     xlink:title="Plot #2"
+     id="a3429">
+    <g
+       style="fill:none; color:green; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g3431">
+      <g
+         transform="translate(626.9,83.8)"
+         style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:end"
+         id="g3433" />
+      <path
+         style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:2,2;stroke:#000000;stroke-opacity:1;stroke-dashoffset:0"
+         d="m 99.7,510.1 6,-0.4 6,-0.5 6,-0.7 6,-0.8 6,-0.9 6,-1.2 6,-1.3 6,-1.6 6,-1.8 6,-2 6,-2.3 6,-2.6 6,-2.7 6,-3 6,-3.1 6,-3.3 6.1,-3.3 6,-3.3 6,-3.4 6,-3.2 6,-3.2 6,-3 6,-2.9 6,-2.6 6,-2.5 6,-2.2 6,-2.1 6,-1.8 6,-1.6 6,-1.5 6,-1.2 6,-1 6,-0.9 6,-0.7 6,-0.6 6,-0.4 6,-0.3 6,-0.1 6,-0.1 6,0.1 6,0.1 6,0.3 6,0.3 6,0.4 6,0.4 6,0.5 6,0.6 6,0.6 6,0.7 6.1,0.7 6,0.7 6,0.8 6,0.8 6,0.8 6,0.9 6,0.9 6,0.8 6,0.9 6,0.9 6,1 6,0.9 6,0.9 6,0.9 6,1 6,0.9 6,0.9 6,1 6,0.9 6,0.9 6,0.9 6,0.9 6,0.9 6,0.9 6,0.9 6,0.9 6,0.9 6,0.8 6,0.9 6,0.8 6,0.9 6,0.8 6,0.8 6.1,0.8 6,0.8 6,0.8 6,0.7 6,0.8 6,0.7 6,0.7 6,0.8 6,0.7 6,0.6 6,0.7 6,0.7 6,0.6 6,0.7 6,0.6 6,0.6 6,0.6"
+         id="path3439" />
+    </g>
+  </a>
+  <a
+     xlink:title="Plot #3"
+     id="a3441">
+    <g
+       style="fill:none; color:blue; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g3443">
+      <g
+         transform="translate(626.9,101.8)"
+         style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:end"
+         id="g3445" />
+      <path
+         style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:4, 2;stroke-dashoffset:0;stroke:#000000;stroke-opacity:1"
+         d="m 99.7,510.4 6,-0.3 6,-0.4 6,-0.5 6,-0.5 6,-0.7 6,-0.8 6,-1 6,-1 6,-1.2 6,-1.3 6,-1.5 6,-1.6 6,-1.7 6,-1.8 6,-1.8 6,-1.9 6.1,-1.8 6,-1.9 6,-1.7 6,-1.6 6,-1.6 6,-1.4 6,-1.2 6,-1.1 6,-1 6,-0.8 6,-0.6 6,-0.6 6,-0.3 6,-0.3 6,-0.1 6,-0.1 6,0.1 6,0.1 6,0.3 6,0.3 6,0.3 6,0.4 6,0.5 6,0.5 6,0.5 6,0.6 6,0.6 6,0.6 6,0.6 6,0.7 6,0.6 6,0.7 6,0.7 6.1,0.6 6,0.7 6,0.7 6,0.7 6,0.6 6,0.7 6,0.6 6,0.7 6,0.6 6,0.6 6,0.6 6,0.6 6,0.6 6,0.6 6,0.6 6,0.5 6,0.6 6,0.5 6,0.5 6,0.5 6,0.5 6,0.5 6,0.5 6,0.4 6,0.5 6,0.4 6,0.4 6,0.4 6,0.4 6,0.4 6,0.4 6,0.3 6,0.4 6.1,0.3 6,0.3 6,0.4 6,0.3 6,0.3 6,0.2 6,0.3 6,0.3 6,0.3 6,0.2 6,0.3 6,0.2 6,0.2 6,0.2 6,0.3 6,0.2 6,0.2"
+         id="path3451" />
+    </g>
+  </a>
+  <a
+     xlink:title="Plot #4"
+     id="a3453">
+    <g
+       style="fill:none; color:cyan; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g3455">
+      <g
+         transform="translate(626.9,119.8)"
+         style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:end"
+         id="g3457" />
+      <path
+         style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:0;stroke:#000200;stroke-opacity:1"
+         d="m 99.7,510.6 6,-0.3 6,-0.3 6,-0.4 6,-0.4 6,-0.6 6,-0.6 6,-0.7 6,-0.8 6,-0.9 6,-1 6,-1 6,-1.2 6,-1.2 6,-1.2 6,-1.2 6,-1.3 6.1,-1.2 6,-1.1 6,-1.1 6,-1 6,-0.9 6,-0.7 6,-0.7 6,-0.5 6,-0.5 6,-0.3 6,-0.2 6,-0.1 6,0 6,0.1 6,0.1 6,0.2 6,0.3 6,0.3 6,0.3 6,0.4 6,0.5 6,0.4 6,0.5 6,0.5 6,0.5 6,0.5 6,0.5 6,0.5 6,0.5 6,0.5 6,0.6 6,0.5 6,0.5 6.1,0.5 6,0.5 6,0.4 6,0.5 6,0.5 6,0.4 6,0.4 6,0.5 6,0.4 6,0.4 6,0.4 6,0.3 6,0.4 6,0.4 6,0.3 6,0.3 6,0.4 6,0.3 6,0.3 6,0.2 6,0.3 6,0.3 6,0.2 6,0.3 6,0.2 6,0.2 6,0.3 6,0.2 6,0.2 6,0.2 6,0.2 6,0.1 6,0.2 6.1,0.2 6,0.1 6,0.2 6,0.1 6,0.2 6,0.1 6,0.1 6,0.1 6,0.1 6,0.2 6,0.1 6,0.1 6,0.1 6,0.1 6,0 6,0.1 6,0.1"
+         id="path3463" />
+    </g>
+  </a>
+  <a
+     xlink:title="Plot #5"
+     id="a3465">
+    <g
+       style="fill:none; color:#157545; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g3467">
+      <g
+         transform="translate(626.9,137.8)"
+         style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:end"
+         id="g3469" />
+      <g
+         id="g3318">
+        <text
+           id="text3423"
+           style="font-size:15px;text-anchor:end;color:#ff0000;fill:#000000;stroke:none;font-family:Arial"
+           x="151.08311"
+           y="76.688255">
+          <tspan
+             id="tspan3425">k=1</tspan>
+        </text>
+        <path
+           id="path3302"
+           d="m 159.38311,72.188258 42.2,0"
+           style="color:#ff0000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text3435"
+           style="font-size:15px;text-anchor:end;color:#008000;fill:#000000;stroke:none;font-family:Arial"
+           x="151.08311"
+           y="94.688255">
+          <tspan
+             id="tspan3437">k=2</tspan>
+        </text>
+        <path
+           id="path3298"
+           d="m 159.38311,90.188258 42.2,0"
+           style="color:#008000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 2;stroke-dashoffset:0"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text3447"
+           style="font-size:15px;text-anchor:end;color:#0000ff;fill:#000000;stroke:none;font-family:Arial"
+           x="151.08311"
+           y="112.68826">
+          <tspan
+             id="tspan3449">k=3</tspan>
+        </text>
+        <path
+           id="path3294"
+           d="m 159.38311,108.18826 42.2,0"
+           style="color:#0000ff;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 2;stroke-dashoffset:0"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text3459"
+           style="font-size:15px;text-anchor:end;color:#00ffff;fill:#000000;stroke:none;font-family:Arial"
+           x="151.08311"
+           y="130.68826">
+          <tspan
+             id="tspan3461">k=4</tspan>
+        </text>
+        <path
+           id="path3290"
+           d="m 159.38311,126.18826 42.2,0"
+           style="color:#00ffff;fill:none;stroke:#000200;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12, 12;stroke-dashoffset:0"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text3471"
+           style="font-size:15px;text-anchor:end;color:#157545;fill:#000000;stroke:none;font-family:Arial"
+           x="151.08311"
+           y="148.68826">
+          <tspan
+             id="tspan3473">k=5</tspan>
+        </text>
+        <path
+           id="path3286"
+           d="m 159.38311,144.18826 42.2,0"
+           style="stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:0"
+           inkscape:connector-curvature="0" />
+      </g>
+      <path
+         style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:0;stroke:#000000;stroke-opacity:1"
+         d="m 99.7,510.7 6,-0.2 6,-0.3 6,-0.3 6,-0.4 6,-0.4 6,-0.5 6,-0.6 6,-0.6 6,-0.7 6,-0.8 6,-0.8 6,-0.9 6,-0.9 6,-0.9 6,-1 6,-0.9 6.1,-0.8 6,-0.8 6,-0.7 6,-0.7 6,-0.5 6,-0.5 6,-0.4 6,-0.2 6,-0.2 6,-0.1 6,0 6,0 6,0.1 6,0.2 6,0.2 6,0.3 6,0.3 6,0.3 6,0.4 6,0.4 6,0.3 6,0.5 6,0.4 6,0.4 6,0.4 6,0.4 6,0.4 6,0.5 6,0.4 6,0.4 6,0.4 6,0.4 6,0.3 6.1,0.4 6,0.4 6,0.3 6,0.3 6,0.4 6,0.3 6,0.3 6,0.3 6,0.3 6,0.2 6,0.3 6,0.2 6,0.3 6,0.2 6,0.2 6,0.2 6,0.2 6,0.2 6,0.2 6,0.2 6,0.2 6,0.1 6,0.2 6,0.1 6,0.2 6,0.1 6,0.1 6,0.1 6,0.2 6,0.1 6,0.1 6,0.1 6,0.1 6.1,0.1 6,0 6,0.1 6,0.1 6,0.1 6,0 6,0.1 6,0.1 6,0 6,0.1 6,0 6,0.1 6,0 6,0.1 6,0 6,0.1 6,0"
+         id="path3475" />
+    </g>
+  </a>
+  <a
+     xlink:title="Plot #6"
+     id="a3477">
+    <g
+       style="fill:none; color:#000094; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g3479">
+      <g
+         transform="translate(626.9,155.8)"
+         style="stroke:none; fill:black; font-family:Arial; font-size:12.00pt; text-anchor:end"
+         id="g3481" />
+    </g>
+  </a>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g3489" />
+</svg>

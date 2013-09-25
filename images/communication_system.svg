@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="605.04272"
+   height="589.37256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47pre4 r22446"
+   sodipodi:docname="communication_system.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2855"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2891"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2918"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2945"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2972"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3005"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3038"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3071"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3106"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3133"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3255"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3339"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3376"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3398"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3420"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3442"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3464"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70970934"
+     inkscape:cx="325.64521"
+     inkscape:cy="300.4782"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1244"
+     inkscape:window-height="699"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-95.103899,-310.41398)">
+    <g
+       id="g2824"
+       transform="translate(76.704277,-42.197928)">
+      <rect
+         y="353.86191"
+         x="19.649622"
+         height="98.455597"
+         width="98.455597"
+         id="rect2816"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2818"
+         y="399.3891"
+         x="25.035063"
+         style="font-size:13.85528088px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+         xml:space="preserve"><tspan
+           y="399.3891"
+           x="25.035063"
+           id="tspan2820"
+           sodipodi:role="line">Information</tspan><tspan
+           id="tspan2822"
+           y="416.70819"
+           x="25.035063"
+           sodipodi:role="line">Source</tspan></text>
+    </g>
+    <g
+       transform="translate(328.29018,-42.197928)"
+       id="g2824-5">
+      <rect
+         y="353.86191"
+         x="19.649622"
+         height="98.455597"
+         width="98.455597"
+         id="rect2816-3"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text2818-3"
+         y="407.96408"
+         x="24.05748"
+         style="font-size:13.85528088px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan2881"
+           x="24.05748"
+           y="407.96408">Transmitter</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="100%"
+       id="text2818-3-6"
+       y="351.2179"
+       x="228.66617"
+       style="font-size:13.85528088px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2908"
+         x="228.66617"
+         y="351.2179">Message</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text2818-3-6-2"
+       y="488.02948"
+       x="414.43527"
+       style="font-size:13.85528088px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2935"
+         x="414.43527"
+         y="488.02948">Signal</tspan></text>
+    <g
+       transform="translate(328.29018,203.94107)"
+       id="g2824-5-2">
+      <rect
+         y="353.86191"
+         x="19.649622"
+         height="98.455597"
+         width="98.455597"
+         id="rect2816-3-8"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text2818-3-1"
+         y="408.04526"
+         x="38.183372"
+         style="font-size:13.85528088px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan2995"
+           x="38.183372"
+           y="408.04526">Channel</tspan></text>
+    </g>
+    <g
+       transform="translate(328.29018,446.21906)"
+       id="g2824-5-9">
+      <rect
+         y="353.86191"
+         x="19.649622"
+         height="98.455597"
+         width="98.455597"
+         id="rect2816-3-3"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text2818-3-13"
+         y="407.96408"
+         x="35.000313"
+         style="font-size:13.85528088px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan3028"
+           x="35.000313"
+           y="407.96408">Receiver</tspan></text>
+    </g>
+    <g
+       transform="translate(76.704277,446.21906)"
+       id="g2824-5-2-5">
+      <rect
+         y="353.86191"
+         x="19.649622"
+         height="98.455597"
+         width="98.455597"
+         id="rect2816-3-8-8"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text2818-3-1-1"
+         y="407.96408"
+         x="25.356415"
+         style="font-size:13.85528088px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan3061"
+           x="25.356415"
+           y="407.96408">Destination</tspan></text>
+    </g>
+    <g
+       transform="translate(580.79138,203.94107)"
+       id="g2824-5-2-0">
+      <rect
+         y="353.86191"
+         x="19.649622"
+         height="98.455597"
+         width="98.455597"
+         id="rect2816-3-8-84"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text2818-3-1-2"
+         y="401.03644"
+         x="42.151207"
+         style="font-size:13.85528088px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan3094"
+           x="42.151207"
+           y="401.03644">Noise</tspan><tspan
+           sodipodi:role="line"
+           id="tspan3096"
+           x="42.151207"
+           y="414.89172">Source</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="100%"
+       id="text2818-3-6-2-3"
+       y="732.23798"
+       x="415.46793"
+       style="font-size:13.85528088px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan3123"
+         x="415.46793"
+         y="732.23798">Received Signal</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text2818-3-6-5"
+       y="840.56305"
+       x="245.28764"
+       style="font-size:13.85528088px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2908-6"
+         x="245.28764"
+         y="840.56305">Message</tspan></text>
+    <path
+       d="m 315.66307,356.58461 0,-15.02613 24.72094,19.3333 -24.72094,19.33329 0,-15.02613 -110.93345,0 0,-8.61433 0,0 110.93345,0 z"
+       id="path2050-7"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       d="m 401.47477,527.55015 15.02613,0 -19.3333,24.72094 -19.33329,-24.72094 15.02613,0 0,-110.93345 8.61433,0 0,0 0,110.93345 z"
+       id="path2050-7-7"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       d="m 401.47477,771.75865 15.02613,0 -19.3333,24.72094 -19.33329,-24.72094 15.02613,0 0,-110.93345 8.61433,0 0,0 0,110.93345 z"
+       id="path2050-7-7-8"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       d="m 475.3449,611.33794 0,15.02613 -24.72094,-19.3333 24.72094,-19.33329 0,15.02613 110.93345,0 0,8.61433 0,0 -110.93345,0 z"
+       id="path2050-7-7-8-2"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       d="m 221.63476,853.61593 0,15.02613 -24.72094,-19.3333 24.72094,-19.33329 0,15.02613 110.93345,0 0,8.61433 0,0 -110.93345,0 z"
+       id="path2050-7-7-8-2-2"
+       sodipodi:nodetypes="ccccccccc" />
+  </g>
+</svg>

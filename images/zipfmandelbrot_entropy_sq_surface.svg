@@ -1,0 +1,5099 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 576 432"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="zipfmandelbrot_entropy_sq_surface.svg">
+  <metadata
+     id="metadata2544">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2542" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1266"
+     inkscape:window-height="748"
+     id="namedview2540"
+     showgrid="false"
+     inkscape:zoom="1.2547743"
+     inkscape:cx="281.27038"
+     inkscape:cy="216"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Gnuplot</title>
+  <desc
+     id="desc6">Produced by GNUPLOT 4.6 patchlevel 1 </desc>
+  <g
+     id="gnuplot_canvas">
+    <rect
+       x="0"
+       y="0"
+       width="576"
+       height="432"
+       id="rect9"
+       fill="none" />
+    <defs
+       id="defs11">
+      <circle
+         id="gpDot"
+         r="0.5"
+         stroke-width="0.5" />
+      <path
+         id="gpPt0"
+         d="M-1,0 h2 M0,-1 v2"
+         stroke-width="0.333"
+         stroke="currentColor" />
+      <path
+         id="gpPt1"
+         d="M-1,-1 L1,1 M1,-1 L-1,1"
+         stroke-width="0.333"
+         stroke="currentColor" />
+      <path
+         id="gpPt2"
+         d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1"
+         stroke-width="0.333"
+         stroke="currentColor" />
+      <rect
+         id="gpPt3"
+         x="-1"
+         y="-1"
+         width="2"
+         height="2"
+         stroke-width="0.333"
+         stroke="currentColor" />
+      <rect
+         id="gpPt4"
+         x="-1"
+         y="-1"
+         width="2"
+         height="2"
+         stroke-width="0.333"
+         stroke="currentColor"
+         fill="currentColor" />
+      <circle
+         id="gpPt5"
+         cx="0"
+         cy="0"
+         r="1"
+         stroke-width="0.333"
+         stroke="currentColor" />
+      <use
+         xlink:href="#gpPt5"
+         id="gpPt6"
+         stroke="none"
+         fill="currentColor" />
+      <path
+         id="gpPt7"
+         d="M0,-1.33 L-1.33,0.67 L1.33,0.67 z"
+         stroke-width="0.333"
+         stroke="currentColor" />
+      <use
+         xlink:href="#gpPt7"
+         id="gpPt8"
+         stroke="none"
+         fill="currentColor" />
+      <use
+         xlink:href="#gpPt7"
+         id="gpPt9"
+         transform="rotate(180)"
+         stroke="currentColor" />
+      <use
+         xlink:href="#gpPt9"
+         id="gpPt10"
+         stroke="none"
+         fill="currentColor" />
+      <use
+         xlink:href="#gpPt3"
+         id="gpPt11"
+         transform="rotate(45)"
+         stroke="currentColor" />
+      <use
+         xlink:href="#gpPt11"
+         id="gpPt12"
+         stroke="none"
+         fill="currentColor" />
+    </defs>
+    <g
+       style="fill:none; color:white; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g27" />
+    <g
+       style="fill:none; color:white; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g29" />
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g31">
+      <path
+         d="M76.7,325.0 L231.4,230.0 M499.3,284.8 L231.4,230.0 M76.7,325.0 L76.7,135.2 M231.4,230.0 L231.4,40.2    M499.3,284.8 L499.3,95.0 M76.7,135.2 L231.4,40.2 M499.3,95.0 L231.4,40.2  h0.01"
+         id="path33"
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g35">
+      <path
+         class="gridline"
+         d="M499.3,284.8 L231.4,230.0  h0.01"
+         id="path37" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g39">
+      <path
+         d="M499.3,284.8 L489.0,282.7  h0.01"
+         id="path41" />
+      <g
+         transform="translate(506.1,290.8)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:start"
+         id="g43">
+        <text
+           id="text45">
+          <tspan
+             id="tspan47">0</tspan>
+        </text>
+      </g>
+      <path
+         d="M231.4,230.0 L241.7,232.1  h0.01"
+         id="path49" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g51">
+      <path
+         class="gridline"
+         d="M473.5,300.7 L205.6,245.8  h0.01"
+         id="path53" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g55">
+      <path
+         d="M473.5,300.7 L463.2,298.6  h0.01"
+         id="path57" />
+      <g
+         transform="translate(480.3,306.7)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:start"
+         id="g59">
+        <text
+           id="text61">
+          <tspan
+             id="tspan63">0.5</tspan>
+        </text>
+      </g>
+      <path
+         d="M205.6,245.8 L215.9,247.9  h0.01"
+         id="path65" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g67">
+      <path
+         class="gridline"
+         d="M447.7,316.5 L179.9,261.7  h0.01"
+         id="path69" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g71">
+      <path
+         d="M447.7,316.5 L437.4,314.4  h0.01"
+         id="path73" />
+      <g
+         transform="translate(454.5,322.5)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:start"
+         id="g75">
+        <text
+           id="text77">
+          <tspan
+             id="tspan79">1</tspan>
+        </text>
+      </g>
+      <path
+         d="M179.9,261.7 L190.1,263.8  h0.01"
+         id="path81" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g83">
+      <path
+         class="gridline"
+         d="M421.9,332.3 L154.1,277.5  h0.01"
+         id="path85" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g87">
+      <path
+         d="M421.9,332.3 L411.7,330.2  h0.01"
+         id="path89" />
+      <g
+         transform="translate(428.8,338.3)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:start"
+         id="g91">
+        <text
+           id="text93">
+          <tspan
+             id="tspan95">1.5</tspan>
+        </text>
+      </g>
+      <path
+         d="M154.1,277.5 L164.3,279.6  h0.01"
+         id="path97" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g99">
+      <path
+         class="gridline"
+         d="M396.1,348.1 L128.3,293.3  h0.01"
+         id="path101" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g103">
+      <path
+         d="M396.1,348.1 L385.9,346.0  h0.01"
+         id="path105" />
+      <g
+         transform="translate(403.0,354.1)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:start"
+         id="g107">
+        <text
+           id="text109">
+          <tspan
+             id="tspan111">2</tspan>
+        </text>
+      </g>
+      <path
+         d="M128.3,293.3 L138.6,295.4  h0.01"
+         id="path113" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g115">
+      <path
+         class="gridline"
+         d="M370.4,364.0 L102.5,309.2  h0.01"
+         id="path117" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g119">
+      <path
+         d="M370.4,364.0 L360.1,361.9  h0.01"
+         id="path121" />
+      <g
+         transform="translate(377.2,370.0)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:start"
+         id="g123">
+        <text
+           id="text125">
+          <tspan
+             id="tspan127">2.5</tspan>
+        </text>
+      </g>
+      <path
+         d="M102.5,309.2 L112.8,311.3  h0.01"
+         id="path129" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g131">
+      <path
+         class="gridline"
+         d="M344.6,379.8 L76.7,325.0  h0.01"
+         id="path133" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g135">
+      <path
+         d="M344.6,379.8 L334.3,377.7  h0.01"
+         id="path137" />
+      <g
+         transform="translate(351.4,385.8)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:start"
+         id="g139">
+        <text
+           id="text141">
+          <tspan
+             id="tspan143">3</tspan>
+        </text>
+      </g>
+      <path
+         d="M76.7,325.0 L87.0,327.1  h0.01"
+         id="path145" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g147">
+      <path
+         class="gridline"
+         d="M76.7,325.0 L231.4,230.0  h0.01"
+         id="path149" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g151">
+      <path
+         d="M76.7,325.0 L80.9,322.4  h0.01"
+         id="path153" />
+      <g
+         transform="translate(73.9,331.7)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g155">
+        <text
+           id="text157">
+          <tspan
+             id="tspan159">0</tspan>
+        </text>
+      </g>
+      <path
+         d="M231.4,230.0 L227.2,232.6  h0.01"
+         id="path161" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g163">
+      <path
+         class="gridline"
+         d="M121.4,334.1 L276.1,239.2  h0.01"
+         id="path165" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g167">
+      <path
+         d="M121.4,334.1 L125.6,331.5  h0.01"
+         id="path169" />
+      <g
+         transform="translate(118.6,340.8)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g171">
+        <text
+           id="text173"
+           x="-3.9847803"
+           y="5.5786924">
+          <tspan
+             id="tspan175">0.5</tspan>
+        </text>
+      </g>
+      <path
+         d="M276.1,239.2 L271.9,241.7  h0.01"
+         id="path177" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g179">
+      <path
+         class="gridline"
+         d="M166.0,343.3 L320.6,248.3  h0.01"
+         id="path181" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g183">
+      <path
+         d="M166.0,343.3 L170.2,340.7  h0.01"
+         id="path185" />
+      <g
+         transform="translate(163.2,349.9)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g187">
+        <text
+           id="text189"
+           y="6"
+           x="-2">
+          <tspan
+             id="tspan191">1</tspan>
+        </text>
+      </g>
+      <path
+         d="M320.6,248.3 L316.4,250.9  h0.01"
+         id="path193" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g195">
+      <path
+         class="gridline"
+         d="M210.7,352.4 L365.3,257.4  h0.01"
+         id="path197" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g199">
+      <path
+         d="M210.7,352.4 L214.9,349.8  h0.01"
+         id="path201" />
+      <g
+         transform="translate(207.9,359.1)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g203">
+        <text
+           id="text205"
+           y="4"
+           x="-4">
+          <tspan
+             id="tspan207">1.5</tspan>
+        </text>
+      </g>
+      <path
+         d="M365.3,257.4 L361.1,260.0  h0.01"
+         id="path209" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g211">
+      <path
+         class="gridline"
+         d="M255.4,361.5 L410.0,266.6  h0.01"
+         id="path213" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g215">
+      <path
+         d="M255.4,361.5 L259.6,358.9  h0.01"
+         id="path217" />
+      <g
+         transform="translate(252.6,368.2)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g219">
+        <text
+           id="text221"
+           y="4"
+           x="-4">
+          <tspan
+             id="tspan223">2</tspan>
+        </text>
+      </g>
+      <path
+         d="M410.0,266.6 L405.8,269.1  h0.01"
+         id="path225" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g227">
+      <path
+         class="gridline"
+         d="M299.9,370.7 L454.6,275.7  h0.01"
+         id="path229" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g231">
+      <path
+         d="M299.9,370.7 L304.1,368.1  h0.01"
+         id="path233" />
+      <g
+         transform="translate(297.1,377.3)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g235">
+        <text
+           id="text237"
+           y="4"
+           x="-2">
+          <tspan
+             id="tspan239">2.5</tspan>
+        </text>
+      </g>
+      <path
+         d="M454.6,275.7 L450.4,278.3  h0.01"
+         id="path241" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g243">
+      <path
+         class="gridline"
+         d="M344.6,379.8 L499.3,284.8  h0.01"
+         id="path245" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g247">
+      <path
+         d="M344.6,379.8 L348.8,377.2  h0.01"
+         id="path249" />
+      <g
+         transform="translate(341.8,386.5)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g251">
+        <text
+           id="text253"
+           y="4"
+           x="-2">
+          <tspan
+             id="tspan255">3</tspan>
+        </text>
+      </g>
+      <path
+         d="M499.3,284.8 L495.1,287.4  h0.01"
+         id="path257" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g259">
+      <path
+         class="gridline"
+         d="M76.7,325.0 L231.4,230.0 L499.3,284.8  h0.01"
+         id="path261" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g263">
+      <path
+         d="M76.7,325.0 L85.1,325.0  h0.01"
+         id="path265" />
+      <g
+         transform="translate(64.7,328.0)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:end"
+         id="g267">
+        <text
+           id="text269">
+          <tspan
+             id="tspan271">0</tspan>
+        </text>
+      </g>
+      <path
+         d="M499.3,284.8 L490.9,284.8  h0.01"
+         id="path273" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g275">
+      <path
+         class="gridline"
+         d="M76.7,277.5 L231.4,182.6 L499.3,237.4  h0.01"
+         id="path277" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g279">
+      <path
+         d="M76.7,277.5 L85.1,277.5  h0.01"
+         id="path281" />
+      <g
+         transform="translate(64.7,280.5)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:end"
+         id="g283">
+        <text
+           id="text285">
+          <tspan
+             id="tspan287">5</tspan>
+        </text>
+      </g>
+      <path
+         d="M499.3,237.4 L490.9,237.4  h0.01"
+         id="path289" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g291">
+      <path
+         class="gridline"
+         d="M76.7,230.0 L231.4,135.2 L499.3,190.0  h0.01"
+         id="path293" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g295">
+      <path
+         d="M76.7,230.0 L85.1,230.0  h0.01"
+         id="path297" />
+      <g
+         transform="translate(64.7,233.0)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:end"
+         id="g299">
+        <text
+           id="text301">
+          <tspan
+             id="tspan303">10</tspan>
+        </text>
+      </g>
+      <path
+         d="M499.3,190.0 L490.9,190.0  h0.01"
+         id="path305" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g307">
+      <path
+         class="gridline"
+         d="M76.7,182.6 L231.4,87.7 L499.3,142.5  h0.01"
+         id="path309" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g311">
+      <path
+         d="M76.7,182.6 L85.1,182.6  h0.01"
+         id="path313" />
+      <g
+         transform="translate(64.7,185.6)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:end"
+         id="g315">
+        <text
+           id="text317">
+          <tspan
+             id="tspan319">15</tspan>
+        </text>
+      </g>
+      <path
+         d="M499.3,142.5 L490.9,142.5  h0.01"
+         id="path321" />
+    </g>
+    <g
+       style="fill:none; color:gray; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g323">
+      <path
+         class="gridline"
+         d="M76.7,135.2 L231.4,40.2 L499.3,95.0  h0.01"
+         id="path325"
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g327">
+      <path
+         d="M76.7,135.2 L85.1,135.2  h0.01"
+         id="path329" />
+      <g
+         transform="translate(64.7,138.2)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:end"
+         id="g331">
+        <text
+           id="text333">
+          <tspan
+             id="tspan335">20</tspan>
+        </text>
+      </g>
+      <path
+         d="M499.3,95.0 L490.9,95.0  h0.01"
+         id="path337" />
+      <g
+         transform="translate(40.5,230.0) rotate(-90)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g339" />
+    </g>
+    <g
+       id="gnuplot_plot_1a">
+      <title
+         id="title346">gnuplot_plot_1a</title>
+      <g
+         style="fill:none; color:red; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+         id="g348" />
+    </g>
+    <g
+       style="stroke:none; shape-rendering:crispEdges"
+       id="g350">
+      <polygon
+         points="363.6,227.5 371.4,225.2 385.1,234.9 377.2,237.2 "
+         id="polygon352"
+         fill="rgb(255, 255, 255)" />
+    </g>
+    <g
+       style="fill:none; color:red; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g354">
+      <path
+         d="M363.6,227.5 L377.2,237.2 L385.1,234.9 L371.4,225.2 L363.6,227.5  h0.01"
+         id="path356"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g358">
+        <polygon
+           points="349.9,214.5 357.8,212.3 371.4,225.2 363.6,227.5 "
+           id="polygon360"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M349.9,214.5 L363.6,227.5 L371.4,225.2 L357.8,212.3 L349.9,214.5  h0.01"
+         id="path362"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g364">
+        <polygon
+           points="377.2,237.2 385.1,234.9 398.7,242.6 390.8,245.0 "
+           id="polygon366"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M377.2,237.2 L390.8,245.0 L398.7,242.6 L385.1,234.9 L377.2,237.2  h0.01"
+         id="path368"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g370">
+        <polygon
+           points="390.8,245.0 398.7,242.6 412.3,249.2 404.5,251.6 "
+           id="polygon372"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M390.8,245.0 L404.5,251.6 L412.3,249.2 L398.7,242.6 L390.8,245.0  h0.01"
+         id="path374"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g376">
+        <polygon
+           points="336.3,195.7 344.2,193.4 357.8,212.3 349.9,214.5 "
+           id="polygon378"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M336.3,195.7 L349.9,214.5 L357.8,212.3 L344.2,193.4 L336.3,195.7  h0.01"
+         id="path380"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g382">
+        <polygon
+           points="404.5,251.6 412.3,249.2 426.0,254.9 418.1,257.4 "
+           id="polygon384"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M404.5,251.6 L418.1,257.4 L426.0,254.9 L412.3,249.2 L404.5,251.6  h0.01"
+         id="path386"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g388">
+        <polygon
+           points="355.7,230.0 363.6,227.5 377.2,237.2 369.3,239.7 "
+           id="polygon390"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M355.7,230.0 L369.3,239.7 L377.2,237.2 L363.6,227.5 L355.7,230.0  h0.01"
+         id="path392"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g394">
+        <polygon
+           points="342.1,217.1 349.9,214.5 363.6,227.5 355.7,230.0 "
+           id="polygon396"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M342.1,217.1 L355.7,230.0 L363.6,227.5 L349.9,214.5 L342.1,217.1  h0.01"
+         id="path398"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g400">
+        <polygon
+           points="418.1,257.4 426.0,254.9 439.6,260.1 431.7,262.7 "
+           id="polygon402"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M418.1,257.4 L431.7,262.7 L439.6,260.1 L426.0,254.9 L418.1,257.4  h0.01"
+         id="path404"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g406">
+        <polygon
+           points="369.3,239.7 377.2,237.2 390.8,245.0 382.9,247.5 "
+           id="polygon408"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M369.3,239.7 L382.9,247.5 L390.8,245.0 L377.2,237.2 L369.3,239.7  h0.01"
+         id="path410"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g412">
+        <polygon
+           points="382.9,247.5 390.8,245.0 404.5,251.6 396.6,254.1 "
+           id="polygon414"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M382.9,247.5 L396.6,254.1 L404.5,251.6 L390.8,245.0 L382.9,247.5  h0.01"
+         id="path416"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g418">
+        <polygon
+           points="328.4,198.3 336.3,195.7 349.9,214.5 342.1,217.1 "
+           id="polygon420"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M328.4,198.3 L342.1,217.1 L349.9,214.5 L336.3,195.7 L328.4,198.3  h0.01"
+         id="path422"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g424">
+        <polygon
+           points="322.7,167.4 330.5,164.7 344.2,193.4 336.3,195.7 "
+           id="polygon426"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M322.7,167.4 L336.3,195.7 L344.2,193.4 L330.5,164.7 L322.7,167.4  h0.01"
+         id="path428"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g430">
+        <polygon
+           points="431.7,262.7 439.6,260.1 453.2,264.9 445.3,267.5 "
+           id="polygon432"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M431.7,262.7 L445.3,267.5 L453.2,264.9 L439.6,260.1 L431.7,262.7  h0.01"
+         id="path434"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g436">
+        <polygon
+           points="396.6,254.1 404.5,251.6 418.1,257.4 410.2,260.0 "
+           id="polygon438"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M396.6,254.1 L410.2,260.0 L418.1,257.4 L404.5,251.6 L396.6,254.1  h0.01"
+         id="path440"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g442">
+        <polygon
+           points="445.3,267.5 453.2,264.9 466.9,269.4 459.0,272.1 "
+           id="polygon444"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M445.3,267.5 L459.0,272.1 L466.9,269.4 L453.2,264.9 L445.3,267.5  h0.01"
+         id="path446"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g448">
+        <polygon
+           points="347.8,232.8 355.7,230.0 369.3,239.7 361.4,242.4 "
+           id="polygon450"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M347.8,232.8 L361.4,242.4 L369.3,239.7 L355.7,230.0 L347.8,232.8  h0.01"
+         id="path452"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g454">
+        <polygon
+           points="334.2,219.9 342.1,217.1 355.7,230.0 347.8,232.8 "
+           id="polygon456"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M334.2,219.9 L347.8,232.8 L355.7,230.0 L342.1,217.1 L334.2,219.9  h0.01"
+         id="path458"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g460">
+        <polygon
+           points="410.2,260.0 418.1,257.4 431.7,262.7 423.8,265.3 "
+           id="polygon462"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M410.2,260.0 L423.8,265.3 L431.7,262.7 L418.1,257.4 L410.2,260.0  h0.01"
+         id="path464"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g466">
+        <polygon
+           points="361.4,242.4 369.3,239.7 382.9,247.5 375.1,250.2 "
+           id="polygon468"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M361.4,242.4 L375.1,250.2 L382.9,247.5 L369.3,239.7 L361.4,242.4  h0.01"
+         id="path470"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g472">
+        <polygon
+           points="459.0,272.1 466.9,269.4 480.5,273.6 472.6,276.4 "
+           id="polygon474"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M459.0,272.1 L472.6,276.4 L480.5,273.6 L466.9,269.4 L459.0,272.1  h0.01"
+         id="path476"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g478">
+        <polygon
+           points="320.5,201.2 328.4,198.3 342.1,217.1 334.2,219.9 "
+           id="polygon480"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M320.5,201.2 L334.2,219.9 L342.1,217.1 L328.4,198.3 L320.5,201.2  h0.01"
+         id="path482"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g484">
+        <polygon
+           points="375.1,250.2 382.9,247.5 396.6,254.1 388.7,256.8 "
+           id="polygon486"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M375.1,250.2 L388.7,256.8 L396.6,254.1 L382.9,247.5 L375.1,250.2  h0.01"
+         id="path488"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g490">
+        <polygon
+           points="314.8,170.4 322.7,167.4 336.3,195.7 328.4,198.3 "
+           id="polygon492"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M314.8,170.4 L328.4,198.3 L336.3,195.7 L322.7,167.4 L314.8,170.4  h0.01"
+         id="path494"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g496">
+        <polygon
+           points="423.8,265.3 431.7,262.7 445.3,267.5 437.5,270.2 "
+           id="polygon498"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M423.8,265.3 L437.5,270.2 L445.3,267.5 L431.7,262.7 L423.8,265.3  h0.01"
+         id="path500"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g502">
+        <polygon
+           points="472.6,276.4 480.5,273.6 494.1,277.7 486.2,280.5 "
+           id="polygon504"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M472.6,276.4 L486.2,280.5 L494.1,277.7 L480.5,273.6 L472.6,276.4  h0.01"
+         id="path506"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g508">
+        <polygon
+           points="388.7,256.8 396.6,254.1 410.2,260.0 402.3,262.6 "
+           id="polygon510"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M388.7,256.8 L402.3,262.6 L410.2,260.0 L396.6,254.1 L388.7,256.8  h0.01"
+         id="path512"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g514">
+        <polygon
+           points="437.5,270.2 445.3,267.5 459.0,272.1 451.1,274.8 "
+           id="polygon516"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M437.5,270.2 L451.1,274.8 L459.0,272.1 L445.3,267.5 L437.5,270.2  h0.01"
+         id="path518"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g520">
+        <polygon
+           points="339.9,235.7 347.8,232.8 361.4,242.4 353.6,245.3 "
+           id="polygon522"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M339.9,235.7 L353.6,245.3 L361.4,242.4 L347.8,232.8 L339.9,235.7  h0.01"
+         id="path524"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g526">
+        <polygon
+           points="326.3,222.8 334.2,219.9 347.8,232.8 339.9,235.7 "
+           id="polygon528"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M326.3,222.8 L339.9,235.7 L347.8,232.8 L334.2,219.9 L326.3,222.8  h0.01"
+         id="path530"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g532">
+        <polygon
+           points="309.0,130.9 316.9,127.3 330.5,164.7 322.7,167.4 "
+           id="polygon534"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M309.0,130.9 L322.7,167.4 L330.5,164.7 L316.9,127.3 L309.0,130.9  h0.01"
+         id="path536"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g538">
+        <polygon
+           points="402.3,262.6 410.2,260.0 423.8,265.3 416.0,267.8 "
+           id="polygon540"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M402.3,262.6 L416.0,267.8 L423.8,265.3 L410.2,260.0 L402.3,262.6  h0.01"
+         id="path542"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g544">
+        <polygon
+           points="353.6,245.3 361.4,242.4 375.1,250.2 367.2,253.1 "
+           id="polygon546"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M353.6,245.3 L367.2,253.1 L375.1,250.2 L361.4,242.4 L353.6,245.3  h0.01"
+         id="path548"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g550">
+        <polygon
+           points="451.1,274.8 459.0,272.1 472.6,276.4 464.7,279.1 "
+           id="polygon552"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M451.1,274.8 L464.7,279.1 L472.6,276.4 L459.0,272.1 L451.1,274.8  h0.01"
+         id="path554"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g556">
+        <polygon
+           points="312.7,204.3 320.5,201.2 334.2,219.9 326.3,222.8 "
+           id="polygon558"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M312.7,204.3 L326.3,222.8 L334.2,219.9 L320.5,201.2 L312.7,204.3  h0.01"
+         id="path560"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g562">
+        <polygon
+           points="306.9,173.6 314.8,170.4 328.4,198.3 320.5,201.2 "
+           id="polygon564"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M306.9,173.6 L320.5,201.2 L328.4,198.3 L314.8,170.4 L306.9,173.6  h0.01"
+         id="path566"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g568">
+        <polygon
+           points="367.2,253.1 375.1,250.2 388.7,256.8 380.8,259.5 "
+           id="polygon570"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M367.2,253.1 L380.8,259.5 L388.7,256.8 L375.1,250.2 L367.2,253.1  h0.01"
+         id="path572"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g574">
+        <polygon
+           points="416.0,267.8 423.8,265.3 437.5,270.2 429.6,272.5 "
+           id="polygon576"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M416.0,267.8 L429.6,272.5 L437.5,270.2 L423.8,265.3 L416.0,267.8  h0.01"
+         id="path578"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g580">
+        <polygon
+           points="464.7,279.1 472.6,276.4 486.2,280.5 478.4,282.9 "
+           id="polygon582"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M464.7,279.1 L478.4,282.9 L486.2,280.5 L472.6,276.4 L464.7,279.1  h0.01"
+         id="path584"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g586">
+        <polygon
+           points="380.8,259.5 388.7,256.8 402.3,262.6 394.5,265.2 "
+           id="polygon588"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M380.8,259.5 L394.5,265.2 L402.3,262.6 L388.7,256.8 L380.8,259.5  h0.01"
+         id="path590"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g592">
+        <polygon
+           points="429.6,272.5 437.5,270.2 451.1,274.8 443.2,277.0 "
+           id="polygon594"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M429.6,272.5 L443.2,277.0 L451.1,274.8 L437.5,270.2 L429.6,272.5  h0.01"
+         id="path596"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g598">
+        <polygon
+           points="332.1,238.9 339.9,235.7 353.6,245.3 345.7,248.4 "
+           id="polygon600"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M332.1,238.9 L345.7,248.4 L353.6,245.3 L339.9,235.7 L332.1,238.9  h0.01"
+         id="path602"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g604">
+        <polygon
+           points="318.4,225.9 326.3,222.8 339.9,235.7 332.1,238.9 "
+           id="polygon606"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M318.4,225.9 L332.1,238.9 L339.9,235.7 L326.3,222.8 L318.4,225.9  h0.01"
+         id="path608"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g610">
+        <polygon
+           points="301.2,134.6 309.0,130.9 322.7,167.4 314.8,170.4 "
+           id="polygon612"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M301.2,134.6 L314.8,170.4 L322.7,167.4 L309.0,130.9 L301.2,134.6  h0.01"
+         id="path614"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g616">
+        <polygon
+           points="394.5,265.2 402.3,262.6 416.0,267.8 408.1,270.2 "
+           id="polygon618"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M394.5,265.2 L408.1,270.2 L416.0,267.8 L402.3,262.6 L394.5,265.2  h0.01"
+         id="path620"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g622">
+        <polygon
+           points="345.7,248.4 353.6,245.3 367.2,253.1 359.3,255.9 "
+           id="polygon624"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M345.7,248.4 L359.3,255.9 L367.2,253.1 L353.6,245.3 L345.7,248.4  h0.01"
+         id="path626"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g628">
+        <polygon
+           points="227.3,50.8 235.2,45.9 248.8,49.3 241.0,54.1 "
+           id="polygon630"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M227.3,50.8 L241.0,54.1 L248.8,49.3 L235.2,45.9 L227.3,50.8  h0.01"
+         id="path632"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g634">
+        <polygon
+           points="443.2,277.0 451.1,274.8 464.7,279.1 456.9,281.2 "
+           id="polygon636"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M443.2,277.0 L456.9,281.2 L464.7,279.1 L451.1,274.8 L443.2,277.0  h0.01"
+         id="path638"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g640">
+        <polygon
+           points="295.4,97.5 303.3,93.1 316.9,127.3 309.0,130.9 "
+           id="polygon642"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M295.4,97.5 L309.0,130.9 L316.9,127.3 L303.3,93.1 L295.4,97.5  h0.01"
+         id="path644"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g646">
+        <polygon
+           points="304.8,207.6 312.7,204.3 326.3,222.8 318.4,225.9 "
+           id="polygon648"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M304.8,207.6 L318.4,225.9 L326.3,222.8 L312.7,204.3 L304.8,207.6  h0.01"
+         id="path650"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g652">
+        <polygon
+           points="299.0,177.1 306.9,173.6 320.5,201.2 312.7,204.3 "
+           id="polygon654"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M299.0,177.1 L312.7,204.3 L320.5,201.2 L306.9,173.6 L299.0,177.1  h0.01"
+         id="path656"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g658">
+        <polygon
+           points="359.3,255.9 367.2,253.1 380.8,259.5 373.0,262.2 "
+           id="polygon660"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M359.3,255.9 L373.0,262.2 L380.8,259.5 L367.2,253.1 L359.3,255.9  h0.01"
+         id="path662"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g664">
+        <polygon
+           points="408.1,270.2 416.0,267.8 429.6,272.5 421.7,274.9 "
+           id="polygon666"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M408.1,270.2 L421.7,274.9 L429.6,272.5 L416.0,267.8 L408.1,270.2  h0.01"
+         id="path668"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g670">
+        <polygon
+           points="241.0,54.1 248.8,49.3 262.5,53.6 254.6,58.5 "
+           id="polygon672"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M241.0,54.1 L254.6,58.5 L262.5,53.6 L248.8,49.3 L241.0,54.1  h0.01"
+         id="path674"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g676">
+        <polygon
+           points="456.9,281.2 464.7,279.1 478.4,282.9 470.5,285.2 "
+           id="polygon678"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M456.9,281.2 L470.5,285.2 L478.4,282.9 L464.7,279.1 L456.9,281.2  h0.01"
+         id="path680"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g682">
+        <polygon
+           points="373.0,262.2 380.8,259.5 394.5,265.2 386.6,267.7 "
+           id="polygon684"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M373.0,262.2 L386.6,267.7 L394.5,265.2 L380.8,259.5 L373.0,262.2  h0.01"
+         id="path686"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g688">
+        <polygon
+           points="293.3,138.5 301.2,134.6 314.8,170.4 306.9,173.6 "
+           id="polygon690"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M293.3,138.5 L306.9,173.6 L314.8,170.4 L301.2,134.6 L293.3,138.5  h0.01"
+         id="path692"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g694">
+        <polygon
+           points="310.6,229.4 318.4,225.9 332.1,238.9 324.2,242.0 "
+           id="polygon696"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M310.6,229.4 L324.2,242.0 L332.1,238.9 L318.4,225.9 L310.6,229.4  h0.01"
+         id="path698"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g700">
+        <polygon
+           points="324.2,242.0 332.1,238.9 345.7,248.4 337.8,251.4 "
+           id="polygon702"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M324.2,242.0 L337.8,251.4 L345.7,248.4 L332.1,238.9 L324.2,242.0  h0.01"
+         id="path704"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g706">
+        <polygon
+           points="281.9,76.3 289.6,71.6 303.3,93.1 295.4,97.5 "
+           id="polygon708"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M281.9,76.3 L295.4,97.5 L303.3,93.1 L289.6,71.6 L281.9,76.3  h0.01"
+         id="path710"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g712">
+        <polygon
+           points="421.7,274.9 429.6,272.5 443.2,277.0 435.4,279.2 "
+           id="polygon714"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M421.7,274.9 L435.4,279.2 L443.2,277.0 L429.6,272.5 L421.7,274.9  h0.01"
+         id="path716"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g718">
+        <polygon
+           points="254.6,58.5 262.5,53.6 276.1,60.1 268.2,65.0 "
+           id="polygon720"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M254.6,58.5 L268.2,65.0 L276.1,60.1 L262.5,53.6 L254.6,58.5  h0.01"
+         id="path722"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g724">
+        <polygon
+           points="268.2,65.0 276.1,60.1 289.6,71.6 281.9,76.3 "
+           id="polygon726"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M268.2,65.0 L281.9,76.3 L289.6,71.6 L276.1,60.1 L268.2,65.0  h0.01"
+         id="path728"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g730">
+        <polygon
+           points="219.5,55.6 227.3,50.8 241.0,54.1 233.1,58.9 "
+           id="polygon732"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M219.5,55.6 L233.1,58.9 L241.0,54.1 L227.3,50.8 L219.5,55.6  h0.01"
+         id="path734"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g736">
+        <polygon
+           points="337.8,251.4 345.7,248.4 359.3,255.9 351.5,258.7 "
+           id="polygon738"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M337.8,251.4 L351.5,258.7 L359.3,255.9 L345.7,248.4 L337.8,251.4  h0.01"
+         id="path740"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g742">
+        <polygon
+           points="386.6,267.7 394.5,265.2 408.1,270.2 400.2,272.6 "
+           id="polygon744"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M386.6,267.7 L400.2,272.6 L408.1,270.2 L394.5,265.2 L386.6,267.7  h0.01"
+         id="path746"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g748">
+        <polygon
+           points="287.6,101.9 295.4,97.5 309.0,130.9 301.2,134.6 "
+           id="polygon750"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M287.6,101.9 L301.2,134.6 L309.0,130.9 L295.4,97.5 L287.6,101.9  h0.01"
+         id="path752"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g754">
+        <polygon
+           points="291.2,180.6 299.0,177.1 312.7,204.3 304.8,207.6 "
+           id="polygon756"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M291.2,180.6 L304.8,207.6 L312.7,204.3 L299.0,177.1 L291.2,180.6  h0.01"
+         id="path758"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g760">
+        <polygon
+           points="296.9,210.9 304.8,207.6 318.4,225.9 310.6,229.4 "
+           id="polygon762"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M296.9,210.9 L310.6,229.4 L318.4,225.9 L304.8,207.6 L296.9,210.9  h0.01"
+         id="path764"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g766">
+        <polygon
+           points="435.4,279.2 443.2,277.0 456.9,281.2 449.0,283.2 "
+           id="polygon768"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M435.4,279.2 L449.0,283.2 L456.9,281.2 L443.2,277.0 L435.4,279.2  h0.01"
+         id="path770"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g772">
+        <polygon
+           points="351.5,258.7 359.3,255.9 373.0,262.2 365.1,264.9 "
+           id="polygon774"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M351.5,258.7 L365.1,264.9 L373.0,262.2 L359.3,255.9 L351.5,258.7  h0.01"
+         id="path776"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g778">
+        <polygon
+           points="233.1,58.9 241.0,54.1 254.6,58.5 246.7,63.3 "
+           id="polygon780"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M233.1,58.9 L246.7,63.3 L254.6,58.5 L241.0,54.1 L233.1,58.9  h0.01"
+         id="path782"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g784">
+        <polygon
+           points="400.2,272.6 408.1,270.2 421.7,274.9 413.9,277.0 "
+           id="polygon786"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M400.2,272.6 L413.9,277.0 L421.7,274.9 L408.1,270.2 L400.2,272.6  h0.01"
+         id="path788"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g790">
+        <polygon
+           points="285.5,142.5 293.3,138.5 306.9,173.6 299.0,177.1 "
+           id="polygon792"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M285.5,142.5 L299.0,177.1 L306.9,173.6 L293.3,138.5 L285.5,142.5  h0.01"
+         id="path794"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g796">
+        <polygon
+           points="365.1,264.9 373.0,262.2 386.6,267.7 378.7,270.1 "
+           id="polygon798"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M365.1,264.9 L378.7,270.1 L386.6,267.7 L373.0,262.2 L365.1,264.9  h0.01"
+         id="path800"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g802">
+        <polygon
+           points="449.0,283.2 456.9,281.2 470.5,285.2 462.6,287.0 "
+           id="polygon804"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M449.0,283.2 L462.6,287.0 L470.5,285.2 L456.9,281.2 L449.0,283.2  h0.01"
+         id="path806"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g808">
+        <polygon
+           points="274.0,81.1 281.9,76.3 295.4,97.5 287.6,101.9 "
+           id="polygon810"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M274.0,81.1 L287.6,101.9 L295.4,97.5 L281.9,76.3 L274.0,81.1  h0.01"
+         id="path812"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g814">
+        <polygon
+           points="246.7,63.3 254.6,58.5 268.2,65.0 260.4,69.8 "
+           id="polygon816"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M246.7,63.3 L260.4,69.8 L268.2,65.0 L254.6,58.5 L246.7,63.3  h0.01"
+         id="path818"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g820">
+        <polygon
+           points="260.4,69.8 268.2,65.0 281.9,76.3 274.0,81.1 "
+           id="polygon822"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M260.4,69.8 L274.0,81.1 L281.9,76.3 L268.2,65.0 L260.4,69.8  h0.01"
+         id="path824"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g826">
+        <polygon
+           points="302.7,232.8 310.6,229.4 324.2,242.0 316.3,245.2 "
+           id="polygon828"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M302.7,232.8 L316.3,245.2 L324.2,242.0 L310.6,229.4 L302.7,232.8  h0.01"
+         id="path830"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g832">
+        <polygon
+           points="316.3,245.2 324.2,242.0 337.8,251.4 330.0,254.4 "
+           id="polygon834"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M316.3,245.2 L330.0,254.4 L337.8,251.4 L324.2,242.0 L316.3,245.2  h0.01"
+         id="path836"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g838">
+        <polygon
+           points="413.9,277.0 421.7,274.9 435.4,279.2 427.5,281.0 "
+           id="polygon840"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M413.9,277.0 L427.5,281.0 L435.4,279.2 L421.7,274.9 L413.9,277.0  h0.01"
+         id="path842"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g844">
+        <polygon
+           points="211.6,60.4 219.5,55.6 233.1,58.9 225.2,63.8 "
+           id="polygon846"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M211.6,60.4 L225.2,63.8 L233.1,58.9 L219.5,55.6 L211.6,60.4  h0.01"
+         id="path848"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g850">
+        <polygon
+           points="279.8,106.4 287.6,101.9 301.2,134.6 293.3,138.5 "
+           id="polygon852"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M279.8,106.4 L293.3,138.5 L301.2,134.6 L287.6,101.9 L279.8,106.4  h0.01"
+         id="path854"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g856">
+        <polygon
+           points="330.0,254.4 337.8,251.4 351.5,258.7 343.6,261.6 "
+           id="polygon858"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M330.0,254.4 L343.6,261.6 L351.5,258.7 L337.8,251.4 L330.0,254.4  h0.01"
+         id="path860"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g862">
+        <polygon
+           points="378.7,270.1 386.6,267.7 400.2,272.6 392.4,274.7 "
+           id="polygon864"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M378.7,270.1 L392.4,274.7 L400.2,272.6 L386.6,267.7 L378.7,270.1  h0.01"
+         id="path866"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g868">
+        <polygon
+           points="283.4,184.3 291.2,180.6 304.8,207.6 296.9,210.9 "
+           id="polygon870"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M283.4,184.3 L296.9,210.9 L304.8,207.6 L291.2,180.6 L283.4,184.3  h0.01"
+         id="path872"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g874">
+        <polygon
+           points="289.1,214.6 296.9,210.9 310.6,229.4 302.7,232.8 "
+           id="polygon876"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M289.1,214.6 L302.7,232.8 L310.6,229.4 L296.9,210.9 L289.1,214.6  h0.01"
+         id="path878"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g880">
+        <polygon
+           points="225.2,63.8 233.1,58.9 246.7,63.3 238.9,68.1 "
+           id="polygon882"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M225.2,63.8 L238.9,68.1 L246.7,63.3 L233.1,58.9 L225.2,63.8  h0.01"
+         id="path884"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g886">
+        <polygon
+           points="427.5,281.0 435.4,279.2 449.0,283.2 441.1,284.8 "
+           id="polygon888"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M427.5,281.0 L441.1,284.8 L449.0,283.2 L435.4,279.2 L427.5,281.0  h0.01"
+         id="path890"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g892">
+        <polygon
+           points="343.6,261.6 351.5,258.7 365.1,264.9 357.2,267.5 "
+           id="polygon894"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M343.6,261.6 L357.2,267.5 L365.1,264.9 L351.5,258.7 L343.6,261.6  h0.01"
+         id="path896"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g898">
+        <polygon
+           points="392.4,274.7 400.2,272.6 413.9,277.0 406.0,278.9 "
+           id="polygon900"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M392.4,274.7 L406.0,278.9 L413.9,277.0 L400.2,272.6 L392.4,274.7  h0.01"
+         id="path902"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g904">
+        <polygon
+           points="266.1,85.8 274.0,81.1 287.6,101.9 279.8,106.4 "
+           id="polygon906"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M266.1,85.8 L279.8,106.4 L287.6,101.9 L274.0,81.1 L266.1,85.8  h0.01"
+         id="path908"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g910">
+        <polygon
+           points="238.9,68.1 246.7,63.3 260.4,69.8 252.5,74.6 "
+           id="polygon912"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M238.9,68.1 L252.5,74.6 L260.4,69.8 L246.7,63.3 L238.9,68.1  h0.01"
+         id="path914"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g916">
+        <polygon
+           points="252.5,74.6 260.4,69.8 274.0,81.1 266.1,85.8 "
+           id="polygon918"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M252.5,74.6 L266.1,85.8 L274.0,81.1 L260.4,69.8 L252.5,74.6  h0.01"
+         id="path920"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g922">
+        <polygon
+           points="277.6,146.6 285.5,142.5 299.0,177.1 291.2,180.6 "
+           id="polygon924"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M277.6,146.6 L291.2,180.6 L299.0,177.1 L285.5,142.5 L277.6,146.6  h0.01"
+         id="path926"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g928">
+        <polygon
+           points="294.8,236.2 302.7,232.8 316.3,245.2 308.5,248.5 "
+           id="polygon930"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M294.8,236.2 L308.5,248.5 L316.3,245.2 L302.7,232.8 L294.8,236.2  h0.01"
+         id="path932"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g934">
+        <polygon
+           points="357.2,267.5 365.1,264.9 378.7,270.1 370.9,272.5 "
+           id="polygon936"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M357.2,267.5 L370.9,272.5 L378.7,270.1 L365.1,264.9 L357.2,267.5  h0.01"
+         id="path938"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g940">
+        <polygon
+           points="308.5,248.5 316.3,245.2 330.0,254.4 322.1,257.5 "
+           id="polygon942"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M308.5,248.5 L322.1,257.5 L330.0,254.4 L316.3,245.2 L308.5,248.5  h0.01"
+         id="path944"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g946">
+        <polygon
+           points="203.7,65.2 211.6,60.4 225.2,63.8 217.4,68.6 "
+           id="polygon948"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M203.7,65.2 L217.4,68.6 L225.2,63.8 L211.6,60.4 L203.7,65.2  h0.01"
+         id="path950"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g952">
+        <polygon
+           points="441.1,284.8 449.0,283.2 462.6,287.0 454.8,288.3 "
+           id="polygon954"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M441.1,284.8 L454.8,288.3 L462.6,287.0 L449.0,283.2 L441.1,284.8  h0.01"
+         id="path956"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g958">
+        <polygon
+           points="271.9,110.9 279.8,106.4 293.3,138.5 285.5,142.5 "
+           id="polygon960"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M271.9,110.9 L285.5,142.5 L293.3,138.5 L279.8,106.4 L271.9,110.9  h0.01"
+         id="path962"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g964">
+        <polygon
+           points="406.0,278.9 413.9,277.0 427.5,281.0 419.6,282.6 "
+           id="polygon966"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M406.0,278.9 L419.6,282.6 L427.5,281.0 L413.9,277.0 L406.0,278.9  h0.01"
+         id="path968"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g970">
+        <polygon
+           points="322.1,257.5 330.0,254.4 343.6,261.6 335.7,264.5 "
+           id="polygon972"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M322.1,257.5 L335.7,264.5 L343.6,261.6 L330.0,254.4 L322.1,257.5  h0.01"
+         id="path974"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g976">
+        <polygon
+           points="275.5,188.1 283.4,184.3 296.9,210.9 289.1,214.6 "
+           id="polygon978"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M275.5,188.1 L289.1,214.6 L296.9,210.9 L283.4,184.3 L275.5,188.1  h0.01"
+         id="path980"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g982">
+        <polygon
+           points="281.3,218.2 289.1,214.6 302.7,232.8 294.8,236.2 "
+           id="polygon984"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M281.3,218.2 L294.8,236.2 L302.7,232.8 L289.1,214.6 L281.3,218.2  h0.01"
+         id="path986"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g988">
+        <polygon
+           points="370.9,272.5 378.7,270.1 392.4,274.7 384.5,276.8 "
+           id="polygon990"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M370.9,272.5 L384.5,276.8 L392.4,274.7 L378.7,270.1 L370.9,272.5  h0.01"
+         id="path992"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g994">
+        <polygon
+           points="217.4,68.6 225.2,63.8 238.9,68.1 231.0,72.9 "
+           id="polygon996"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M217.4,68.6 L231.0,72.9 L238.9,68.1 L225.2,63.8 L217.4,68.6  h0.01"
+         id="path998"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1000">
+        <polygon
+           points="335.7,264.5 343.6,261.6 357.2,267.5 349.4,270.1 "
+           id="polygon1002"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M335.7,264.5 L349.4,270.1 L357.2,267.5 L343.6,261.6 L335.7,264.5  h0.01"
+         id="path1004"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1006">
+        <polygon
+           points="419.6,282.6 427.5,281.0 441.1,284.8 433.3,286.0 "
+           id="polygon1008"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M419.6,282.6 L433.3,286.0 L441.1,284.8 L427.5,281.0 L419.6,282.6  h0.01"
+         id="path1010"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1012">
+        <polygon
+           points="258.2,90.6 266.1,85.8 279.8,106.4 271.9,110.9 "
+           id="polygon1014"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M258.2,90.6 L271.9,110.9 L279.8,106.4 L266.1,85.8 L258.2,90.6  h0.01"
+         id="path1016"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1018">
+        <polygon
+           points="231.0,72.9 238.9,68.1 252.5,74.6 244.6,79.4 "
+           id="polygon1020"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M231.0,72.9 L244.6,79.4 L252.5,74.6 L238.9,68.1 L231.0,72.9  h0.01"
+         id="path1022"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1024">
+        <polygon
+           points="244.6,79.4 252.5,74.6 266.1,85.8 258.2,90.6 "
+           id="polygon1026"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M244.6,79.4 L258.2,90.6 L266.1,85.8 L252.5,74.6 L244.6,79.4  h0.01"
+         id="path1028"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1030">
+        <polygon
+           points="269.8,150.7 277.6,146.6 291.2,180.6 283.4,184.3 "
+           id="polygon1032"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M269.8,150.7 L283.4,184.3 L291.2,180.6 L277.6,146.6 L269.8,150.7  h0.01"
+         id="path1034"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1036">
+        <polygon
+           points="384.5,276.8 392.4,274.7 406.0,278.9 398.1,280.6 "
+           id="polygon1038"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M384.5,276.8 L398.1,280.6 L406.0,278.9 L392.4,274.7 L384.5,276.8  h0.01"
+         id="path1040"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1042">
+        <polygon
+           points="195.8,70.1 203.7,65.2 217.4,68.6 209.5,73.4 "
+           id="polygon1044"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M195.8,70.1 L209.5,73.4 L217.4,68.6 L203.7,65.2 L195.8,70.1  h0.01"
+         id="path1046"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1048">
+        <polygon
+           points="287.1,239.7 294.8,236.2 308.5,248.5 300.6,251.8 "
+           id="polygon1050"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M287.1,239.7 L300.6,251.8 L308.5,248.5 L294.8,236.2 L287.1,239.7  h0.01"
+         id="path1052"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1054">
+        <polygon
+           points="349.4,270.1 357.2,267.5 370.9,272.5 363.0,274.8 "
+           id="polygon1056"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M349.4,270.1 L363.0,274.8 L370.9,272.5 L357.2,267.5 L349.4,270.1  h0.01"
+         id="path1058"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1060">
+        <polygon
+           points="300.6,251.8 308.5,248.5 322.1,257.5 314.2,260.6 "
+           id="polygon1062"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M300.6,251.8 L314.2,260.6 L322.1,257.5 L308.5,248.5 L300.6,251.8  h0.01"
+         id="path1064"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1066">
+        <polygon
+           points="264.0,115.5 271.9,110.9 285.5,142.5 277.6,146.6 "
+           id="polygon1068"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M264.0,115.5 L277.6,146.6 L285.5,142.5 L271.9,110.9 L264.0,115.5  h0.01"
+         id="path1070"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1072">
+        <polygon
+           points="433.3,286.0 441.1,284.8 454.8,288.3 446.9,289.1 "
+           id="polygon1074"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M433.3,286.0 L446.9,289.1 L454.8,288.3 L441.1,284.8 L433.3,286.0  h0.01"
+         id="path1076"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1078">
+        <polygon
+           points="314.2,260.6 322.1,257.5 335.7,264.5 327.9,267.3 "
+           id="polygon1080"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M314.2,260.6 L327.9,267.3 L335.7,264.5 L322.1,257.5 L314.2,260.6  h0.01"
+         id="path1082"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1084">
+        <polygon
+           points="267.7,191.9 275.5,188.1 289.1,214.6 281.3,218.2 "
+           id="polygon1086"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M267.7,191.9 L281.3,218.2 L289.1,214.6 L275.5,188.1 L267.7,191.9  h0.01"
+         id="path1088"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1090">
+        <polygon
+           points="398.1,280.6 406.0,278.9 419.6,282.6 411.8,283.9 "
+           id="polygon1092"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M398.1,280.6 L411.8,283.9 L419.6,282.6 L406.0,278.9 L398.1,280.6  h0.01"
+         id="path1094"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1096">
+        <polygon
+           points="209.5,73.4 217.4,68.6 231.0,72.9 223.1,77.8 "
+           id="polygon1098"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M209.5,73.4 L223.1,77.8 L231.0,72.9 L217.4,68.6 L209.5,73.4  h0.01"
+         id="path1100"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1102">
+        <polygon
+           points="273.4,221.9 281.3,218.2 294.8,236.2 287.1,239.7 "
+           id="polygon1104"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M273.4,221.9 L287.1,239.7 L294.8,236.2 L281.3,218.2 L273.4,221.9  h0.01"
+         id="path1106"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1108">
+        <polygon
+           points="363.0,274.8 370.9,272.5 384.5,276.8 376.6,278.7 "
+           id="polygon1110"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M363.0,274.8 L376.6,278.7 L384.5,276.8 L370.9,272.5 L363.0,274.8  h0.01"
+         id="path1112"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1114">
+        <polygon
+           points="223.1,77.8 231.0,72.9 244.6,79.4 236.7,84.2 "
+           id="polygon1116"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M223.1,77.8 L236.7,84.2 L244.6,79.4 L231.0,72.9 L223.1,77.8  h0.01"
+         id="path1118"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1120">
+        <polygon
+           points="236.7,84.2 244.6,79.4 258.2,90.6 250.4,95.4 "
+           id="polygon1122"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M236.7,84.2 L250.4,95.4 L258.2,90.6 L244.6,79.4 L236.7,84.2  h0.01"
+         id="path1124"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1126">
+        <polygon
+           points="250.4,95.4 258.2,90.6 271.9,110.9 264.0,115.5 "
+           id="polygon1128"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M250.4,95.4 L264.0,115.5 L271.9,110.9 L258.2,90.6 L250.4,95.4  h0.01"
+         id="path1130"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1132">
+        <polygon
+           points="327.9,267.3 335.7,264.5 349.4,270.1 341.5,272.7 "
+           id="polygon1134"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M327.9,267.3 L341.5,272.7 L349.4,270.1 L335.7,264.5 L327.9,267.3  h0.01"
+         id="path1136"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1138">
+        <polygon
+           points="261.9,154.9 269.8,150.7 283.4,184.3 275.5,188.1 "
+           id="polygon1140"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M261.9,154.9 L275.5,188.1 L283.4,184.3 L269.8,150.7 L261.9,154.9  h0.01"
+         id="path1142"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1144">
+        <polygon
+           points="188.0,74.9 195.8,70.1 209.5,73.4 201.6,78.3 "
+           id="polygon1146"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M188.0,74.9 L201.6,78.3 L209.5,73.4 L195.8,70.1 L188.0,74.9  h0.01"
+         id="path1148"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1150">
+        <polygon
+           points="411.8,283.9 419.6,282.6 433.3,286.0 425.4,286.8 "
+           id="polygon1152"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M411.8,283.9 L425.4,286.8 L433.3,286.0 L419.6,282.6 L411.8,283.9  h0.01"
+         id="path1154"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1156">
+        <polygon
+           points="279.2,243.2 287.1,239.7 300.6,251.8 292.7,255.2 "
+           id="polygon1158"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M279.2,243.2 L292.7,255.2 L300.6,251.8 L287.1,239.7 L279.2,243.2  h0.01"
+         id="path1160"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1162">
+        <polygon
+           points="376.6,278.7 384.5,276.8 398.1,280.6 390.3,282.1 "
+           id="polygon1164"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M376.6,278.7 L390.3,282.1 L398.1,280.6 L384.5,276.8 L376.6,278.7  h0.01"
+         id="path1166"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1168">
+        <polygon
+           points="256.1,120.1 264.0,115.5 277.6,146.6 269.8,150.7 "
+           id="polygon1170"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M256.1,120.1 L269.8,150.7 L277.6,146.6 L264.0,115.5 L256.1,120.1  h0.01"
+         id="path1172"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1174">
+        <polygon
+           points="292.7,255.2 300.6,251.8 314.2,260.6 306.4,263.8 "
+           id="polygon1176"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M292.7,255.2 L306.4,263.8 L314.2,260.6 L300.6,251.8 L292.7,255.2  h0.01"
+         id="path1178"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1180">
+        <polygon
+           points="341.5,272.7 349.4,270.1 363.0,274.8 355.1,277.0 "
+           id="polygon1182"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M341.5,272.7 L355.1,277.0 L363.0,274.8 L349.4,270.1 L341.5,272.7  h0.01"
+         id="path1184"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1186">
+        <polygon
+           points="201.6,78.3 209.5,73.4 223.1,77.8 215.2,82.6 "
+           id="polygon1188"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M201.6,78.3 L215.2,82.6 L223.1,77.8 L209.5,73.4 L201.6,78.3  h0.01"
+         id="path1190"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1192">
+        <polygon
+           points="259.8,196.0 267.7,191.9 281.3,218.2 273.4,221.9 "
+           id="polygon1194"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M259.8,196.0 L273.4,221.9 L281.3,218.2 L267.7,191.9 L259.8,196.0  h0.01"
+         id="path1196"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1198">
+        <polygon
+           points="306.4,263.8 314.2,260.6 327.9,267.3 320.0,270.2 "
+           id="polygon1200"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M306.4,263.8 L320.0,270.2 L327.9,267.3 L314.2,260.6 L306.4,263.8  h0.01"
+         id="path1202"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1204">
+        <polygon
+           points="265.6,225.6 273.4,221.9 287.1,239.7 279.2,243.2 "
+           id="polygon1206"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M265.6,225.6 L279.2,243.2 L287.1,239.7 L273.4,221.9 L265.6,225.6  h0.01"
+         id="path1208"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1210">
+        <polygon
+           points="425.4,286.8 433.3,286.0 446.9,289.1 439.0,289.3 "
+           id="polygon1212"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M425.4,286.8 L439.0,289.3 L446.9,289.1 L433.3,286.0 L425.4,286.8  h0.01"
+         id="path1214"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1216">
+        <polygon
+           points="390.3,282.1 398.1,280.6 411.8,283.9 403.9,284.9 "
+           id="polygon1218"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M390.3,282.1 L403.9,284.9 L411.8,283.9 L398.1,280.6 L390.3,282.1  h0.01"
+         id="path1220"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1222">
+        <polygon
+           points="215.2,82.6 223.1,77.8 236.7,84.2 228.9,89.1 "
+           id="polygon1224"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M215.2,82.6 L228.9,89.1 L236.7,84.2 L223.1,77.8 L215.2,82.6  h0.01"
+         id="path1226"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1228">
+        <polygon
+           points="228.9,89.1 236.7,84.2 250.4,95.4 242.5,100.1 "
+           id="polygon1230"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M228.9,89.1 L242.5,100.1 L250.4,95.4 L236.7,84.2 L228.9,89.1  h0.01"
+         id="path1232"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1234">
+        <polygon
+           points="242.5,100.1 250.4,95.4 264.0,115.5 256.1,120.1 "
+           id="polygon1236"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M242.5,100.1 L256.1,120.1 L264.0,115.5 L250.4,95.4 L242.5,100.1  h0.01"
+         id="path1238"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1240">
+        <polygon
+           points="355.1,277.0 363.0,274.8 376.6,278.7 368.8,280.5 "
+           id="polygon1242"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M355.1,277.0 L368.8,280.5 L376.6,278.7 L363.0,274.8 L355.1,277.0  h0.01"
+         id="path1244"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1246">
+        <polygon
+           points="254.0,159.2 261.9,154.9 275.5,188.1 267.7,191.9 "
+           id="polygon1248"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M254.0,159.2 L267.7,191.9 L275.5,188.1 L261.9,154.9 L254.0,159.2  h0.01"
+         id="path1250"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1252">
+        <polygon
+           points="320.0,270.2 327.9,267.3 341.5,272.7 333.6,275.3 "
+           id="polygon1254"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M320.0,270.2 L333.6,275.3 L341.5,272.7 L327.9,267.3 L320.0,270.2  h0.01"
+         id="path1256"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1258">
+        <polygon
+           points="180.1,79.7 188.0,74.9 201.6,78.3 193.7,83.1 "
+           id="polygon1260"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M180.1,79.7 L193.7,83.1 L201.6,78.3 L188.0,74.9 L180.1,79.7  h0.01"
+         id="path1262"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1264">
+        <polygon
+           points="271.3,246.8 279.2,243.2 292.7,255.2 284.9,258.6 "
+           id="polygon1266"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M271.3,246.8 L284.9,258.6 L292.7,255.2 L279.2,243.2 L271.3,246.8  h0.01"
+         id="path1268"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1270">
+        <polygon
+           points="248.3,124.7 256.1,120.1 269.8,150.7 261.9,154.9 "
+           id="polygon1272"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M248.3,124.7 L261.9,154.9 L269.8,150.7 L256.1,120.1 L248.3,124.7  h0.01"
+         id="path1274"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1276">
+        <polygon
+           points="403.9,284.9 411.8,283.9 425.4,286.8 417.5,287.2 "
+           id="polygon1278"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M403.9,284.9 L417.5,287.2 L425.4,286.8 L411.8,283.9 L403.9,284.9  h0.01"
+         id="path1280"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1282">
+        <polygon
+           points="284.9,258.6 292.7,255.2 306.4,263.8 298.5,267.0 "
+           id="polygon1284"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M284.9,258.6 L298.5,267.0 L306.4,263.8 L292.7,255.2 L284.9,258.6  h0.01"
+         id="path1286"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1288">
+        <polygon
+           points="368.8,280.5 376.6,278.7 390.3,282.1 382.4,283.4 "
+           id="polygon1290"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M368.8,280.5 L382.4,283.4 L390.3,282.1 L376.6,278.7 L368.8,280.5  h0.01"
+         id="path1292"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1294">
+        <polygon
+           points="333.6,275.3 341.5,272.7 355.1,277.0 347.2,279.2 "
+           id="polygon1296"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M333.6,275.3 L347.2,279.2 L355.1,277.0 L341.5,272.7 L333.6,275.3  h0.01"
+         id="path1298"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1300">
+        <polygon
+           points="193.7,83.1 201.6,78.3 215.2,82.6 207.4,87.4 "
+           id="polygon1302"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M193.7,83.1 L207.4,87.4 L215.2,82.6 L201.6,78.3 L193.7,83.1  h0.01"
+         id="path1304"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1306">
+        <polygon
+           points="251.9,200.0 259.8,196.0 273.4,221.9 265.6,225.6 "
+           id="polygon1308"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M251.9,200.0 L265.6,225.6 L273.4,221.9 L259.8,196.0 L251.9,200.0  h0.01"
+         id="path1310"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1312">
+        <polygon
+           points="257.7,229.4 265.6,225.6 279.2,243.2 271.3,246.8 "
+           id="polygon1314"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M257.7,229.4 L271.3,246.8 L279.2,243.2 L265.6,225.6 L257.7,229.4  h0.01"
+         id="path1316"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1318">
+        <polygon
+           points="298.5,267.0 306.4,263.8 320.0,270.2 312.1,273.2 "
+           id="polygon1320"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M298.5,267.0 L312.1,273.2 L320.0,270.2 L306.4,263.8 L298.5,267.0  h0.01"
+         id="path1322"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1324">
+        <polygon
+           points="207.4,87.4 215.2,82.6 228.9,89.1 221.0,93.9 "
+           id="polygon1326"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M207.4,87.4 L221.0,93.9 L228.9,89.1 L215.2,82.6 L207.4,87.4  h0.01"
+         id="path1328"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1330">
+        <polygon
+           points="221.0,93.9 228.9,89.1 242.5,100.1 234.6,104.9 "
+           id="polygon1332"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M221.0,93.9 L234.6,104.9 L242.5,100.1 L228.9,89.1 L221.0,93.9  h0.01"
+         id="path1334"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1336">
+        <polygon
+           points="234.6,104.9 242.5,100.1 256.1,120.1 248.3,124.7 "
+           id="polygon1338"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M234.6,104.9 L248.3,124.7 L256.1,120.1 L242.5,100.1 L234.6,104.9  h0.01"
+         id="path1340"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1342">
+        <polygon
+           points="246.2,163.5 254.0,159.2 267.7,191.9 259.8,196.0 "
+           id="polygon1344"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M246.2,163.5 L259.8,196.0 L267.7,191.9 L254.0,159.2 L246.2,163.5  h0.01"
+         id="path1346"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1348">
+        <polygon
+           points="417.5,287.2 425.4,286.8 439.0,289.3 431.2,289.1 "
+           id="polygon1350"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M417.5,287.2 L431.2,289.1 L439.0,289.3 L425.4,286.8 L417.5,287.2  h0.01"
+         id="path1352"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1354">
+        <polygon
+           points="172.2,84.6 180.1,79.7 193.7,83.1 185.9,87.9 "
+           id="polygon1356"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M172.2,84.6 L185.9,87.9 L193.7,83.1 L180.1,79.7 L172.2,84.6  h0.01"
+         id="path1358"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1360">
+        <polygon
+           points="382.4,283.4 390.3,282.1 403.9,284.9 396.0,285.6 "
+           id="polygon1362"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M382.4,283.4 L396.0,285.6 L403.9,284.9 L390.3,282.1 L382.4,283.4  h0.01"
+         id="path1364"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1366">
+        <polygon
+           points="347.2,279.2 355.1,277.0 368.8,280.5 360.9,282.3 "
+           id="polygon1368"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M347.2,279.2 L360.9,282.3 L368.8,280.5 L355.1,277.0 L347.2,279.2  h0.01"
+         id="path1370"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1372">
+        <polygon
+           points="312.1,273.2 320.0,270.2 333.6,275.3 325.7,277.8 "
+           id="polygon1374"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M312.1,273.2 L325.7,277.8 L333.6,275.3 L320.0,270.2 L312.1,273.2  h0.01"
+         id="path1376"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1378">
+        <polygon
+           points="240.4,129.3 248.3,124.7 261.9,154.9 254.0,159.2 "
+           id="polygon1380"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M240.4,129.3 L254.0,159.2 L261.9,154.9 L248.3,124.7 L240.4,129.3  h0.01"
+         id="path1382"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1384">
+        <polygon
+           points="263.4,250.5 271.3,246.8 284.9,258.6 277.1,262.1 "
+           id="polygon1386"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M263.4,250.5 L277.1,262.1 L284.9,258.6 L271.3,246.8 L263.4,250.5  h0.01"
+         id="path1388"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1390">
+        <polygon
+           points="277.1,262.1 284.9,258.6 298.5,267.0 290.6,270.2 "
+           id="polygon1392"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M277.1,262.1 L290.6,270.2 L298.5,267.0 L284.9,258.6 L277.1,262.1  h0.01"
+         id="path1394"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1396">
+        <polygon
+           points="185.9,87.9 193.7,83.1 207.4,87.4 199.5,92.3 "
+           id="polygon1398"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M185.9,87.9 L199.5,92.3 L207.4,87.4 L193.7,83.1 L185.9,87.9  h0.01"
+         id="path1400"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1402">
+        <polygon
+           points="244.1,204.0 251.9,200.0 265.6,225.6 257.7,229.4 "
+           id="polygon1404"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M244.1,204.0 L257.7,229.4 L265.6,225.6 L251.9,200.0 L244.1,204.0  h0.01"
+         id="path1406"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1408">
+        <polygon
+           points="360.9,282.3 368.8,280.5 382.4,283.4 374.5,284.6 "
+           id="polygon1410"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M360.9,282.3 L374.5,284.6 L382.4,283.4 L368.8,280.5 L360.9,282.3  h0.01"
+         id="path1412"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1414">
+        <polygon
+           points="325.7,277.8 333.6,275.3 347.2,279.2 339.4,281.3 "
+           id="polygon1416"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M325.7,277.8 L339.4,281.3 L347.2,279.2 L333.6,275.3 L325.7,277.8  h0.01"
+         id="path1418"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1420">
+        <polygon
+           points="396.0,285.6 403.9,284.9 417.5,287.2 409.6,287.3 "
+           id="polygon1422"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M396.0,285.6 L409.6,287.3 L417.5,287.2 L403.9,284.9 L396.0,285.6  h0.01"
+         id="path1424"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1426">
+        <polygon
+           points="249.8,233.2 257.7,229.4 271.3,246.8 263.4,250.5 "
+           id="polygon1428"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M249.8,233.2 L263.4,250.5 L271.3,246.8 L257.7,229.4 L249.8,233.2  h0.01"
+         id="path1430"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1432">
+        <polygon
+           points="199.5,92.3 207.4,87.4 221.0,93.9 213.1,98.7 "
+           id="polygon1434"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M199.5,92.3 L213.1,98.7 L221.0,93.9 L207.4,87.4 L199.5,92.3  h0.01"
+         id="path1436"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1438">
+        <polygon
+           points="213.1,98.7 221.0,93.9 234.6,104.9 226.8,109.7 "
+           id="polygon1440"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M213.1,98.7 L226.8,109.7 L234.6,104.9 L221.0,93.9 L213.1,98.7  h0.01"
+         id="path1442"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1444">
+        <polygon
+           points="226.8,109.7 234.6,104.9 248.3,124.7 240.4,129.3 "
+           id="polygon1446"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M226.8,109.7 L240.4,129.3 L248.3,124.7 L234.6,104.9 L226.8,109.7  h0.01"
+         id="path1448"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1450">
+        <polygon
+           points="290.6,270.2 298.5,267.0 312.1,273.2 304.2,276.1 "
+           id="polygon1452"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M290.6,270.2 L304.2,276.1 L312.1,273.2 L298.5,267.0 L290.6,270.2  h0.01"
+         id="path1454"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1456">
+        <polygon
+           points="164.4,89.4 172.2,84.6 185.9,87.9 178.0,92.8 "
+           id="polygon1458"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M164.4,89.4 L178.0,92.8 L185.9,87.9 L172.2,84.6 L164.4,89.4  h0.01"
+         id="path1460"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1462">
+        <polygon
+           points="238.3,167.8 246.2,163.5 259.8,196.0 251.9,200.0 "
+           id="polygon1464"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M238.3,167.8 L251.9,200.0 L259.8,196.0 L246.2,163.5 L238.3,167.8  h0.01"
+         id="path1466"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1468">
+        <polygon
+           points="232.5,134.0 240.4,129.3 254.0,159.2 246.2,163.5 "
+           id="polygon1470"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M232.5,134.0 L246.2,163.5 L254.0,159.2 L240.4,129.3 L232.5,134.0  h0.01"
+         id="path1472"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1474">
+        <polygon
+           points="339.4,281.3 347.2,279.2 360.9,282.3 353.0,283.9 "
+           id="polygon1476"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M339.4,281.3 L353.0,283.9 L360.9,282.3 L347.2,279.2 L339.4,281.3  h0.01"
+         id="path1478"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1480">
+        <polygon
+           points="304.2,276.1 312.1,273.2 325.7,277.8 317.9,280.4 "
+           id="polygon1482"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M304.2,276.1 L317.9,280.4 L325.7,277.8 L312.1,273.2 L304.2,276.1  h0.01"
+         id="path1484"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1486">
+        <polygon
+           points="374.5,284.6 382.4,283.4 396.0,285.6 388.1,286.1 "
+           id="polygon1488"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M374.5,284.6 L388.1,286.1 L396.0,285.6 L382.4,283.4 L374.5,284.6  h0.01"
+         id="path1490"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1492">
+        <polygon
+           points="255.6,254.2 263.4,250.5 277.1,262.1 269.2,265.6 "
+           id="polygon1494"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M255.6,254.2 L269.2,265.6 L277.1,262.1 L263.4,250.5 L255.6,254.2  h0.01"
+         id="path1496"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1498">
+        <polygon
+           points="409.6,287.3 417.5,287.2 431.2,289.1 423.3,288.3 "
+           id="polygon1500"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M409.6,287.3 L423.3,288.3 L431.2,289.1 L417.5,287.2 L409.6,287.3  h0.01"
+         id="path1502"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1504">
+        <polygon
+           points="178.0,92.8 185.9,87.9 199.5,92.3 191.6,97.1 "
+           id="polygon1506"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M178.0,92.8 L191.6,97.1 L199.5,92.3 L185.9,87.9 L178.0,92.8  h0.01"
+         id="path1508"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1510">
+        <polygon
+           points="269.2,265.6 277.1,262.1 290.6,270.2 282.8,273.4 "
+           id="polygon1512"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M269.2,265.6 L282.8,273.4 L290.6,270.2 L277.1,262.1 L269.2,265.6  h0.01"
+         id="path1514"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1516">
+        <polygon
+           points="236.2,208.1 244.1,204.0 257.7,229.4 249.8,233.2 "
+           id="polygon1518"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M236.2,208.1 L249.8,233.2 L257.7,229.4 L244.1,204.0 L236.2,208.1  h0.01"
+         id="path1520"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1522">
+        <polygon
+           points="241.9,237.1 249.8,233.2 263.4,250.5 255.6,254.2 "
+           id="polygon1524"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M241.9,237.1 L255.6,254.2 L263.4,250.5 L249.8,233.2 L241.9,237.1  h0.01"
+         id="path1526"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1528">
+        <polygon
+           points="191.6,97.1 199.5,92.3 213.1,98.7 205.3,103.5 "
+           id="polygon1530"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M191.6,97.1 L205.3,103.5 L213.1,98.7 L199.5,92.3 L191.6,97.1  h0.01"
+         id="path1532"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1534">
+        <polygon
+           points="205.3,103.5 213.1,98.7 226.8,109.7 218.9,114.5 "
+           id="polygon1536"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M205.3,103.5 L218.9,114.5 L226.8,109.7 L213.1,98.7 L205.3,103.5  h0.01"
+         id="path1538"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1540">
+        <polygon
+           points="218.9,114.5 226.8,109.7 240.4,129.3 232.5,134.0 "
+           id="polygon1542"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M218.9,114.5 L232.5,134.0 L240.4,129.3 L226.8,109.7 L218.9,114.5  h0.01"
+         id="path1544"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1546">
+        <polygon
+           points="317.9,280.4 325.7,277.8 339.4,281.3 331.5,283.4 "
+           id="polygon1548"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M317.9,280.4 L331.5,283.4 L339.4,281.3 L325.7,277.8 L317.9,280.4  h0.01"
+         id="path1550"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1552">
+        <polygon
+           points="353.0,283.9 360.9,282.3 374.5,284.6 366.6,285.5 "
+           id="polygon1554"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M353.0,283.9 L366.6,285.5 L374.5,284.6 L360.9,282.3 L353.0,283.9  h0.01"
+         id="path1556"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1558">
+        <polygon
+           points="282.8,273.4 290.6,270.2 304.2,276.1 296.4,279.0 "
+           id="polygon1560"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M282.8,273.4 L296.4,279.0 L304.2,276.1 L290.6,270.2 L282.8,273.4  h0.01"
+         id="path1562"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1564">
+        <polygon
+           points="156.5,94.2 164.4,89.4 178.0,92.8 170.1,97.6 "
+           id="polygon1566"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M156.5,94.2 L170.1,97.6 L178.0,92.8 L164.4,89.4 L156.5,94.2  h0.01"
+         id="path1568"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1570">
+        <polygon
+           points="388.1,286.1 396.0,285.6 409.6,287.3 401.8,287.0 "
+           id="polygon1572"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M388.1,286.1 L401.8,287.0 L409.6,287.3 L396.0,285.6 L388.1,286.1  h0.01"
+         id="path1574"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1576">
+        <polygon
+           points="230.4,172.3 238.3,167.8 251.9,200.0 244.1,204.0 "
+           id="polygon1578"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M230.4,172.3 L244.1,204.0 L251.9,200.0 L238.3,167.8 L230.4,172.3  h0.01"
+         id="path1580"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1582">
+        <polygon
+           points="224.7,138.6 232.5,134.0 246.2,163.5 238.3,167.8 "
+           id="polygon1584"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M224.7,138.6 L238.3,167.8 L246.2,163.5 L232.5,134.0 L224.7,138.6  h0.01"
+         id="path1586"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1588">
+        <polygon
+           points="247.7,257.9 255.6,254.2 269.2,265.6 261.3,269.1 "
+           id="polygon1590"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M247.7,257.9 L261.3,269.1 L269.2,265.6 L255.6,254.2 L247.7,257.9  h0.01"
+         id="path1592"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1594">
+        <polygon
+           points="296.4,279.0 304.2,276.1 317.9,280.4 310.0,282.9 "
+           id="polygon1596"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M296.4,279.0 L310.0,282.9 L317.9,280.4 L304.2,276.1 L296.4,279.0  h0.01"
+         id="path1598"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1600">
+        <polygon
+           points="170.1,97.6 178.0,92.8 191.6,97.1 183.8,101.9 "
+           id="polygon1602"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M170.1,97.6 L183.8,101.9 L191.6,97.1 L178.0,92.8 L170.1,97.6  h0.01"
+         id="path1604"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1606">
+        <polygon
+           points="331.5,283.4 339.4,281.3 353.0,283.9 345.1,285.4 "
+           id="polygon1608"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M331.5,283.4 L345.1,285.4 L353.0,283.9 L339.4,281.3 L331.5,283.4  h0.01"
+         id="path1610"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1612">
+        <polygon
+           points="366.6,285.5 374.5,284.6 388.1,286.1 380.3,286.4 "
+           id="polygon1614"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M366.6,285.5 L380.3,286.4 L388.1,286.1 L374.5,284.6 L366.6,285.5  h0.01"
+         id="path1616"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1618">
+        <polygon
+           points="261.3,269.1 269.2,265.6 282.8,273.4 275.0,276.7 "
+           id="polygon1620"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M261.3,269.1 L275.0,276.7 L282.8,273.4 L269.2,265.6 L261.3,269.1  h0.01"
+         id="path1622"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1624">
+        <polygon
+           points="228.3,212.1 236.2,208.1 249.8,233.2 241.9,237.1 "
+           id="polygon1626"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M228.3,212.1 L241.9,237.1 L249.8,233.2 L236.2,208.1 L228.3,212.1  h0.01"
+         id="path1628"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1630">
+        <polygon
+           points="401.8,287.0 409.6,287.3 423.3,288.3 415.4,287.1 "
+           id="polygon1632"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M401.8,287.0 L415.4,287.1 L423.3,288.3 L409.6,287.3 L401.8,287.0  h0.01"
+         id="path1634"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1636">
+        <polygon
+           points="183.8,101.9 191.6,97.1 205.3,103.5 197.4,108.4 "
+           id="polygon1638"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M183.8,101.9 L197.4,108.4 L205.3,103.5 L191.6,97.1 L183.8,101.9  h0.01"
+         id="path1640"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1642">
+        <polygon
+           points="197.4,108.4 205.3,103.5 218.9,114.5 211.0,119.3 "
+           id="polygon1644"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M197.4,108.4 L211.0,119.3 L218.9,114.5 L205.3,103.5 L197.4,108.4  h0.01"
+         id="path1646"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1648">
+        <polygon
+           points="211.0,119.3 218.9,114.5 232.5,134.0 224.7,138.6 "
+           id="polygon1650"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M211.0,119.3 L224.7,138.6 L232.5,134.0 L218.9,114.5 L211.0,119.3  h0.01"
+         id="path1652"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1654">
+        <polygon
+           points="234.1,241.0 241.9,237.1 255.6,254.2 247.7,257.9 "
+           id="polygon1656"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M234.1,241.0 L247.7,257.9 L255.6,254.2 L241.9,237.1 L234.1,241.0  h0.01"
+         id="path1658"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1660">
+        <polygon
+           points="148.6,99.1 156.5,94.2 170.1,97.6 162.3,102.4 "
+           id="polygon1662"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M148.6,99.1 L162.3,102.4 L170.1,97.6 L156.5,94.2 L148.6,99.1  h0.01"
+         id="path1664"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1666">
+        <polygon
+           points="310.0,282.9 317.9,280.4 331.5,283.4 323.6,285.5 "
+           id="polygon1668"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M310.0,282.9 L323.6,285.5 L331.5,283.4 L317.9,280.4 L310.0,282.9  h0.01"
+         id="path1670"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1672">
+        <polygon
+           points="222.5,176.7 230.4,172.3 244.1,204.0 236.2,208.1 "
+           id="polygon1674"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M222.5,176.7 L236.2,208.1 L244.1,204.0 L230.4,172.3 L222.5,176.7  h0.01"
+         id="path1676"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1678">
+        <polygon
+           points="275.0,276.7 282.8,273.4 296.4,279.0 288.5,281.9 "
+           id="polygon1680"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M275.0,276.7 L288.5,281.9 L296.4,279.0 L282.8,273.4 L275.0,276.7  h0.01"
+         id="path1682"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1684">
+        <polygon
+           points="345.1,285.4 353.0,283.9 366.6,285.5 358.8,286.4 "
+           id="polygon1686"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M345.1,285.4 L358.8,286.4 L366.6,285.5 L353.0,283.9 L345.1,285.4  h0.01"
+         id="path1688"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1690">
+        <polygon
+           points="216.8,143.3 224.7,138.6 238.3,167.8 230.4,172.3 "
+           id="polygon1692"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M216.8,143.3 L230.4,172.3 L238.3,167.8 L224.7,138.6 L216.8,143.3  h0.01"
+         id="path1694"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1696">
+        <polygon
+           points="380.3,286.4 388.1,286.1 401.8,287.0 393.9,286.3 "
+           id="polygon1698"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M380.3,286.4 L393.9,286.3 L401.8,287.0 L388.1,286.1 L380.3,286.4  h0.01"
+         id="path1700"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1702">
+        <polygon
+           points="162.3,102.4 170.1,97.6 183.8,101.9 175.9,106.8 "
+           id="polygon1704"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M162.3,102.4 L175.9,106.8 L183.8,101.9 L170.1,97.6 L162.3,102.4  h0.01"
+         id="path1706"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1708">
+        <polygon
+           points="239.8,261.7 247.7,257.9 261.3,269.1 253.5,272.7 "
+           id="polygon1710"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M239.8,261.7 L253.5,272.7 L261.3,269.1 L247.7,257.9 L239.8,261.7  h0.01"
+         id="path1712"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1714">
+        <polygon
+           points="288.5,281.9 296.4,279.0 310.0,282.9 302.1,285.4 "
+           id="polygon1716"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M288.5,281.9 L302.1,285.4 L310.0,282.9 L296.4,279.0 L288.5,281.9  h0.01"
+         id="path1718"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1720">
+        <polygon
+           points="323.6,285.5 331.5,283.4 345.1,285.4 337.3,286.8 "
+           id="polygon1722"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M323.6,285.5 L337.3,286.8 L345.1,285.4 L331.5,283.4 L323.6,285.5  h0.01"
+         id="path1724"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1726">
+        <polygon
+           points="220.4,216.3 228.3,212.1 241.9,237.1 234.1,241.0 "
+           id="polygon1728"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M220.4,216.3 L234.1,241.0 L241.9,237.1 L228.3,212.1 L220.4,216.3  h0.01"
+         id="path1730"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1732">
+        <polygon
+           points="253.5,272.7 261.3,269.1 275.0,276.7 267.1,280.0 "
+           id="polygon1734"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M253.5,272.7 L267.1,280.0 L275.0,276.7 L261.3,269.1 L253.5,272.7  h0.01"
+         id="path1736"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1738">
+        <polygon
+           points="175.9,106.8 183.8,101.9 197.4,108.4 189.5,113.2 "
+           id="polygon1740"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M175.9,106.8 L189.5,113.2 L197.4,108.4 L183.8,101.9 L175.9,106.8  h0.01"
+         id="path1742"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1744">
+        <polygon
+           points="189.5,113.2 197.4,108.4 211.0,119.3 203.2,124.1 "
+           id="polygon1746"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M189.5,113.2 L203.2,124.1 L211.0,119.3 L197.4,108.4 L189.5,113.2  h0.01"
+         id="path1748"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1750">
+        <polygon
+           points="203.2,124.1 211.0,119.3 224.7,138.6 216.8,143.3 "
+           id="polygon1752"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M203.2,124.1 L216.8,143.3 L224.7,138.6 L211.0,119.3 L203.2,124.1  h0.01"
+         id="path1754"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1756">
+        <polygon
+           points="226.2,245.0 234.1,241.0 247.7,257.9 239.8,261.7 "
+           id="polygon1758"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M226.2,245.0 L239.8,261.7 L247.7,257.9 L234.1,241.0 L226.2,245.0  h0.01"
+         id="path1760"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1762">
+        <polygon
+           points="358.8,286.4 366.6,285.5 380.3,286.4 372.4,286.4 "
+           id="polygon1764"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M358.8,286.4 L372.4,286.4 L380.3,286.4 L366.6,285.5 L358.8,286.4  h0.01"
+         id="path1766"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1768">
+        <polygon
+           points="140.8,103.9 148.6,99.1 162.3,102.4 154.4,107.2 "
+           id="polygon1770"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M140.8,103.9 L154.4,107.2 L162.3,102.4 L148.6,99.1 L140.8,103.9  h0.01"
+         id="path1772"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1774">
+        <polygon
+           points="214.7,181.1 222.5,176.7 236.2,208.1 228.3,212.1 "
+           id="polygon1776"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M214.7,181.1 L228.3,212.1 L236.2,208.1 L222.5,176.7 L214.7,181.1  h0.01"
+         id="path1778"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1780">
+        <polygon
+           points="267.1,280.0 275.0,276.7 288.5,281.9 280.7,284.9 "
+           id="polygon1782"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M267.1,280.0 L280.7,284.9 L288.5,281.9 L275.0,276.7 L267.1,280.0  h0.01"
+         id="path1784"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1786">
+        <polygon
+           points="393.9,286.3 401.8,287.0 415.4,287.1 407.5,285.4 "
+           id="polygon1788"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M393.9,286.3 L407.5,285.4 L415.4,287.1 L401.8,287.0 L393.9,286.3  h0.01"
+         id="path1790"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1792">
+        <polygon
+           points="302.1,285.4 310.0,282.9 323.6,285.5 315.8,287.5 "
+           id="polygon1794"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M302.1,285.4 L315.8,287.5 L323.6,285.5 L310.0,282.9 L302.1,285.4  h0.01"
+         id="path1796"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1798">
+        <polygon
+           points="208.9,147.9 216.8,143.3 230.4,172.3 222.5,176.7 "
+           id="polygon1800"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M208.9,147.9 L222.5,176.7 L230.4,172.3 L216.8,143.3 L208.9,147.9  h0.01"
+         id="path1802"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1804">
+        <polygon
+           points="337.3,286.8 345.1,285.4 358.8,286.4 350.9,287.1 "
+           id="polygon1806"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M337.3,286.8 L350.9,287.1 L358.8,286.4 L345.1,285.4 L337.3,286.8  h0.01"
+         id="path1808"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1810">
+        <polygon
+           points="154.4,107.2 162.3,102.4 175.9,106.8 168.0,111.6 "
+           id="polygon1812"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M154.4,107.2 L168.0,111.6 L175.9,106.8 L162.3,102.4 L154.4,107.2  h0.01"
+         id="path1814"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1816">
+        <polygon
+           points="232.0,265.5 239.8,261.7 253.5,272.7 245.6,276.3 "
+           id="polygon1818"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M232.0,265.5 L245.6,276.3 L253.5,272.7 L239.8,261.7 L232.0,265.5  h0.01"
+         id="path1820"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1822">
+        <polygon
+           points="280.7,284.9 288.5,281.9 302.1,285.4 294.3,287.9 "
+           id="polygon1824"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M280.7,284.9 L294.3,287.9 L302.1,285.4 L288.5,281.9 L280.7,284.9  h0.01"
+         id="path1826"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1828">
+        <polygon
+           points="372.4,286.4 380.3,286.4 393.9,286.3 386.0,285.3 "
+           id="polygon1830"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M372.4,286.4 L386.0,285.3 L393.9,286.3 L380.3,286.4 L372.4,286.4  h0.01"
+         id="path1832"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1834">
+        <polygon
+           points="168.0,111.6 175.9,106.8 189.5,113.2 181.6,118.0 "
+           id="polygon1836"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M168.0,111.6 L181.6,118.0 L189.5,113.2 L175.9,106.8 L168.0,111.6  h0.01"
+         id="path1838"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1840">
+        <polygon
+           points="212.6,220.4 220.4,216.3 234.1,241.0 226.2,245.0 "
+           id="polygon1842"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M212.6,220.4 L226.2,245.0 L234.1,241.0 L220.4,216.3 L212.6,220.4  h0.01"
+         id="path1844"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1846">
+        <polygon
+           points="181.6,118.0 189.5,113.2 203.2,124.1 195.3,128.9 "
+           id="polygon1848"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M181.6,118.0 L195.3,128.9 L203.2,124.1 L189.5,113.2 L181.6,118.0  h0.01"
+         id="path1850"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1852">
+        <polygon
+           points="195.3,128.9 203.2,124.1 216.8,143.3 208.9,147.9 "
+           id="polygon1854"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M195.3,128.9 L208.9,147.9 L216.8,143.3 L203.2,124.1 L195.3,128.9  h0.01"
+         id="path1856"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1858">
+        <polygon
+           points="245.6,276.3 253.5,272.7 267.1,280.0 259.2,283.3 "
+           id="polygon1860"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M245.6,276.3 L259.2,283.3 L267.1,280.0 L253.5,272.7 L245.6,276.3  h0.01"
+         id="path1862"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1864">
+        <polygon
+           points="218.3,249.0 226.2,245.0 239.8,261.7 232.0,265.5 "
+           id="polygon1866"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M218.3,249.0 L232.0,265.5 L239.8,261.7 L226.2,245.0 L218.3,249.0  h0.01"
+         id="path1868"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1870">
+        <polygon
+           points="315.8,287.5 323.6,285.5 337.3,286.8 329.4,288.2 "
+           id="polygon1872"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M315.8,287.5 L329.4,288.2 L337.3,286.8 L323.6,285.5 L315.8,287.5  h0.01"
+         id="path1874"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1876">
+        <polygon
+           points="132.9,108.7 140.8,103.9 154.4,107.2 146.5,112.1 "
+           id="polygon1878"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M132.9,108.7 L146.5,112.1 L154.4,107.2 L140.8,103.9 L132.9,108.7  h0.01"
+         id="path1880"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1882">
+        <polygon
+           points="206.8,185.5 214.7,181.1 228.3,212.1 220.4,216.3 "
+           id="polygon1884"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M206.8,185.5 L220.4,216.3 L228.3,212.1 L214.7,181.1 L206.8,185.5  h0.01"
+         id="path1886"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1888">
+        <polygon
+           points="201.0,152.6 208.9,147.9 222.5,176.7 214.7,181.1 "
+           id="polygon1890"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M201.0,152.6 L214.7,181.1 L222.5,176.7 L208.9,147.9 L201.0,152.6  h0.01"
+         id="path1892"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1894">
+        <polygon
+           points="350.9,287.1 358.8,286.4 372.4,286.4 364.5,286.1 "
+           id="polygon1896"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M350.9,287.1 L364.5,286.1 L372.4,286.4 L358.8,286.4 L350.9,287.1  h0.01"
+         id="path1898"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1900">
+        <polygon
+           points="259.2,283.3 267.1,280.0 280.7,284.9 272.9,287.9 "
+           id="polygon1902"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M259.2,283.3 L272.9,287.9 L280.7,284.9 L267.1,280.0 L259.2,283.3  h0.01"
+         id="path1904"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1906">
+        <polygon
+           points="294.3,287.9 302.1,285.4 315.8,287.5 307.9,289.4 "
+           id="polygon1908"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M294.3,287.9 L307.9,289.4 L315.8,287.5 L302.1,285.4 L294.3,287.9  h0.01"
+         id="path1910"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1912">
+        <polygon
+           points="146.5,112.1 154.4,107.2 168.0,111.6 160.1,116.4 "
+           id="polygon1914"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M146.5,112.1 L160.1,116.4 L168.0,111.6 L154.4,107.2 L146.5,112.1  h0.01"
+         id="path1916"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1918">
+        <polygon
+           points="224.1,269.3 232.0,265.5 245.6,276.3 237.7,279.9 "
+           id="polygon1920"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M224.1,269.3 L237.7,279.9 L245.6,276.3 L232.0,265.5 L224.1,269.3  h0.01"
+         id="path1922"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1924">
+        <polygon
+           points="386.0,285.3 393.9,286.3 407.5,285.4 399.7,283.2 "
+           id="polygon1926"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M386.0,285.3 L399.7,283.2 L407.5,285.4 L393.9,286.3 L386.0,285.3  h0.01"
+         id="path1928"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1930">
+        <polygon
+           points="329.4,288.2 337.3,286.8 350.9,287.1 343.0,287.6 "
+           id="polygon1932"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M329.4,288.2 L343.0,287.6 L350.9,287.1 L337.3,286.8 L329.4,288.2  h0.01"
+         id="path1934"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1936">
+        <polygon
+           points="160.1,116.4 168.0,111.6 181.6,118.0 173.8,122.8 "
+           id="polygon1938"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M160.1,116.4 L173.8,122.8 L181.6,118.0 L168.0,111.6 L160.1,116.4  h0.01"
+         id="path1940"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1942">
+        <polygon
+           points="173.8,122.8 181.6,118.0 195.3,128.9 187.4,133.7 "
+           id="polygon1944"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M173.8,122.8 L187.4,133.7 L195.3,128.9 L181.6,118.0 L173.8,122.8  h0.01"
+         id="path1946"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1948">
+        <polygon
+           points="187.4,133.7 195.3,128.9 208.9,147.9 201.0,152.6 "
+           id="polygon1950"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M187.4,133.7 L201.0,152.6 L208.9,147.9 L195.3,128.9 L187.4,133.7  h0.01"
+         id="path1952"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1954">
+        <polygon
+           points="204.7,224.7 212.6,220.4 226.2,245.0 218.3,249.0 "
+           id="polygon1956"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M204.7,224.7 L218.3,249.0 L226.2,245.0 L212.6,220.4 L204.7,224.7  h0.01"
+         id="path1958"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1960">
+        <polygon
+           points="272.9,287.9 280.7,284.9 294.3,287.9 286.5,290.4 "
+           id="polygon1962"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M272.9,287.9 L286.5,290.4 L294.3,287.9 L280.7,284.9 L272.9,287.9  h0.01"
+         id="path1964"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1966">
+        <polygon
+           points="237.7,279.9 245.6,276.3 259.2,283.3 251.4,286.7 "
+           id="polygon1968"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M237.7,279.9 L251.4,286.7 L259.2,283.3 L245.6,276.3 L237.7,279.9  h0.01"
+         id="path1970"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1972">
+        <polygon
+           points="210.5,253.0 218.3,249.0 232.0,265.5 224.1,269.3 "
+           id="polygon1974"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M210.5,253.0 L224.1,269.3 L232.0,265.5 L218.3,249.0 L210.5,253.0  h0.01"
+         id="path1976"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1978">
+        <polygon
+           points="125.0,113.6 132.9,108.7 146.5,112.1 138.6,116.9 "
+           id="polygon1980"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M125.0,113.6 L138.6,116.9 L146.5,112.1 L132.9,108.7 L125.0,113.6  h0.01"
+         id="path1982"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1984">
+        <polygon
+           points="198.9,190.0 206.8,185.5 220.4,216.3 212.6,220.4 "
+           id="polygon1986"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M198.9,190.0 L212.6,220.4 L220.4,216.3 L206.8,185.5 L198.9,190.0  h0.01"
+         id="path1988"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1990">
+        <polygon
+           points="307.9,289.4 315.8,287.5 329.4,288.2 321.5,289.4 "
+           id="polygon1992"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M307.9,289.4 L321.5,289.4 L329.4,288.2 L315.8,287.5 L307.9,289.4  h0.01"
+         id="path1994"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g1996">
+        <polygon
+           points="364.5,286.1 372.4,286.4 386.0,285.3 378.2,284.0 "
+           id="polygon1998"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M364.5,286.1 L378.2,284.0 L386.0,285.3 L372.4,286.4 L364.5,286.1  h0.01"
+         id="path2000"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2002">
+        <polygon
+           points="193.2,157.3 201.0,152.6 214.7,181.1 206.8,185.5 "
+           id="polygon2004"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M193.2,157.3 L206.8,185.5 L214.7,181.1 L201.0,152.6 L193.2,157.3  h0.01"
+         id="path2006"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2008">
+        <polygon
+           points="251.4,286.7 259.2,283.3 272.9,287.9 265.0,290.8 "
+           id="polygon2010"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M251.4,286.7 L265.0,290.8 L272.9,287.9 L259.2,283.3 L251.4,286.7  h0.01"
+         id="path2012"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2014">
+        <polygon
+           points="138.6,116.9 146.5,112.1 160.1,116.4 152.3,121.2 "
+           id="polygon2016"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M138.6,116.9 L152.3,121.2 L160.1,116.4 L146.5,112.1 L138.6,116.9  h0.01"
+         id="path2018"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2020">
+        <polygon
+           points="286.5,290.4 294.3,287.9 307.9,289.4 300.0,291.3 "
+           id="polygon2022"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M286.5,290.4 L300.0,291.3 L307.9,289.4 L294.3,287.9 L286.5,290.4  h0.01"
+         id="path2024"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2026">
+        <polygon
+           points="343.0,287.6 350.9,287.1 364.5,286.1 356.7,285.7 "
+           id="polygon2028"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M343.0,287.6 L356.7,285.7 L364.5,286.1 L350.9,287.1 L343.0,287.6  h0.01"
+         id="path2030"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2032">
+        <polygon
+           points="216.2,273.2 224.1,269.3 237.7,279.9 229.9,283.5 "
+           id="polygon2034"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M216.2,273.2 L229.9,283.5 L237.7,279.9 L224.1,269.3 L216.2,273.2  h0.01"
+         id="path2036"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2038">
+        <polygon
+           points="152.3,121.2 160.1,116.4 173.8,122.8 165.9,127.7 "
+           id="polygon2040"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M152.3,121.2 L165.9,127.7 L173.8,122.8 L160.1,116.4 L152.3,121.2  h0.01"
+         id="path2042"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2044">
+        <polygon
+           points="165.9,127.7 173.8,122.8 187.4,133.7 179.5,138.5 "
+           id="polygon2046"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M165.9,127.7 L179.5,138.5 L187.4,133.7 L173.8,122.8 L165.9,127.7  h0.01"
+         id="path2048"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2050">
+        <polygon
+           points="179.5,138.5 187.4,133.7 201.0,152.6 193.2,157.3 "
+           id="polygon2052"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M179.5,138.5 L193.2,157.3 L201.0,152.6 L187.4,133.7 L179.5,138.5  h0.01"
+         id="path2054"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2056">
+        <polygon
+           points="196.8,228.9 204.7,224.7 218.3,249.0 210.5,253.0 "
+           id="polygon2058"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M196.8,228.9 L210.5,253.0 L218.3,249.0 L204.7,224.7 L196.8,228.9  h0.01"
+         id="path2060"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2062">
+        <polygon
+           points="117.1,118.4 125.0,113.6 138.6,116.9 130.8,121.7 "
+           id="polygon2064"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M117.1,118.4 L130.8,121.7 L138.6,116.9 L125.0,113.6 L117.1,118.4  h0.01"
+         id="path2066"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2068">
+        <polygon
+           points="202.6,257.1 210.5,253.0 224.1,269.3 216.2,273.2 "
+           id="polygon2070"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M202.6,257.1 L216.2,273.2 L224.1,269.3 L210.5,253.0 L202.6,257.1  h0.01"
+         id="path2072"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2074">
+        <polygon
+           points="321.5,289.4 329.4,288.2 343.0,287.6 335.2,288.0 "
+           id="polygon2076"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M321.5,289.4 L335.2,288.0 L343.0,287.6 L329.4,288.2 L321.5,289.4  h0.01"
+         id="path2078"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2080">
+        <polygon
+           points="229.9,283.5 237.7,279.9 251.4,286.7 243.5,290.0 "
+           id="polygon2082"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M229.9,283.5 L243.5,290.0 L251.4,286.7 L237.7,279.9 L229.9,283.5  h0.01"
+         id="path2084"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2086">
+        <polygon
+           points="265.0,290.8 272.9,287.9 286.5,290.4 278.6,292.9 "
+           id="polygon2088"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M265.0,290.8 L278.6,292.9 L286.5,290.4 L272.9,287.9 L265.0,290.8  h0.01"
+         id="path2090"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2092">
+        <polygon
+           points="191.1,194.5 198.9,190.0 212.6,220.4 204.7,224.7 "
+           id="polygon2094"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M191.1,194.5 L204.7,224.7 L212.6,220.4 L198.9,190.0 L191.1,194.5  h0.01"
+         id="path2096"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2098">
+        <polygon
+           points="378.2,284.0 386.0,285.3 399.7,283.2 391.8,280.5 "
+           id="polygon2100"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M378.2,284.0 L391.8,280.5 L399.7,283.2 L386.0,285.3 L378.2,284.0  h0.01"
+         id="path2102"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2104">
+        <polygon
+           points="185.3,162.0 193.2,157.3 206.8,185.5 198.9,190.0 "
+           id="polygon2106"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M185.3,162.0 L198.9,190.0 L206.8,185.5 L193.2,157.3 L185.3,162.0  h0.01"
+         id="path2108"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2110">
+        <polygon
+           points="300.0,291.3 307.9,289.4 321.5,289.4 313.7,290.6 "
+           id="polygon2112"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M300.0,291.3 L313.7,290.6 L321.5,289.4 L307.9,289.4 L300.0,291.3  h0.01"
+         id="path2114"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2116">
+        <polygon
+           points="130.8,121.7 138.6,116.9 152.3,121.2 144.4,126.1 "
+           id="polygon2118"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M130.8,121.7 L144.4,126.1 L152.3,121.2 L138.6,116.9 L130.8,121.7  h0.01"
+         id="path2120"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2122">
+        <polygon
+           points="243.5,290.0 251.4,286.7 265.0,290.8 257.1,293.8 "
+           id="polygon2124"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M243.5,290.0 L257.1,293.8 L265.0,290.8 L251.4,286.7 L243.5,290.0  h0.01"
+         id="path2126"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2128">
+        <polygon
+           points="356.7,285.7 364.5,286.1 378.2,284.0 370.3,282.3 "
+           id="polygon2130"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M356.7,285.7 L370.3,282.3 L378.2,284.0 L364.5,286.1 L356.7,285.7  h0.01"
+         id="path2132"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2134">
+        <polygon
+           points="144.4,126.1 152.3,121.2 165.9,127.7 158.0,132.5 "
+           id="polygon2136"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M144.4,126.1 L158.0,132.5 L165.9,127.7 L152.3,121.2 L144.4,126.1  h0.01"
+         id="path2138"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2140">
+        <polygon
+           points="158.0,132.5 165.9,127.7 179.5,138.5 171.7,143.2 "
+           id="polygon2142"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M158.0,132.5 L171.7,143.2 L179.5,138.5 L165.9,127.7 L158.0,132.5  h0.01"
+         id="path2144"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2146">
+        <polygon
+           points="171.7,143.2 179.5,138.5 193.2,157.3 185.3,162.0 "
+           id="polygon2148"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M171.7,143.2 L185.3,162.0 L193.2,157.3 L179.5,138.5 L171.7,143.2  h0.01"
+         id="path2150"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2152">
+        <polygon
+           points="278.6,292.9 286.5,290.4 300.0,291.3 292.2,293.2 "
+           id="polygon2154"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M278.6,292.9 L292.2,293.2 L300.0,291.3 L286.5,290.4 L278.6,292.9  h0.01"
+         id="path2156"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2158">
+        <polygon
+           points="208.3,277.1 216.2,273.2 229.9,283.5 222.0,287.2 "
+           id="polygon2160"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M208.3,277.1 L222.0,287.2 L229.9,283.5 L216.2,273.2 L208.3,277.1  h0.01"
+         id="path2162"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2164">
+        <polygon
+           points="189.0,233.2 196.8,228.9 210.5,253.0 202.6,257.1 "
+           id="polygon2166"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M189.0,233.2 L202.6,257.1 L210.5,253.0 L196.8,228.9 L189.0,233.2  h0.01"
+         id="path2168"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2170">
+        <polygon
+           points="109.3,123.2 117.1,118.4 130.8,121.7 122.9,126.6 "
+           id="polygon2172"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M109.3,123.2 L122.9,126.6 L130.8,121.7 L117.1,118.4 L109.3,123.2  h0.01"
+         id="path2174"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2176">
+        <polygon
+           points="335.2,288.0 343.0,287.6 356.7,285.7 348.8,285.0 "
+           id="polygon2178"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M335.2,288.0 L348.8,285.0 L356.7,285.7 L343.0,287.6 L335.2,288.0  h0.01"
+         id="path2180"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2182">
+        <polygon
+           points="194.7,261.1 202.6,257.1 216.2,273.2 208.3,277.1 "
+           id="polygon2184"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M194.7,261.1 L208.3,277.1 L216.2,273.2 L202.6,257.1 L194.7,261.1  h0.01"
+         id="path2186"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2188">
+        <polygon
+           points="222.0,287.2 229.9,283.5 243.5,290.0 235.6,293.4 "
+           id="polygon2190"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M222.0,287.2 L235.6,293.4 L243.5,290.0 L229.9,283.5 L222.0,287.2  h0.01"
+         id="path2192"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2194">
+        <polygon
+           points="183.2,199.0 191.1,194.5 204.7,224.7 196.8,228.9 "
+           id="polygon2196"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M183.2,199.0 L196.8,228.9 L204.7,224.7 L191.1,194.5 L183.2,199.0  h0.01"
+         id="path2198"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2200">
+        <polygon
+           points="257.1,293.8 265.0,290.8 278.6,292.9 270.8,295.4 "
+           id="polygon2202"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M257.1,293.8 L270.8,295.4 L278.6,292.9 L265.0,290.8 L257.1,293.8  h0.01"
+         id="path2204"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2206">
+        <polygon
+           points="177.4,166.7 185.3,162.0 198.9,190.0 191.1,194.5 "
+           id="polygon2208"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M177.4,166.7 L191.1,194.5 L198.9,190.0 L185.3,162.0 L177.4,166.7  h0.01"
+         id="path2210"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2212">
+        <polygon
+           points="313.7,290.6 321.5,289.4 335.2,288.0 327.3,288.2 "
+           id="polygon2214"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M313.7,290.6 L327.3,288.2 L335.2,288.0 L321.5,289.4 L313.7,290.6  h0.01"
+         id="path2216"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2218">
+        <polygon
+           points="122.9,126.6 130.8,121.7 144.4,126.1 136.5,130.9 "
+           id="polygon2220"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M122.9,126.6 L136.5,130.9 L144.4,126.1 L130.8,121.7 L122.9,126.6  h0.01"
+         id="path2222"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2224">
+        <polygon
+           points="292.2,293.2 300.0,291.3 313.7,290.6 305.8,291.7 "
+           id="polygon2226"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M292.2,293.2 L305.8,291.7 L313.7,290.6 L300.0,291.3 L292.2,293.2  h0.01"
+         id="path2228"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2230">
+        <polygon
+           points="235.6,293.4 243.5,290.0 257.1,293.8 249.2,296.8 "
+           id="polygon2232"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M235.6,293.4 L249.2,296.8 L257.1,293.8 L243.5,290.0 L235.6,293.4  h0.01"
+         id="path2234"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2236">
+        <polygon
+           points="370.3,282.3 378.2,284.0 391.8,280.5 383.9,277.3 "
+           id="polygon2238"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M370.3,282.3 L383.9,277.3 L391.8,280.5 L378.2,284.0 L370.3,282.3  h0.01"
+         id="path2240"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2242">
+        <polygon
+           points="136.5,130.9 144.4,126.1 158.0,132.5 150.2,137.3 "
+           id="polygon2244"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M136.5,130.9 L150.2,137.3 L158.0,132.5 L144.4,126.1 L136.5,130.9  h0.01"
+         id="path2246"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2248">
+        <polygon
+           points="150.2,137.3 158.0,132.5 171.7,143.2 163.8,148.0 "
+           id="polygon2250"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M150.2,137.3 L163.8,148.0 L171.7,143.2 L158.0,132.5 L150.2,137.3  h0.01"
+         id="path2252"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2254">
+        <polygon
+           points="163.8,148.0 171.7,143.2 185.3,162.0 177.4,166.7 "
+           id="polygon2256"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M163.8,148.0 L177.4,166.7 L185.3,162.0 L171.7,143.2 L163.8,148.0  h0.01"
+         id="path2258"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2260">
+        <polygon
+           points="181.1,237.4 189.0,233.2 202.6,257.1 194.7,261.1 "
+           id="polygon2262"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M181.1,237.4 L194.7,261.1 L202.6,257.1 L189.0,233.2 L181.1,237.4  h0.01"
+         id="path2264"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2266">
+        <polygon
+           points="101.4,128.1 109.3,123.2 122.9,126.6 115.0,131.4 "
+           id="polygon2268"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M101.4,128.1 L115.0,131.4 L122.9,126.6 L109.3,123.2 L101.4,128.1  h0.01"
+         id="path2270"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2272">
+        <polygon
+           points="270.8,295.4 278.6,292.9 292.2,293.2 284.4,295.1 "
+           id="polygon2274"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M270.8,295.4 L284.4,295.1 L292.2,293.2 L278.6,292.9 L270.8,295.4  h0.01"
+         id="path2276"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2278">
+        <polygon
+           points="348.8,285.0 356.7,285.7 370.3,282.3 362.4,280.3 "
+           id="polygon2280"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M348.8,285.0 L362.4,280.3 L370.3,282.3 L356.7,285.7 L348.8,285.0  h0.01"
+         id="path2282"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2284">
+        <polygon
+           points="175.3,203.5 183.2,199.0 196.8,228.9 189.0,233.2 "
+           id="polygon2286"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M175.3,203.5 L189.0,233.2 L196.8,228.9 L183.2,199.0 L175.3,203.5  h0.01"
+         id="path2288"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2290">
+        <polygon
+           points="169.6,171.4 177.4,166.7 191.1,194.5 183.2,199.0 "
+           id="polygon2292"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M169.6,171.4 L183.2,199.0 L191.1,194.5 L177.4,166.7 L169.6,171.4  h0.01"
+         id="path2294"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2296">
+        <polygon
+           points="249.2,296.8 257.1,293.8 270.8,295.4 262.9,297.9 "
+           id="polygon2298"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M249.2,296.8 L262.9,297.9 L270.8,295.4 L257.1,293.8 L249.2,296.8  h0.01"
+         id="path2300"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2302">
+        <polygon
+           points="327.3,288.2 335.2,288.0 348.8,285.0 340.9,284.1 "
+           id="polygon2304"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M327.3,288.2 L340.9,284.1 L348.8,285.0 L335.2,288.0 L327.3,288.2  h0.01"
+         id="path2306"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2308">
+        <polygon
+           points="115.0,131.4 122.9,126.6 136.5,130.9 128.7,135.7 "
+           id="polygon2310"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M115.0,131.4 L128.7,135.7 L136.5,130.9 L122.9,126.6 L115.0,131.4  h0.01"
+         id="path2312"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2314">
+        <polygon
+           points="305.8,291.7 313.7,290.6 327.3,288.2 319.4,288.3 "
+           id="polygon2316"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M305.8,291.7 L319.4,288.3 L327.3,288.2 L313.7,290.6 L305.8,291.7  h0.01"
+         id="path2318"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2320">
+        <polygon
+           points="128.7,135.7 136.5,130.9 150.2,137.3 142.3,142.1 "
+           id="polygon2322"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M128.7,135.7 L142.3,142.1 L150.2,137.3 L136.5,130.9 L128.7,135.7  h0.01"
+         id="path2324"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2326">
+        <polygon
+           points="142.3,142.1 150.2,137.3 163.8,148.0 155.9,152.8 "
+           id="polygon2328"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M142.3,142.1 L155.9,152.8 L163.8,148.0 L150.2,137.3 L142.3,142.1  h0.01"
+         id="path2330"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2332">
+        <polygon
+           points="155.9,152.8 163.8,148.0 177.4,166.7 169.6,171.4 "
+           id="polygon2334"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M155.9,152.8 L169.6,171.4 L177.4,166.7 L163.8,148.0 L155.9,152.8  h0.01"
+         id="path2336"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2338">
+        <polygon
+           points="284.4,295.1 292.2,293.2 305.8,291.7 297.9,292.7 "
+           id="polygon2340"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M284.4,295.1 L297.9,292.7 L305.8,291.7 L292.2,293.2 L284.4,295.1  h0.01"
+         id="path2342"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2344">
+        <polygon
+           points="93.5,132.9 101.4,128.1 115.0,131.4 107.2,136.2 "
+           id="polygon2346"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M93.5,132.9 L107.2,136.2 L115.0,131.4 L101.4,128.1 L93.5,132.9  h0.01"
+         id="path2348"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2350">
+        <polygon
+           points="167.5,208.0 175.3,203.5 189.0,233.2 181.1,237.4 "
+           id="polygon2352"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M167.5,208.0 L181.1,237.4 L189.0,233.2 L175.3,203.5 L167.5,208.0  h0.01"
+         id="path2354"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2356">
+        <polygon
+           points="262.9,297.9 270.8,295.4 284.4,295.1 276.5,296.9 "
+           id="polygon2358"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M262.9,297.9 L276.5,296.9 L284.4,295.1 L270.8,295.4 L262.9,297.9  h0.01"
+         id="path2360"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2362">
+        <polygon
+           points="161.7,176.1 169.6,171.4 183.2,199.0 175.3,203.5 "
+           id="polygon2364"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M161.7,176.1 L175.3,203.5 L183.2,199.0 L169.6,171.4 L161.7,176.1  h0.01"
+         id="path2366"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2368">
+        <polygon
+           points="362.4,280.3 370.3,282.3 383.9,277.3 376.1,273.7 "
+           id="polygon2370"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M362.4,280.3 L376.1,273.7 L383.9,277.3 L370.3,282.3 L362.4,280.3  h0.01"
+         id="path2372"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2374">
+        <polygon
+           points="107.2,136.2 115.0,131.4 128.7,135.7 120.8,140.6 "
+           id="polygon2376"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M107.2,136.2 L120.8,140.6 L128.7,135.7 L115.0,131.4 L107.2,136.2  h0.01"
+         id="path2378"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2380">
+        <polygon
+           points="340.9,284.1 348.8,285.0 362.4,280.3 354.6,277.9 "
+           id="polygon2382"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M340.9,284.1 L354.6,277.9 L362.4,280.3 L348.8,285.0 L340.9,284.1  h0.01"
+         id="path2384"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2386">
+        <polygon
+           points="120.8,140.6 128.7,135.7 142.3,142.1 134.4,147.0 "
+           id="polygon2388"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M120.8,140.6 L134.4,147.0 L142.3,142.1 L128.7,135.7 L120.8,140.6  h0.01"
+         id="path2390"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2392">
+        <polygon
+           points="134.4,147.0 142.3,142.1 155.9,152.8 148.1,157.6 "
+           id="polygon2394"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M134.4,147.0 L148.1,157.6 L155.9,152.8 L142.3,142.1 L134.4,147.0  h0.01"
+         id="path2396"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2398">
+        <polygon
+           points="148.1,157.6 155.9,152.8 169.6,171.4 161.7,176.1 "
+           id="polygon2400"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M148.1,157.6 L161.7,176.1 L169.6,171.4 L155.9,152.8 L148.1,157.6  h0.01"
+         id="path2402"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2404">
+        <polygon
+           points="319.4,288.3 327.3,288.2 340.9,284.1 333.1,282.9 "
+           id="polygon2406"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M319.4,288.3 L333.1,282.9 L340.9,284.1 L327.3,288.2 L319.4,288.3  h0.01"
+         id="path2408"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2410">
+        <polygon
+           points="85.7,137.7 93.5,132.9 107.2,136.2 99.3,141.1 "
+           id="polygon2412"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M85.7,137.7 L99.3,141.1 L107.2,136.2 L93.5,132.9 L85.7,137.7  h0.01"
+         id="path2414"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2416">
+        <polygon
+           points="297.9,292.7 305.8,291.7 319.4,288.3 311.5,288.3 "
+           id="polygon2418"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M297.9,292.7 L311.5,288.3 L319.4,288.3 L305.8,291.7 L297.9,292.7  h0.01"
+         id="path2420"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2422">
+        <polygon
+           points="276.5,296.9 284.4,295.1 297.9,292.7 290.0,293.7 "
+           id="polygon2424"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M276.5,296.9 L290.0,293.7 L297.9,292.7 L284.4,295.1 L276.5,296.9  h0.01"
+         id="path2426"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2428">
+        <polygon
+           points="153.8,180.8 161.7,176.1 175.3,203.5 167.5,208.0 "
+           id="polygon2430"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M153.8,180.8 L167.5,208.0 L175.3,203.5 L161.7,176.1 L153.8,180.8  h0.01"
+         id="path2432"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2434">
+        <polygon
+           points="99.3,141.1 107.2,136.2 120.8,140.6 112.9,145.4 "
+           id="polygon2436"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M99.3,141.1 L112.9,145.4 L120.8,140.6 L107.2,136.2 L99.3,141.1  h0.01"
+         id="path2438"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2440">
+        <polygon
+           points="112.9,145.4 120.8,140.6 134.4,147.0 126.6,151.8 "
+           id="polygon2442"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M112.9,145.4 L126.6,151.8 L134.4,147.0 L120.8,140.6 L112.9,145.4  h0.01"
+         id="path2444"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2446">
+        <polygon
+           points="126.6,151.8 134.4,147.0 148.1,157.6 140.2,162.5 "
+           id="polygon2448"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M126.6,151.8 L140.2,162.5 L148.1,157.6 L134.4,147.0 L126.6,151.8  h0.01"
+         id="path2450"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2452">
+        <polygon
+           points="140.2,162.5 148.1,157.6 161.7,176.1 153.8,180.8 "
+           id="polygon2454"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M140.2,162.5 L153.8,180.8 L161.7,176.1 L148.1,157.6 L140.2,162.5  h0.01"
+         id="path2456"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2458">
+        <polygon
+           points="354.6,277.9 362.4,280.3 376.1,273.7 368.2,269.5 "
+           id="polygon2460"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M354.6,277.9 L368.2,269.5 L376.1,273.7 L362.4,280.3 L354.6,277.9  h0.01"
+         id="path2462"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2464">
+        <polygon
+           points="333.1,282.9 340.9,284.1 354.6,277.9 346.7,275.2 "
+           id="polygon2466"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M333.1,282.9 L346.7,275.2 L354.6,277.9 L340.9,284.1 L333.1,282.9  h0.01"
+         id="path2468"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2470">
+        <polygon
+           points="311.5,288.3 319.4,288.3 333.1,282.9 325.2,281.6 "
+           id="polygon2472"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M311.5,288.3 L325.2,281.6 L333.1,282.9 L319.4,288.3 L311.5,288.3  h0.01"
+         id="path2474"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2476">
+        <polygon
+           points="290.0,293.7 297.9,292.7 311.5,288.3 303.7,288.2 "
+           id="polygon2478"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M290.0,293.7 L303.7,288.2 L311.5,288.3 L297.9,292.7 L290.0,293.7  h0.01"
+         id="path2480"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2482">
+        <polygon
+           points="346.7,275.2 354.6,277.9 368.2,269.5 360.3,264.9 "
+           id="polygon2484"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M346.7,275.2 L360.3,264.9 L368.2,269.5 L354.6,277.9 L346.7,275.2  h0.01"
+         id="path2486"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2488">
+        <polygon
+           points="325.2,281.6 333.1,282.9 346.7,275.2 338.8,272.2 "
+           id="polygon2490"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M325.2,281.6 L338.8,272.2 L346.7,275.2 L333.1,282.9 L325.2,281.6  h0.01"
+         id="path2492"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2494">
+        <polygon
+           points="303.7,288.2 311.5,288.3 325.2,281.6 317.3,280.0 "
+           id="polygon2496"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M303.7,288.2 L317.3,280.0 L325.2,281.6 L311.5,288.3 L303.7,288.2  h0.01"
+         id="path2498"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2500">
+        <polygon
+           points="317.3,280.0 325.2,281.6 338.8,272.2 330.9,268.9 "
+           id="polygon2502"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M317.3,280.0 L330.9,268.9 L338.8,272.2 L325.2,281.6 L317.3,280.0  h0.01"
+         id="path2504"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2506">
+        <polygon
+           points="338.8,272.2 346.7,275.2 360.3,264.9 352.4,259.7 "
+           id="polygon2508"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M338.8,272.2 L352.4,259.7 L360.3,264.9 L346.7,275.2 L338.8,272.2  h0.01"
+         id="path2510"
+         stroke="rgb(  0,   0,   0)" />
+      <g
+         style="stroke:none; shape-rendering:crispEdges"
+         id="g2512">
+        <polygon
+           points="330.9,268.9 338.8,272.2 352.4,259.7 344.6,254.1 "
+           id="polygon2514"
+           fill="rgb(255, 255, 255)" />
+      </g>
+      <path
+         d="M330.9,268.9 L344.6,254.1 L352.4,259.7 L338.8,272.2 L330.9,268.9  h0.01"
+         id="path2516"
+         stroke="rgb(  0,   0,   0)" />
+    </g>
+    <g
+       style="fill:none; color:black; stroke:currentColor; stroke-width:0.50; stroke-linecap:butt; stroke-linejoin:miter"
+       id="g2518">
+      <path
+         d="M499.3,284.8 L344.6,379.8 M76.7,325.0 L344.6,379.8 L344.6,254.1  h0.01"
+         id="path2520"
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <g
+         transform="translate(488.9,349.0)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g2522">
+        <text
+           id="text2524"
+           x="-8.5815907"
+           y="8.9990683"
+           style="font-size:22.87613487px">
+          <tspan
+             id="tspan2526">q</tspan>
+        </text>
+      </g>
+      <g
+         transform="translate(172.0,379.1)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g2528">
+        <text
+           id="text2530"
+           x="9.5295887"
+           y="10.960856"
+           style="font-size:26.37896347px">
+          <tspan
+             id="tspan2532">s</tspan>
+        </text>
+      </g>
+      <g
+         transform="translate(40.5,230.0) rotate(-90)"
+         style="stroke:none; fill:rgb(0,0,0); font-family:{}; font-size:10.00pt; text-anchor:middle"
+         id="g2534">
+        <text
+           id="text2536"
+           y="-0.79695588"
+           style="font-size:32.17782211px">
+          <tspan
+             id="tspan2538">H</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

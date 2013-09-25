@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1136.6531"
+   height="584"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="mds_consonant_PT_class.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2902"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3803"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3845"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3906"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3951"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3981"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4087"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4167"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4242"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4347"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.80517241"
+     inkscape:cx="625.61625"
+     inkscape:cy="287.71429"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1228"
+     inkscape:window-height="722"
+     inkscape:window-x="44"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(37,-251.79076)">
+    <image
+       y="251.79076"
+       x="-37"
+       id="image2904"
+       height="584"
+       width="824"
+       xlink:href="file:///home/leoca/ee/doutorado/tese/images/mds_consonants_PT.png" />
+    <path
+       style="fill:#ff0000;fill-opacity:0.45814981;stroke:none"
+       d="m 114.26124,749.3215 c 38.55588,0.58834 78.35575,5.608 115.73024,-6.63535 11.02696,-4.00215 22.4095,-8.65406 31.00705,-16.83957 16.81131,-16.9802 16.95039,-45.97609 2.51773,-64.45215 -10.13395,-14.05431 -28.95834,-20.61472 -45.66956,-16.14303 -40.24409,8.7692 -77.76788,27.2031 -118.410696,34.42079 -11.819428,3.62436 -22.864477,13.66661 -22.728877,26.80631 0.208842,20.6263 17.918572,38.77278 37.554113,42.843 z"
+       id="path3827" />
+    <path
+       style="fill:#000080;fill-opacity:0.50220265;stroke:none"
+       d="m 701.71306,390.39216 c -9.6668,62.25827 -49.13472,92.77454 -36.88316,147.3238 12.57229,35.84962 52.1207,25.8843 59.25154,-8.77622 11.08595,-37.32032 16.42799,-62.47036 13.2834,-109.41378 0.0301,-21.09986 -7.68571,-60.95052 -35.65178,-29.1338 z"
+       id="path2908"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#000080;fill-opacity:0.50220265;stroke:none"
+       d="m 240.94218,425.16732 c -4.20045,-26.18574 22.99199,-50.50373 48.55843,-42.18453 27.58916,5.42554 47.61809,34.45494 42.178,62.16627 2.79678,43.40854 -15.88518,87.58871 -50.92561,113.9346 -33.03358,26.9236 -86.49165,36.72492 -120.62898,6.50227 -42.38072,-37.27218 -43.85157,-107.71446 -10.69967,-151.41568 20.1092,-13.49501 44.74548,11.23649 39.96333,32.36934 -5.15955,14.97666 -4.75461,40.38119 17.22507,38.7996 26.6461,-0.73735 53.91742,-36.86581 34.32943,-60.17187 z"
+       id="path2910" />
+    <rect
+       style="fill:#000080;fill-opacity:0.50220265;stroke:none"
+       id="rect3743"
+       width="54.646683"
+       height="27.323341"
+       x="778.63983"
+       y="348.16537" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.60007286px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="849.8446"
+       y="368.61368"
+       id="text3745"><tspan
+         sodipodi:role="line"
+         id="tspan3747"
+         x="849.8446"
+         y="368.61368">consonantal stops</tspan></text>
+    <path
+       style="fill:#ffff00;fill-opacity:0.47136566;stroke:none"
+       d="M 45.952891,493.47567 C 65.21802,540.07357 172.17377,502.48 191.23795,451.87892 200.62529,387.86031 138.50758,381.39657 99.751238,348.25289 25.644593,333.55915 45.69664,434.73158 45.952891,493.47567 z"
+       id="path3749"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#ffff00;fill-opacity:0.47136566;stroke:none"
+       d="m 86.937901,685.98103 c -46.037194,22.29504 29.871059,83.52457 41.742569,32.27895 7.71907,-22.48325 -21.73868,-61.00594 -41.742569,-32.27895 z"
+       id="path3751" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.60007286px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="849.72449"
+       y="411.82773"
+       id="text3745-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3825"
+         x="849.72449"
+         y="411.82773">alveolar consonants</tspan></text>
+    <path
+       style="fill:#ffff87;fill-opacity:1;stroke:none"
+       d="m 778.63985,402.65677 0,-13.04069 26.70235,0 26.70236,0 0,13.04069 0,13.04068 -26.70236,0 -26.70235,0 0,-13.04068 z"
+       id="path3823" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.60007286px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="848.96777"
+       y="452.03647"
+       id="text3745-7-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3870"
+         x="848.96777"
+         y="452.03647">nasals</tspan></text>
+    <path
+       style="fill:#ff8a8a;fill-opacity:1;stroke:none"
+       d="m 778.63985,442.86551 0,-13.04069 26.08137,0 26.08137,0 0,13.04069 0,13.04068 -26.08137,0 -26.08137,0 0,-13.04068 z"
+       id="path3868" />
+    <path
+       style="fill:#ffb380;fill-opacity:0.41850221;stroke:none"
+       d="m 432.20557,385.42428 c 0.74579,47.24919 -14.10457,95.92722 0.16266,142.161 23.82416,29.64062 68.84463,-2.63443 65.82104,-35.69917 0.9824,-38.07138 12.28039,-78.55244 -4.83614,-114.63131 -14.67627,-37.73271 -56.38081,-34.09406 -61.14756,8.16948 z"
+       id="path3872" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.60007286px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="849.72449"
+       y="492.24521"
+       id="text3745-7-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3928"
+         x="849.72449"
+         y="492.24521">affricate consonants</tspan></text>
+    <path
+       style="fill:#ffdfca;fill-opacity:1;stroke:none"
+       d="m 778.63985,483.07425 0,-13.04069 26.70235,0 26.70236,0 0,13.04069 0,13.04068 -26.70236,0 -26.70235,0 0,-13.04068 z"
+       id="path3823-7" />
+    <path
+       style="fill:#e5ff80;fill-opacity:0.51541868;stroke:none"
+       d="m 374.96707,493.44594 c 1.6595,12.5871 4.64508,26.76185 15.29991,34.9026 8.64498,6.07449 19.62614,1.03538 26.66623,-5.09899 4.76497,-5.00634 4.25687,-13.26232 5.9759,-19.80468 5.77209,-37.72629 -1.89501,-77.11152 10.76176,-113.81479 4.39729,-9.30613 3.72861,-20.59495 -0.64592,-29.81016 -7.18809,-15.36554 -28.22912,-20.47446 -42.35009,-11.72776 -10.41238,5.84278 -15.75384,17.64809 -16.82415,29.13474 8.21634,40.11852 -1.14291,76.72199 1.11636,116.21904 z"
+       id="path3930"
+       sodipodi:nodetypes="ccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.60007286px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="850.63739"
+       y="532.45398"
+       id="text3745-7-2-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3971"
+         x="850.63739"
+         y="532.45398">fricative consonants</tspan></text>
+    <path
+       style="fill:#f2ffbe;fill-opacity:1;stroke:none"
+       d="m 778.63985,523.28298 0,-13.04068 26.70235,0 26.70236,0 0,13.04068 0,13.04069 -26.70236,0 -26.70235,0 0,-13.04069 z"
+       id="path3926-4" />
+    <path
+       style="fill:#e5ff80;fill-opacity:0.51541904;stroke:none"
+       d="m 185.81663,451.34375 c 0.34743,40.15966 41.6777,43.53612 49.18401,6.27302 -12.20133,-45.55879 15.12298,-92.06138 -1.06189,-134.93116 -7.18809,-15.36554 -28.22912,-20.47446 -42.35009,-11.72776 -31.061,32.64312 -6.13215,97.14352 -5.77203,140.3859 z"
+       id="path3930-8"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#44aa00;fill-opacity:0.42290751;stroke:none"
+       d="m 406.1242,738.14377 c 51.75518,90.38724 242.72255,-26.30531 176.5879,-116.8586 -74.14168,-63.06578 -200.15442,31.09848 -176.5879,116.8586 z"
+       id="path4020"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.60007286px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="849.72449"
+       y="573.43896"
+       id="text3745-7-2-8-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4109"
+         x="849.72449"
+         y="573.43896">approximants</tspan></text>
+    <path
+       style="fill:#b0db93;fill-opacity:1;stroke:none"
+       d="m 778.63985,564.26796 0,-13.04068 26.70235,0 26.70236,0 0,13.04068 0,13.04069 -26.70236,0 -26.70235,0 0,-13.04069 z"
+       id="path3926-4-2" />
+    <path
+       style="fill:#3a9d9d;fill-opacity:0.52863434;stroke:none"
+       d="m 108.05139,630.09238 c -2.04721,37.9122 70.24091,50.51552 69.44099,7.76978 -4.65444,-29.09968 -48.98099,-40.25302 -67.43547,-17.61455 l -1.65844,4.78232 -0.34708,5.06245 0,0 z"
+       id="path4113" />
+    <path
+       style="fill:#3a9d9d;fill-opacity:0.52863434;stroke:none"
+       d="m 637.13062,651.20587 c 3.16431,55.34353 110.3121,19.4872 62.06187,-21.59478 -20.30181,-14.37149 -63.54511,-10.63374 -62.06187,21.59478 z"
+       id="path4131" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.60007286px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="848.96777"
+       y="612.05725"
+       id="text3745-7-2-8-1-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4187"
+         x="848.96777"
+         y="612.05725">rhotic consonants</tspan></text>
+    <path
+       style="fill:#74baba;fill-opacity:1;stroke:none"
+       d="m 778.63985,602.88627 0,-13.04068 26.70235,0 26.70236,0 0,13.04068 0,13.04069 -26.70236,0 -26.70235,0 0,-13.04069 z"
+       id="path3926-4-2-0" />
+    <path
+       style="fill:#502d16;fill-opacity:0.43612336;stroke:none"
+       d="m 53.404711,664.86754 c -10.837813,9.54038 -9.774912,28.72505 2.633243,36.44976 12.304307,10.08935 23.857487,4.34875 36.859566,-6.57657 13.62095,-14.61343 5.79731,-25.85085 -1.720813,-38.86767 -13.098752,-8.54091 -32.066605,-7.05604 -37.771996,8.99448 z"
+       id="path4189"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#502d16;fill-opacity:0.43612336;stroke:none"
+       d="m 402.39829,695.91679 c -1.21665,16.13341 7.42613,34.51873 24.3024,38.28382 23.64991,6.02977 48.31919,-3.5188 68.1487,-16.15204 27.11826,-27.65746 59.90054,-31.40093 89.74944,-58.67642 8.31737,-8.366 7.53239,-22.44319 -1.83808,-29.62148 -11.39616,-11.62005 -29.51843,-9.26004 -44.01308,-6.43002 -45.00591,11.12161 -75.20387,51.99455 -120.03864,63.65069 -5.64821,2.57399 -11.08642,5.59678 -16.31074,8.94545 z"
+       id="path4191"
+       sodipodi:nodetypes="cccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.60007286px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="848.88367"
+       y="649.39185"
+       id="text3745-7-2-8-1-0-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4262"
+         x="848.88367"
+         y="649.39185">lateral consonants</tspan></text>
+    <path
+       style="fill:#502d16;fill-opacity:0.43612336;stroke:none"
+       d="m 778.63985,640.22085 0,-13.04068 26.70235,0 26.70236,0 0,13.04068 0,13.04069 -26.70236,0 -26.70235,0 0,-13.04069 z"
+       id="path3926-4-2-0-8" />
+    <path
+       style="fill:#f2ffbe;fill-opacity:0.78414097;stroke:none"
+       d="m 660.72805,397.84398 c 2.47212,32.79692 45.47435,-21.86442 22.83083,-31.80932 -4.16381,0.52762 -22.99088,9.22433 -22.83083,31.80932 z"
+       id="path4266"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#b0db93;fill-opacity:0.55947134;stroke:none"
+       d="m 677.07999,407.32618 c 2.47212,32.79692 45.47435,-21.86442 22.83083,-31.80932 -4.16381,0.52762 -22.99088,9.22433 -22.83083,31.80932 z"
+       id="path4266-1"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>

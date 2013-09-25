@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 517.3008 421.78717"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="ulysses_letters_prob_bargraph.svg">
+  <metadata
+     id="metadata906">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnuplot</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs904">
+    <defs
+       id="defs11">
+      <circle
+         r="0.5"
+         id="gpDot"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="0.5"
+         sodipodi:ry="0.5"
+         style="stroke-width:0.5" />
+      <path
+         d="M -1,0 H 1 M 0,-1 v 2"
+         id="gpPt0"
+         inkscape:connector-curvature="0"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <path
+         d="M -1,-1 1,1 M 1,-1 -1,1"
+         id="gpPt1"
+         inkscape:connector-curvature="0"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <path
+         d="M -1,0 1,0 M 0,-1 0,1 m -1,-2 2,2 m -2,0 2,-2"
+         id="gpPt2"
+         inkscape:connector-curvature="0"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <rect
+         height="2"
+         width="2"
+         y="-1"
+         x="-1"
+         id="gpPt3"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <rect
+         height="2"
+         width="2"
+         y="-1"
+         x="-1"
+         id="gpPt4"
+         style="fill:currentColor;stroke:currentColor;stroke-width:0.333" />
+      <circle
+         r="1"
+         cy="0"
+         cx="0"
+         id="gpPt5"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="1"
+         sodipodi:ry="1"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <use
+         id="gpPt6"
+         xlink:href="#gpPt5"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+      <path
+         d="m 0,-1.33 -1.33,2 2.66,0 z"
+         id="gpPt7"
+         inkscape:connector-curvature="0"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <use
+         id="gpPt8"
+         xlink:href="#gpPt7"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+      <use
+         transform="scale(-1,-1)"
+         id="gpPt9"
+         xlink:href="#gpPt7"
+         style="stroke:currentColor"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+      <use
+         id="gpPt10"
+         xlink:href="#gpPt9"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+      <use
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)"
+         id="gpPt11"
+         xlink:href="#gpPt3"
+         style="stroke:currentColor"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+      <use
+         id="gpPt12"
+         xlink:href="#gpPt11"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+    </defs>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1122"
+     inkscape:window-height="717"
+     id="namedview902"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.2430556"
+     inkscape:cx="290.33224"
+     inkscape:cy="240.99606"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Gnuplot</title>
+  <desc
+     id="desc6">Produced by GNUPLOT 4.6 patchlevel 1 </desc>
+  <g
+     id="g27"
+     style="color:#ffffff;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     transform="translate(4.664475,-5.0226563)" />
+  <g
+     id="g29"
+     style="color:#ffffff;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter"
+     transform="translate(4.664475,-5.0226563)" />
+  <g
+     transform="translate(47.464474,405.97734)"
+     style="font-size:12.5px;text-anchor:end;color:#000000;fill:#000000;stroke:none"
+     id="g35">
+    <text
+       id="text37">
+      <tspan
+         id="tspan39">0</tspan>
+    </text>
+  </g>
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 53.064474,353.37734 8.4,0"
+     id="path5301"
+     inkscape:connector-curvature="0" />
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 515.76448,353.37734 -8.4,0 h 0.01"
+     id="path41"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="translate(47.464474,356.37734)"
+     style="font-size:12.5px;text-anchor:end;color:#000000;fill:#000000;stroke:none"
+     id="g43">
+    <text
+       id="text45">
+      <tspan
+         id="tspan47">0.02</tspan>
+    </text>
+  </g>
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 53.064474,303.77734 8.4,0"
+     id="path5297"
+     inkscape:connector-curvature="0" />
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 515.76448,303.77734 -8.4,0 h 0.01"
+     id="path49"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="translate(47.464474,306.77734)"
+     style="font-size:12.5px;text-anchor:end;color:#000000;fill:#000000;stroke:none"
+     id="g51">
+    <text
+       id="text53">
+      <tspan
+         id="tspan55">0.04</tspan>
+    </text>
+  </g>
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 53.064474,254.17734 8.4,0"
+     id="path5293"
+     inkscape:connector-curvature="0" />
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 515.76448,254.17734 -8.4,0 h 0.01"
+     id="path57"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="translate(47.464474,257.17734)"
+     style="font-size:12.5px;text-anchor:end;color:#000000;fill:#000000;stroke:none"
+     id="g59">
+    <text
+       id="text61">
+      <tspan
+         id="tspan63">0.06</tspan>
+    </text>
+  </g>
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 53.064474,204.57734 8.4,0"
+     id="path5289"
+     inkscape:connector-curvature="0" />
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 515.76448,204.57734 -8.4,0 h 0.01"
+     id="path65"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="translate(47.464474,207.57734)"
+     style="font-size:12.5px;text-anchor:end;color:#000000;fill:#000000;stroke:none"
+     id="g67">
+    <text
+       id="text69">
+      <tspan
+         id="tspan71">0.08</tspan>
+    </text>
+  </g>
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 53.064474,155.07734 8.4,0"
+     id="path5285"
+     inkscape:connector-curvature="0" />
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 515.76448,155.07734 -8.4,0 h 0.01"
+     id="path73"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="translate(47.464474,158.07734)"
+     style="font-size:12.5px;text-anchor:end;color:#000000;fill:#000000;stroke:none"
+     id="g75">
+    <text
+       id="text77">
+      <tspan
+         id="tspan79">0.1</tspan>
+    </text>
+  </g>
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 53.064474,105.47734 8.4,0"
+     id="path5281"
+     inkscape:connector-curvature="0" />
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 515.76448,105.47734 -8.4,0 h 0.01"
+     id="path81"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="translate(47.464474,108.47734)"
+     style="font-size:12.5px;text-anchor:end;color:#000000;fill:#000000;stroke:none"
+     id="g83">
+    <text
+       id="text85">
+      <tspan
+         id="tspan87">0.12</tspan>
+    </text>
+  </g>
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 53.064474,55.877344 8.4,0"
+     id="path5277"
+     inkscape:connector-curvature="0" />
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 515.76448,55.877344 -8.4,0 h 0.01"
+     id="path89"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="translate(47.464474,58.877344)"
+     style="font-size:12.5px;text-anchor:end;color:#000000;fill:#000000;stroke:none"
+     id="g91">
+    <text
+       id="text93">
+      <tspan
+         id="tspan95">0.14</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(47.464474,9.2773438)"
+     style="font-size:12.5px;text-anchor:end;color:#000000;fill:#000000;stroke:none"
+     id="g99">
+    <text
+       id="text101">
+      <tspan
+         id="tspan103">0.16</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,70.103537,418.65971)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g107">
+    <text
+       id="text109">
+      <tspan
+         id="tspan111">a</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,87.019308,418.90935)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g115">
+    <text
+       id="text117">
+      <tspan
+         id="tspan119">b</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,104.17424,418.65971)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g123">
+    <text
+       id="text125">
+      <tspan
+         id="tspan127">c</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,121.20904,418.90935)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g131">
+    <text
+       id="text133">
+      <tspan
+         id="tspan135">d</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,138.16204,418.65971)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g139">
+    <text
+       id="text141">
+      <tspan
+         id="tspan143">e</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,155.11138,418.92705)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g147">
+    <text
+       id="text149">
+      <tspan
+         id="tspan151">f</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,172.30904,418.4174)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g155">
+    <text
+       id="text157">
+      <tspan
+         id="tspan159">g</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,189.25838,418.92705)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g163">
+    <text
+       id="text165">
+      <tspan
+         id="tspan167">h</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,206.26326,418.92705)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g171">
+    <text
+       id="text173">
+      <tspan
+         id="tspan175">i</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,223.40364,418.66704)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g179">
+    <text
+       id="text181">
+      <tspan
+         id="tspan183">j</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,240.25584,418.92705)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g187">
+    <text
+       id="text189">
+      <tspan
+         id="tspan191">k</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,257.36326,418.92705)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g195">
+    <text
+       id="text197">
+      <tspan
+         id="tspan199">l</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,274.35777,418.67741)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g203">
+    <text
+       id="text205">
+      <tspan
+         id="tspan207">m</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,291.35838,418.67741)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g211">
+    <text
+       id="text213">
+      <tspan
+         id="tspan215">n</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,308.46326,418.65971)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g219">
+    <text
+       id="text221">
+      <tspan
+         id="tspan223">o</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,325.41931,418.4174)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g227">
+    <text
+       id="text229">
+      <tspan
+         id="tspan231">p</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,342.50904,418.4174)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g235">
+    <text
+       id="text237">
+      <tspan
+         id="tspan239">q</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,359.35218,418.67741)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g243">
+    <text
+       id="text245">
+      <tspan
+         id="tspan247">r</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,376.45838,418.65971)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g251">
+    <text
+       id="text253">
+      <tspan
+         id="tspan255">s</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,393.56143,418.85503)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g259">
+    <text
+       id="text261">
+      <tspan
+         id="tspan263">t</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,410.57302,418.65971)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g267">
+    <text
+       id="text269">
+      <tspan
+         id="tspan271">u</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,427.56448,418.66093)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g275">
+    <text
+       id="text277">
+      <tspan
+         id="tspan279">v</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,444.56509,418.66093)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g283">
+    <text
+       id="text285">
+      <tspan
+         id="tspan287">w</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,461.66936,418.66093)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g291">
+    <text
+       id="text293">
+      <tspan
+         id="tspan295">x</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,478.66448,418.40092)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g299">
+    <text
+       id="text301">
+      <tspan
+         id="tspan303">y</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(1.2,0,0,1.2,495.66509,418.66093)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g307">
+    <text
+       id="text309">
+      <tspan
+         id="tspan311">z</tspan>
+    </text>
+  </g>
+  <path
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 53.064474,6.2773438 0,396.6999962 463.236306,0 0,-396.6999962 z m 0,0 0.01,0"
+     id="path313"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccc" />
+  <g
+     transform="matrix(0,-1.2,1.2,0,11.396481,204.73166)"
+     style="font-size:12.5px;text-anchor:middle;color:#000000;fill:#000000;stroke:none"
+     id="g315">
+    <text
+       id="text317">
+      <tspan
+         id="tspan319">Prob</tspan>
+    </text>
+  </g>
+  <g
+     id="gnuplot_plot_1a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title322">gnuplot_plot_1a</title>
+    <g
+       id="g324"
+       style="color:#ffffff;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g326"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g328"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon330"
+           points="58.6,408 58.6,211.4 72.2,211.4 72.2,408 58.6,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path332"
+         d="m 58.6,408 0,-196.6 13.6,0 0,196.6 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_2a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title335">gnuplot_plot_2a</title>
+    <g
+       id="g337"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g339"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path341"
+         d="m 58.6,408 0,-196.6 13.6,0 0,196.6 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_3a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title344">gnuplot_plot_3a</title>
+    <g
+       id="g346"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g348"
+       style="color:#0000ff;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g350"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon352"
+           points="75.6,408 75.6,369.2 89.3,369.2 89.3,408 75.6,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path354"
+         d="m 75.6,408 0,-38.8 13.7,0 0,38.8 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_4a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title357">gnuplot_plot_4a</title>
+    <g
+       id="g359"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g361"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path363"
+         d="m 75.6,408 0,-38.8 13.7,0 0,38.8 -13.7,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_5a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title366">gnuplot_plot_5a</title>
+    <g
+       id="g368"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g370"
+       style="color:#157545;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g372"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon374"
+           points="92.7,408 92.7,347.4 106.3,347.4 106.3,408 92.7,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path376"
+         d="m 92.7,408 0,-60.6 13.6,0 0,60.6 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_6a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title379">gnuplot_plot_6a</title>
+    <g
+       id="g381"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g383"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path385"
+         d="m 92.7,408 0,-60.6 13.6,0 0,60.6 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_7a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title388">gnuplot_plot_7a</title>
+    <g
+       id="g390"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g392"
+       style="color:#ff9900;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g394"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon396"
+           points="109.7,408 109.7,304.9 123.3,304.9 123.3,408 109.7,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path398"
+         d="m 109.7,408 0,-103.1 13.6,0 0,103.1 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_8a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title401">gnuplot_plot_8a</title>
+    <g
+       id="g403"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g405"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path407"
+         d="m 109.7,408 0,-103.1 13.6,0 0,103.1 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_9a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title410">gnuplot_plot_9a</title>
+    <g
+       id="g412"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g414"
+       style="color:#d6d645;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g416"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon418"
+           points="126.7,408 126.7,101.7 140.3,101.7 140.3,408 126.7,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path420"
+         d="m 126.7,408 0,-306.3 13.6,0 0,306.3 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_10a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title423">gnuplot_plot_10a</title>
+    <g
+       id="g425"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g427"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path429"
+         d="m 126.7,408 0,-306.3 13.6,0 0,306.3 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_11a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title432">gnuplot_plot_11a</title>
+    <g
+       id="g434"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g436"
+       style="color:#ffcc00;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g438"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon440"
+           points="143.7,408 143.7,352.5 157.3,352.5 157.3,408 143.7,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path442"
+         d="m 143.7,408 0,-55.5 13.6,0 0,55.5 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_12a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title445">gnuplot_plot_12a</title>
+    <g
+       id="g447"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g449"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path451"
+         d="m 143.7,408 0,-55.5 13.6,0 0,55.5 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_13a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title454">gnuplot_plot_13a</title>
+    <g
+       id="g456"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g458"
+       style="color:#abd600;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g460"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon462"
+           points="160.8,408 160.8,350.5 174.4,350.5 174.4,408 160.8,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path464"
+         d="m 160.8,408 0,-57.5 13.6,0 0,57.5 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_14a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title467">gnuplot_plot_14a</title>
+    <g
+       id="g469"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g471"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path473"
+         d="m 160.8,408 0,-57.5 13.6,0 0,57.5 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_15a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title476">gnuplot_plot_15a</title>
+    <g
+       id="g478"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g480"
+       style="color:#008000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g482"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon484"
+           points="177.8,408 177.8,258 191.4,258 191.4,408 177.8,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path486"
+         d="m 177.8,408 0,-150 13.6,0 0,150 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_16a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title489">gnuplot_plot_16a</title>
+    <g
+       id="g491"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g493"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path495"
+         d="m 177.8,408 0,-150 13.6,0 0,150 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_17a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title498">gnuplot_plot_17a</title>
+    <g
+       id="g500"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g502"
+       style="color:#00ffff;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g504"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon506"
+           points="194.8,408 194.8,239.7 208.4,239.7 208.4,408 194.8,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path508"
+         d="m 194.8,408 0,-168.3 13.6,0 0,168.3 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_18a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title511">gnuplot_plot_18a</title>
+    <g
+       id="g513"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g515"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path517"
+         d="m 194.8,408 0,-168.3 13.6,0 0,168.3 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_19a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title520">gnuplot_plot_19a</title>
+    <g
+       id="g522"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g524"
+       style="color:#000094;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g526"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon528"
+           points="211.8,408 211.8,405.1 225.4,405.1 225.4,408 211.8,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path530"
+         d="m 211.8,408 0,-2.9 13.6,0 0,2.9 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_20a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title533">gnuplot_plot_20a</title>
+    <g
+       id="g535"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g537"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path539"
+         d="m 211.8,408 0,-2.9 13.6,0 0,2.9 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_21a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title542">gnuplot_plot_21a</title>
+    <g
+       id="g544"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g546"
+       style="color:#0099a1;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g548"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon550"
+           points="228.8,408 228.8,383 242.5,383 242.5,408 228.8,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path552"
+         d="m 228.8,408 0,-25 13.7,0 0,25 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_22a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title555">gnuplot_plot_22a</title>
+    <g
+       id="g557"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g559"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path561"
+         d="m 228.8,408 0,-25 13.7,0 0,25 -13.7,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_23a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title564">gnuplot_plot_23a</title>
+    <g
+       id="g566"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g568"
+       style="color:#a391ff;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g570"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon572"
+           points="245.9,408 245.9,292.8 259.5,292.8 259.5,408 245.9,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path574"
+         d="m 245.9,408 0,-115.2 13.6,0 0,115.2 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_24a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title577">gnuplot_plot_24a</title>
+    <g
+       id="g579"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g581"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path583"
+         d="m 245.9,408 0,-115.2 13.6,0 0,115.2 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_25a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title586">gnuplot_plot_25a</title>
+    <g
+       id="g588"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g590"
+       style="color:#d60078;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g592"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon594"
+           points="262.9,408 262.9,347.6 276.5,347.6 276.5,408 262.9,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path596"
+         d="m 262.9,408 0,-60.4 13.6,0 0,60.4 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_26a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title599">gnuplot_plot_26a</title>
+    <g
+       id="g601"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g603"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path605"
+         d="m 262.9,408 0,-60.4 13.6,0 0,60.4 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_27a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title608">gnuplot_plot_27a</title>
+    <g
+       id="g610"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g612"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g614"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon616"
+           points="279.9,408 279.9,235.6 293.5,235.6 293.5,408 279.9,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path618"
+         d="m 279.9,408 0,-172.4 13.6,0 0,172.4 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_28a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title621">gnuplot_plot_28a</title>
+    <g
+       id="g623"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g625"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path627"
+         d="m 279.9,408 0,-172.4 13.6,0 0,172.4 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_29a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title630">gnuplot_plot_29a</title>
+    <g
+       id="g632"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g634"
+       style="color:#0000ff;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g636"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon638"
+           points="296.9,408 296.9,212.3 310.6,212.3 310.6,408 296.9,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path640"
+         d="m 296.9,408 0,-195.7 13.7,0 0,195.7 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_30a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title643">gnuplot_plot_30a</title>
+    <g
+       id="g645"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g647"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path649"
+         d="m 296.9,408 0,-195.7 13.7,0 0,195.7 -13.7,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_31a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title652">gnuplot_plot_31a</title>
+    <g
+       id="g654"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g656"
+       style="color:#157545;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g658"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon660"
+           points="314,408 314,362.4 327.6,362.4 327.6,408 314,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path662"
+         d="m 314,408 0,-45.6 13.6,0 0,45.6 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_32a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title665">gnuplot_plot_32a</title>
+    <g
+       id="g667"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g669"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path671"
+         d="m 314,408 0,-45.6 13.6,0 0,45.6 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_33a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title674">gnuplot_plot_33a</title>
+    <g
+       id="g676"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g678"
+       style="color:#ff9900;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g680"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon682"
+           points="331,408 331,405.4 344.6,405.4 344.6,408 331,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path684"
+         d="m 331,408 0,-2.6 13.6,0 0,2.6 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_34a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title687">gnuplot_plot_34a</title>
+    <g
+       id="g689"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g691"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path693"
+         d="m 331,408 0,-2.6 13.6,0 0,2.6 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_35a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title696">gnuplot_plot_35a</title>
+    <g
+       id="g698"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g700"
+       style="color:#d6d645;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g702"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon704"
+           points="348,408 348,257.3 361.6,257.3 361.6,408 348,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path706"
+         d="m 348,408 0,-150.7 13.6,0 0,150.7 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_36a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title709">gnuplot_plot_36a</title>
+    <g
+       id="g711"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g713"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path715"
+         d="m 348,408 0,-150.7 13.6,0 0,150.7 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_37a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title718">gnuplot_plot_37a</title>
+    <g
+       id="g720"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g722"
+       style="color:#ffcc00;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g724"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon726"
+           points="365,408 365,247.6 378.7,247.6 378.7,408 365,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path728"
+         d="m 365,408 0,-160.4 13.7,0 0,160.4 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_38a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title731">gnuplot_plot_38a</title>
+    <g
+       id="g733"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g735"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path737"
+         d="m 365,408 0,-160.4 13.7,0 0,160.4 -13.7,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_39a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title740">gnuplot_plot_39a</title>
+    <g
+       id="g742"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g744"
+       style="color:#abd600;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g746"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon748"
+           points="382.1,408 382.1,197.3 395.7,197.3 395.7,408 382.1,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path750"
+         d="m 382.1,408 0,-210.7 13.6,0 0,210.7 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_40a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title753">gnuplot_plot_40a</title>
+    <g
+       id="g755"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g757"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path759"
+         d="m 382.1,408 0,-210.7 13.6,0 0,210.7 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_41a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title762">gnuplot_plot_41a</title>
+    <g
+       id="g764"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g766"
+       style="color:#008000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g768"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon770"
+           points="399.1,408 399.1,335.5 412.7,335.5 412.7,408 399.1,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path772"
+         d="m 399.1,408 0,-72.5 13.6,0 0,72.5 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_42a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title775">gnuplot_plot_42a</title>
+    <g
+       id="g777"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g779"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path781"
+         d="m 399.1,408 0,-72.5 13.6,0 0,72.5 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_43a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title784">gnuplot_plot_43a</title>
+    <g
+       id="g786"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g788"
+       style="color:#00ffff;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g790"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon792"
+           points="416.1,408 416.1,387.4 429.7,387.4 429.7,408 416.1,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path794"
+         d="m 416.1,408 0,-20.6 13.6,0 0,20.6 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_44a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title797">gnuplot_plot_44a</title>
+    <g
+       id="g799"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g801"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path803"
+         d="m 416.1,408 0,-20.6 13.6,0 0,20.6 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_45a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title806">gnuplot_plot_45a</title>
+    <g
+       id="g808"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g810"
+       style="color:#000094;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g812"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon814"
+           points="433.1,408 433.1,356.2 446.7,356.2 446.7,408 433.1,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path816"
+         d="m 433.1,408 0,-51.8 13.6,0 0,51.8 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_46a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title819">gnuplot_plot_46a</title>
+    <g
+       id="g821"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g823"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path825"
+         d="m 433.1,408 0,-51.8 13.6,0 0,51.8 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_47a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title828">gnuplot_plot_47a</title>
+    <g
+       id="g830"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g832"
+       style="color:#0099a1;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g834"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon836"
+           points="450.2,408 450.2,404.9 463.8,404.9 463.8,408 450.2,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path838"
+         d="m 450.2,408 0,-3.1 13.6,0 0,3.1 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_48a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title841">gnuplot_plot_48a</title>
+    <g
+       id="g843"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g845"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path847"
+         d="m 450.2,408 0,-3.1 13.6,0 0,3.1 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_49a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title850">gnuplot_plot_49a</title>
+    <g
+       id="g852"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g854"
+       style="color:#a391ff;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g856"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon858"
+           points="467.2,408 467.2,356.8 480.8,356.8 480.8,408 467.2,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path860"
+         d="m 467.2,408 0,-51.2 13.6,0 0,51.2 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_50a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title863">gnuplot_plot_50a</title>
+    <g
+       id="g865"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g867"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path869"
+         d="m 467.2,408 0,-51.2 13.6,0 0,51.2 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_51a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title872">gnuplot_plot_51a</title>
+    <g
+       id="g874"
+       style="color:#ffffff;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g876"
+       style="color:#d60078;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g878"
+         style="fill:#000000;stroke:none">
+        <polygon
+           style="fill:#000000"
+           id="polygon880"
+           points="484.2,408 484.2,406 497.8,406 497.8,408 484.2,408 " />
+      </g>
+      <path
+         style="fill:#000000;stroke:#88ff77;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path882"
+         d="m 484.2,408 0,-2 13.6,0 0,2 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_52a"
+     style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(4.664475,-5.0226563)">
+    <title
+       id="title885">gnuplot_plot_52a</title>
+    <g
+       id="g887"
+       style="color:#ffffff;fill:#000000;stroke:#88ff77;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g889"
+       style="color:#ff0000;fill:#000000;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path891"
+         d="m 484.2,408 0,-2 13.6,0 0,2 -13.6,0 h 0.01" />
+    </g>
+  </g>
+  <g
+     id="g900"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter"
+     transform="translate(4.664475,-5.0226563)" />
+</svg>

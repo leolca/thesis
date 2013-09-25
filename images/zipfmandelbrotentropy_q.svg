@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 589.1255 432.68142"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="zipfmandelbrotentropy_q.svg">
+  <metadata
+     id="metadata225">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs223">
+    <defs
+       id="defs11">
+      <circle
+         r="0.5"
+         id="gpDot"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="0.5"
+         sodipodi:ry="0.5"
+         style="stroke-width:0.5" />
+      <path
+         d="M -1,0 H 1 M 0,-1 v 2"
+         id="gpPt0"
+         inkscape:connector-curvature="0"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <path
+         d="M -1,-1 1,1 M 1,-1 -1,1"
+         id="gpPt1"
+         inkscape:connector-curvature="0"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <path
+         d="M -1,0 1,0 M 0,-1 0,1 m -1,-2 2,2 m -2,0 2,-2"
+         id="gpPt2"
+         inkscape:connector-curvature="0"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <rect
+         height="2"
+         width="2"
+         y="-1"
+         x="-1"
+         id="gpPt3"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <rect
+         height="2"
+         width="2"
+         y="-1"
+         x="-1"
+         id="gpPt4"
+         style="fill:currentColor;stroke:currentColor;stroke-width:0.333" />
+      <circle
+         r="1"
+         cy="0"
+         cx="0"
+         id="gpPt5"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="1"
+         sodipodi:ry="1"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <use
+         id="gpPt6"
+         xlink:href="#gpPt5"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+      <path
+         d="m 0,-1.33 -1.33,2 2.66,0 z"
+         id="gpPt7"
+         inkscape:connector-curvature="0"
+         style="stroke:currentColor;stroke-width:0.333" />
+      <use
+         id="gpPt8"
+         xlink:href="#gpPt7"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+      <use
+         transform="scale(-1,-1)"
+         id="gpPt9"
+         xlink:href="#gpPt7"
+         style="stroke:currentColor"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+      <use
+         id="gpPt10"
+         xlink:href="#gpPt9"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+      <use
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)"
+         id="gpPt11"
+         xlink:href="#gpPt3"
+         style="stroke:currentColor"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+      <use
+         id="gpPt12"
+         xlink:href="#gpPt11"
+         style="fill:currentColor;stroke:none"
+         x="0"
+         y="0"
+         width="576"
+         height="432" />
+    </defs>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1228"
+     inkscape:window-height="877"
+     id="namedview221"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.3541667"
+     inkscape:cx="301.1255"
+     inkscape:cy="216.68142"
+     inkscape:window-x="1394"
+     inkscape:window-y="83"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Gnuplot</title>
+  <desc
+     id="desc6">Produced by GNUPLOT 4.6 patchlevel 1 </desc>
+  <rect
+     style="fill:none"
+     id="rect9"
+     height="432"
+     width="576"
+     y="0"
+     x="13.125501" />
+  <g
+     id="g27"
+     style="color:#ffffff;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     transform="translate(13.1255,0)" />
+  <g
+     id="g29"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     transform="translate(13.1255,0)">
+    <g
+       id="g31"
+       style="stroke:none">
+      <polygon
+         style="fill:#ffffff"
+         id="polygon33"
+         points="559,393.6 559,11.4 37.2,11.4 37.2,393.6 " />
+    </g>
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path35"
+       d="m 37.2,393.6 0,-382.2 521.8,0 0,382.2 -521.8,0 h 0.01" />
+  </g>
+  <g
+     id="g37"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter"
+     transform="translate(13.1255,0)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path39"
+       d="m 37.2,393.6 8.4,0 m 513.5,0 -8.4,0 h 0.01" />
+    <g
+       id="g41"
+       style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+       transform="translate(31.6,396.6)">
+      <text
+         id="text43">
+        <tspan
+           id="tspan45">0</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path47"
+       d="m 37.2,298 8.4,0 m 513.5,0 -8.4,0 h 0.01"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g49"
+       style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+       transform="translate(31.6,301)">
+      <text
+         id="text51">
+        <tspan
+           id="tspan53">5</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path55"
+       d="m 37.2,202.4 8.4,0 m 513.5,0 -8.4,0 h 0.01"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g57"
+       style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+       transform="translate(31.6,205.4)">
+      <text
+         id="text59">
+        <tspan
+           id="tspan61">10</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path63"
+       d="m 37.2,106.9 8.4,0 m 513.5,0 -8.4,0 h 0.01"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g65"
+       style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+       transform="translate(31.6,109.9)">
+      <text
+         id="text67">
+        <tspan
+           id="tspan69">15</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path71"
+       d="m 37.2,11.3 8.4,0 m 513.5,0 -8.4,0 h 0.01" />
+    <g
+       id="g73"
+       style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+       transform="translate(31.6,14.3)">
+      <text
+         id="text75">
+        <tspan
+           id="tspan77">20</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path79"
+       d="m 37.2,393.6 0,-8.4 m 0,-373.9 0,8.4 h 0.01" />
+    <g
+       id="g81"
+       style="font-size:12.5px;text-anchor:middle;fill:#000000;stroke:none"
+       transform="translate(37.2,408.6)">
+      <text
+         id="text83">
+        <tspan
+           id="tspan85">0</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path87"
+       d="m 141.6,393.6 0,-8.4 m 0,-373.9 0,8.4 h 0.01"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g89"
+       style="font-size:12.5px;text-anchor:middle;fill:#000000;stroke:none"
+       transform="translate(141.6,408.6)">
+      <text
+         id="text91">
+        <tspan
+           id="tspan93">10</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path95"
+       d="m 246,393.6 0,-8.4 m 0,-373.9 0,8.4 h 0.01"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g97"
+       style="font-size:12.5px;text-anchor:middle;fill:#000000;stroke:none"
+       transform="translate(246,408.6)">
+      <text
+         id="text99">
+        <tspan
+           id="tspan101">20</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path103"
+       d="m 350.3,393.6 0,-8.4 m 0,-373.9 0,8.4 h 0.01"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g105"
+       style="font-size:12.5px;text-anchor:middle;fill:#000000;stroke:none"
+       transform="translate(350.3,408.6)">
+      <text
+         id="text107">
+        <tspan
+           id="tspan109">30</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path111"
+       d="m 454.7,393.6 0,-8.4 m 0,-373.9 0,8.4 h 0.01"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g113"
+       style="font-size:12.5px;text-anchor:middle;fill:#000000;stroke:none"
+       transform="translate(454.7,408.6)">
+      <text
+         id="text115">
+        <tspan
+           id="tspan117">40</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path119"
+       d="m 559.1,393.6 0,-8.4 m 0,-373.9 0,8.4 h 0.01" />
+    <g
+       id="g121"
+       style="font-size:12.5px;text-anchor:middle;fill:#000000;stroke:none"
+       transform="translate(559.1,408.6)">
+      <text
+         id="text123">
+        <tspan
+           id="tspan125">50</tspan>
+      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path127"
+       d="m 37.2,11.3 0,382.3 521.9,0 0,-382.3 -521.9,0 z m 0,0 h 0.01"
+       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       id="g129"
+       style="font-size:12.5px;text-anchor:middle;fill:#000000;stroke:none"
+       transform="matrix(0,-1,1,0,11.8,202.5)">
+      <text
+         id="text131"
+         y="-4.1870489"
+         style="font-size:28.44765472px">
+        <tspan
+           id="tspan133">H</tspan>
+      </text>
+    </g>
+    <g
+       id="g135"
+       style="font-size:12.5px;text-anchor:middle;fill:#000000;stroke:none"
+       transform="translate(298.1,426.6)">
+      <text
+         id="text137"
+         x="0.16156152"
+         y="1.5956966"
+         style="font-size:21.56514931px">
+        <tspan
+           id="tspan139">q</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_1a"
+     transform="translate(13.1255,0)">
+    <title
+       id="title142">gnuplot_plot_1a</title>
+    <g
+       id="g144"
+       style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <g
+         id="g146"
+         style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+         transform="translate(513.9,324.6)">
+        <text
+           id="text148"
+           y="-8">
+          <tspan
+             id="tspan150">s=1, E=1E5</tspan>
+        </text>
+      </g>
+      <path
+         style="stroke:#646464;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0"
+         d="m 519.5,313.6 28.4,0"
+         id="path3320"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#646464;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0"
+         d="m 37.2,173.9 10.4,-11.7 10.5,-6 10.4,-4.2 10.5,-3.2 10.4,-2.7 10.4,-2.3 10.5,-2 10.4,-1.7 10.4,-1.6 10.5,-1.5 10.4,-1.3 10.5,-1.3 10.4,-1.1 10.4,-1.1 10.5,-1.1 10.4,-0.9 10.4,-1 10.5,-0.9 10.4,-0.8 10.5,-0.8 10.4,-0.8 10.4,-0.7 10.5,-0.8 10.4,-0.7 10.5,-0.6 10.4,-0.7 10.4,-0.6 10.5,-0.6 10.4,-0.6 10.4,-0.6 10.5,-0.5 10.4,-0.6 10.5,-0.5 10.4,-0.5 10.4,-0.6 10.5,-0.5 10.4,-0.4 10.4,-0.5 10.5,-0.5 10.4,-0.4 10.5,-0.5 10.4,-0.4 10.4,-0.5 10.5,-0.4 10.4,-0.4 10.4,-0.4 10.5,-0.4 10.4,-0.4 10.5,-0.4 10.4,-0.4 h 0.01"
+         id="path152"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_2a"
+     transform="translate(13.1255,0)">
+    <title
+       id="title155">gnuplot_plot_2a</title>
+    <g
+       id="g157"
+       style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <g
+         id="g159"
+         style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+         transform="translate(513.9,336.6)">
+        <text
+           id="text161"
+           y="28">
+          <tspan
+             id="tspan163">s=1.5, E=1E5</tspan>
+        </text>
+      </g>
+      <path
+         style="stroke:#646464;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 519.5,361.6 28.4,0"
+         id="path3324"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#646464;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="M 37.2,306.1 47.6,279 58.1,261.6 68.5,247.8 79,236.2 l 10.4,-10.3 10.4,-9.4 10.5,-8.5 10.4,-8 10.4,-7.5 10.5,-7 10.4,-6.7 10.5,-6.5 10.4,-6.1 10.4,-5.9 10.5,-5.7 10.4,-5.6 10.4,-5.3 10.5,-5.2 10.4,-5 10.5,-5 10.4,-4.8 10.4,-4.6 10.5,-4.6 10.4,-4.5 10.5,-4.4 10.4,-4.3 10.4,-4.2 10.5,-4.1 10.4,-4.1 10.4,-4 10.5,-3.9 10.4,-3.9 10.5,-3.8 10.4,-3.8 10.4,-3.7 10.5,-3.6 10.4,-3.6 10.4,-3.6 10.5,-3.5 10.4,-3.4 10.5,-3.4 10.4,-3.4 10.4,-3.3 10.5,-3.3 10.4,-3.3 10.4,-3.2 10.5,-3.2 10.4,-3.2 10.5,-3.1 10.4,-3.1 h 0.01"
+         id="path165"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_3a"
+     transform="translate(13.1255,0)">
+    <title
+       id="title168">gnuplot_plot_3a</title>
+    <g
+       id="g170"
+       style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <g
+         id="g172"
+         style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+         transform="translate(513.9,348.6)">
+        <text
+           id="text174"
+           y="-8">
+          <tspan
+             id="tspan176">s=1.25, E=1E5</tspan>
+        </text>
+      </g>
+      <path
+         style="stroke:#646464;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:0"
+         d="m 519.5,337.6 28.4,0"
+         id="path3328"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#646464;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:0"
+         d="m 37.2,254.8 10.4,-23.4 10.5,-12.5 10.4,-9.3 10.5,-7.3 10.4,-6.2 10.4,-5.3 10.5,-4.7 10.4,-4.3 10.4,-3.9 10.5,-3.6 10.4,-3.3 10.5,-3.1 10.4,-3 10.4,-2.7 10.5,-2.7 10.4,-2.5 10.4,-2.4 10.5,-2.3 10.4,-2.2 10.5,-2.2 10.4,-2 10.4,-2 10.5,-1.9 10.4,-1.9 10.5,-1.8 10.4,-1.7 10.4,-1.7 10.5,-1.7 10.4,-1.6 10.4,-1.6 10.5,-1.6 10.4,-1.5 10.5,-1.4 10.4,-1.5 10.4,-1.4 10.5,-1.4 10.4,-1.3 10.4,-1.4 10.5,-1.3 10.4,-1.3 10.5,-1.2 10.4,-1.3 10.4,-1.2 10.5,-1.2 10.4,-1.2 10.4,-1.1 10.5,-1.2 10.4,-1.1 10.5,-1.1 10.4,-1.1 h 0.01"
+         id="path178"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_4a"
+     transform="translate(13.1255,0)">
+    <title
+       id="title181">gnuplot_plot_4a</title>
+    <g
+       id="g183"
+       style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <g
+         id="g185"
+         style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+         transform="translate(513.9,360.6)">
+        <text
+           id="text187"
+           y="-8">
+          <tspan
+             id="tspan189">s=1.25, E=1E6</tspan>
+        </text>
+      </g>
+      <path
+         style="stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:0"
+         d="m 519.5,349.6 28.4,0"
+         id="path3332"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 4, 2, 4;stroke-dashoffset:0"
+         d="m 37.2,246.8 10.4,-24.8 10.5,-13.3 10.4,-9.8 10.5,-7.7 10.4,-6.4 10.4,-5.6 10.5,-4.9 10.4,-4.5 10.4,-4 10.5,-3.7 10.4,-3.5 10.5,-3.2 10.4,-3 10.4,-2.8 10.5,-2.7 10.4,-2.6 10.4,-2.5 10.5,-2.3 10.4,-2.3 10.5,-2.1 10.4,-2.1 10.4,-2 10.5,-2 10.4,-1.8 10.5,-1.9 10.4,-1.7 10.4,-1.8 10.5,-1.6 10.4,-1.6 10.4,-1.6 10.5,-1.6 10.4,-1.5 10.5,-1.5 10.4,-1.4 10.4,-1.4 10.5,-1.4 10.4,-1.3 10.4,-1.4 10.5,-1.3 10.4,-1.2 10.5,-1.3 10.4,-1.2 10.4,-1.2 10.5,-1.2 10.4,-1.2 10.4,-1.1 10.5,-1.1 10.4,-1.2 10.5,-1 10.4,-1.1 h 0.01"
+         id="path191"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_5a"
+     transform="translate(13.1255,0)">
+    <title
+       id="title194">gnuplot_plot_5a</title>
+    <g
+       id="g196"
+       style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <g
+         id="g198"
+         style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+         transform="translate(513.9,372.6)">
+        <text
+           id="text200"
+           y="4">
+          <tspan
+             id="tspan202">s=1.5, E=1E6</tspan>
+        </text>
+      </g>
+      <path
+         style="stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 519.5,373.6 28.4,0"
+         id="path3336"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 37.2,305.3 10.4,-27.5 10.5,-17.6 10.4,-14 10.5,-11.8 10.4,-10.4 10.4,-9.4 10.5,-8.7 10.4,-8 10.4,-7.6 10.5,-7.1 10.4,-6.7 10.5,-6.5 10.4,-6.2 10.4,-5.9 10.5,-5.8 10.4,-5.5 10.4,-5.4 10.5,-5.2 10.4,-5 10.5,-5 10.4,-4.8 10.4,-4.7 10.5,-4.5 10.4,-4.5 10.5,-4.4 10.4,-4.3 10.4,-4.2 10.5,-4.1 10.4,-4.1 10.4,-4 10.5,-3.9 10.4,-3.8 10.5,-3.8 10.4,-3.8 10.4,-3.7 10.5,-3.6 10.4,-3.6 10.4,-3.5 10.5,-3.5 10.4,-3.4 10.5,-3.4 10.4,-3.3 10.4,-3.3 10.5,-3.3 10.4,-3.2 10.4,-3.2 10.5,-3.2 10.4,-3.1 10.5,-3.1 10.4,-3.1 h 0.01"
+         id="path204"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_6a"
+     transform="translate(13.1255,0)">
+    <title
+       id="title207">gnuplot_plot_6a</title>
+    <g
+       id="g209"
+       style="color:#ff0000;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <g
+         id="g211"
+         style="font-size:12.5px;text-anchor:end;fill:#000000;stroke:none"
+         transform="translate(513.9,384.6)">
+        <text
+           id="text213"
+           y="-56">
+          <tspan
+             id="tspan215">s=1, E=1E6</tspan>
+        </text>
+      </g>
+      <path
+         style="stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0"
+         d="m 519.5,325.6 28.4,0"
+         id="path3340"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0"
+         d="m 37.2,137.3 10.4,-12 10.5,-6.1 10.4,-4.3 10.5,-3.2 10.4,-2.7 10.4,-2.3 10.5,-2 10.4,-1.7 10.4,-1.6 10.5,-1.4 10.4,-1.4 10.5,-1.2 10.4,-1.1 10.4,-1.1 10.5,-1 10.4,-0.9 10.4,-0.9 10.5,-0.9 10.4,-0.8 10.5,-0.8 10.4,-0.7 10.4,-0.7 10.5,-0.7 10.4,-0.7 10.5,-0.6 10.4,-0.6 10.4,-0.6 10.5,-0.6 10.4,-0.6 10.4,-0.5 10.5,-0.5 10.4,-0.6 10.5,-0.5 10.4,-0.4 10.4,-0.5 10.5,-0.5 10.4,-0.4 10.4,-0.5 10.5,-0.4 10.4,-0.4 10.5,-0.5 10.4,-0.4 10.4,-0.4 10.5,-0.4 10.4,-0.3 10.4,-0.4 10.5,-0.4 10.4,-0.3 10.5,-0.4 10.4,-0.4 h 0.01"
+         id="path217"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     id="g219"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter"
+     transform="translate(13.1255,0)" />
+</svg>
