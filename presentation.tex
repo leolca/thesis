@@ -79,6 +79,13 @@
 %  \end{frame}
 %}
 
+\AtBeginSection{
+    \begin{frame}[noframenumbering]
+        \frametitle{Outline}
+        \tableofcontents[currentsection,hideothersubsections]
+    \end{frame}
+}
+
 
 %\section[Outline]{}
 \frame[allowframebreaks]{\begin{footnotesize}\tableofcontents\end{footnotesize}}
@@ -94,10 +101,11 @@
   %\begin{columns}[c] % the "c" option specifies center vertical alignment
   %  \column{.6\textwidth} % column designated by a command
        \begin{block}{language: system of communication}
-        Language is a system that uses signs to encode and decode information to convey communication.
+        Language is a complex system that uses signs to encode and decode information to convey communication.
        \end{block}      
-       
-       Language must be statable in a finite form \citep{donalddavidson,humboldt1836,chomsky1969,mandelbrot}. 
+      
+       \vspace{0.5cm} 
+       Language must be statable in a finite form \citep{donalddavidson,humboldt1836,chomsky1969,mandelbrot,wang1991}. 
        
   %
   %  \column{.4\textwidth}
@@ -119,7 +127,14 @@ Language is a social process of human iteration, an then it is made possible by 
 Language has a fundamentally social function. Processes of human interaction 
 along with domain-general cognitive processes shape the structure and knowledge of 
 language.
-
+}
+\note{
+``Along with its social function, language is importat to humans as a mental instrument.
+Indeed, the invention of language -- that is, the accumulation of symbols to represent emotions,
+objects, and acts -- may be the most important event in human evolution, because so many developments
+follow from it''\citep{wang1996}.
+}
+\note{
 Recent research across a variety of disciplines in the cognitive sciences has 
 demonstrated that patterns of use strongly affect how language is acquired, is structured, 
 is organized in cognition, and changes over time.
@@ -145,6 +160,83 @@ impossible for finite beings like ourselves. The linguistic competence of a
 finite being of our sort must be the result of the interaction of a finite number
 of basic competencies.
 }
+\note{
+Ever since Humboldt (1836/1999), researchers have hypothesized that language makes 
+``infinite use of finite means.'' Yet the study of language had to wait nearly a century 
+before the technical devices for adequately expressing the unboundedness of language became 
+available through the development of recursion theory in the foundations of mathematics 
+(cf. Chomsky, 1965). Recursion has subsequently become a fundamental property of grammar, 
+permitting a finite set of rules and principles to process and produce an infinite number of expressions.
+
+\vspace{0.3cm}
+``Segmental phonology and hierarchic syntax are of partcular importance''\cite{wang1991}.
+}
+\note{
+Apostel's article: ``Logique et langage consid\'{e}r\'{e}s du point de vue de la pr\'{e}correction des erreurs''.
+Trubetskoy attempted to characterize phonemic systems as maximally 'coherent' the more they 
+consist of 'bilateral,homogeneous, privative, proportional, and neutralizable' oppositions.
+We might understand as a branching-diagrams of phonemic oppositions which is characterized by
+the binarity of the nodes, symmetry of the branches, and parsimony in the use of phonetic features.
+Thus, to require a `coherent' system to contain `privative' oppositions, as opposed to
+`gradual' and `equipollent' ones (which is to say that each pair of opposed
+phonemes must share at least one feature and differ in at least one feature,
+while no more than two phonemes which share some set of features can differ
+by any one feature), is simply to require that all nodes, or branching-points,
+in the branching-diagram of the phonemes by their phonetic features be binary.
+}
+\note{
+Similarly, requiring oppositions to be `proportional' rather than `isolated', i.e.
+requiring that there be more than one opposition for which the opposed phonemes
+differ by some given set of features, is simply to reduce the number of different
+features used for a given number of oppositions and thus to increase economy,
+or parsimony.
+}
+\note{
+Apostel then goes on to show that such constraints on the kind of oppositions
+allowed in a `coherent' phonological system are exactly analogous to the constraints 
+which one would impose upon an error-correcting code for optimality of coding and error-correction.
+Briefly, an error-correcting code is one in which
+redundancy has been introduced by the addition to certain message units of
+extra symbols so chosen that a random, noise-produced alteration in one or more
+message symbols will result in a detectable change in some prearranged arithmetic 
+or logical function and thus permit the detection and correction of the error. 
+}
+\note{
+One scheme for detecting one error per word would require each code word
+to differ from every other code word by at least two letters, for an alteration of
+one letter in any word would render that word different from all admissible code
+words (but the error would not be correctable, for any given nonword received
+might be an alteration of several code words). Now optimal coding requires
+that these `distances' between code words be all equal, i.e. consist of the same
+number of letter differences.
+}
+\note{
+This and certain other simple requirements for optimality may now be interpreted 
+as requirements of symmetry, binarity, and parsimony in a branching-diagram; 
+for just as a code word is an ordered sequence of letter positions which
+can take on only certain values (say 0 and 1), so a phoneme may be taken as an
+ordered set of features each of which can take on only certain values (say + or -,
+in the case of the binary choices admitted here). Thus, as far as symmetry of
+the branching-diagram is concerned, code words in a simple Hamming error-detecting 
+code are a model of phonemes considered as sets of phonetic features
+under the requirement of coherence.
+}
+\note{
+However, in order to generate most efficiently all the sentences of a language,
+and to do this in such a manner as to segregate the optional phonemic rules
+from the obligatory phonetic rules, and in such a manner as to represent properly
+all the morphophonemic and phonemic facts known about sentences, it is necessary 
+to build into the grammar of a language-indeed, into the phonological
+part-a great deal more specificity of structure than is given by these relatively
+superficial constraints of binarity, symmetry, and parsimony. In other words,
+our coding model, though it may be mathematically correct, is compatible with
+too many different possible grammars, for it does not reach to a deep enough level
+of linguistic structure.
+
+(Logique, langage et theorie de l'information reviewed by R. B. LEES)
+}
+
+
 
 
 \frame
@@ -159,6 +251,7 @@ of basic competencies.
   \item recurring patterns, language `universal'
   \item structures and organization
   \item the principle of least effort \citep{zipf1949} : fast and robust communication
+  \item maximum entropy
   \end{itemize}
   
   \column{0.5\textwidth}
@@ -183,6 +276,13 @@ To study and understand how languages works, it is important to find/define its 
 The idea proposed by \cite{zipf1949} is that language works seeking the principle of least
 effort. The process of communication is better when it is possible to transmit information
 in a fast and robust way.
+}
+\note{
+The `linguistic universals' paradigm gives the impression that languages are 
+all built to a common pattern. In fact, there are vanishingly few universals of language in the direct 
+sense that all languages exhibit them. Instead, diversity can be found at almost every level of 
+linguistic organization. This fundamentally changes the object of enquiry from a cognitive science 
+perspective. 
 }
 
 
@@ -210,7 +310,13 @@ of competing factors ranging from perceptual mechanics to social motivations. (4
 structures of language emerge from interrelated patterns of experience, social interaction, 
 and cognitive processes.
 }
+\note{
+Humans are great at statistical learning, which is the ability to track, sort and categorize 
+sounds and visual patterns.
 
+\vspace{0.5cm}
+When it comes to learning either auditory or visual languages, infants are tracking the pattern of how words and parts of words come together. And by tracking the patterns, they can, based on the statistical regularities of which sounds came together, figure out what a word is, or where a word begins and ends. From this, their brains can form sound categories for their native language, which will cue them to pay more attention to those sounds in the future.
+}
 
 \frame
 {
@@ -249,11 +355,14 @@ apparently complex. We believe language presents a fractal nature.
   \end{itemize}
 }
 \note{
-An immense number of of properties and processes in language which can be detected and analysed only with quantitative methods on the basis of quantitative concepts: features and interrelations which can be expressed only by numbers or rankings
+An immense number of properties and processes in language which can be detected and analysed only with quantitative methods on the basis of quantitative concepts: features and interrelations which can be expressed only by numbers or rankings
 
-\vspace{1cm}
+\vspace{0.5cm}
 It can be shown that these properties of linguistic elements and their interreations abide by universal laws, which can be formulated in a strict mathematical way - in analogy to the laws of the well-known natural sciences.
  Emphasis has to be put on the fact that these laws are stochastic; they do not capture single cases (this would neither be expected nor possible), they rather predict the probabilities of certain events or certain conditions in a whole. 
+
+\vspace{0.5cm}
+\scriptsize{abide: accept or act in accordance with (a rule, decision, or recommendation)}
 }
 \note{
 A law can be said to be a statement representing universal patterns in the world (the phenomenological type of law) or universal mechanisms (the representational or mechanistic type).
@@ -273,7 +382,7 @@ A law can be said to be a statement representing universal patterns in the world
   \item date back in the ancient Greek - applications of combinatorics 
   \item 718-791, philologist and lexicographer Al-Khalil ibn Ahmad - permutations and combinations to list all possible Arabic words with and without vowels
   \item 1564-1614, William Bathe - \emph{Janua Linguarum}, the world's first language teaching texts, where he had compiled a list with 5.300 essential words
-  \item the first scientific counts of units of language or text were published already in the 19th century as a means of linguistic description - in Germany, Förstemann (1846, 1852) and Drobisch (1866), in Russia, Bunjakovskij (1847), in France Bourdon (1892), in Italy, Mariotti (1880) and in the USA, probably Sherman (1888)
+  \item the first scientific counts of units of language or text were published already in the 19th century as a means of linguistic description - in Germany, Förstemann (1846, 1852) and Drobisch (1866), in Russia, Bunjakovskij (1847), in France Bourdon (1892), in Italy, Mariotti (1880), in England, Augustus De Morgan (1851) and in the USA, probably Sherman (1888)
   \item the Russian mathematician Andrey Andreyevich Markov who created the base of the theory of Markov chains in 1913
   \item George Kingley Zipf was the first to set up a theoretical model in order to explain the observations and to find a mathematical formula for the corresponding function - the famous ``Zipf’s Law'' (1935, 1949)
   \item Benoît Mandelbrot (1953, 1959, 1961a, 1961b)
@@ -307,6 +416,9 @@ The Piotrowski's law states over the language change, proposing a mathematical m
 which path could changes produce. The basic idea is that the change comes from the realization of
 one pearson and that may produces a gradual spread. The greater the number of people that takes on this change,
 the faster will be the spreading process.
+
+\vspace{0.5cm}
+This idea seems in accordance with the `lexical diffusion' proposed by Wang.
 }
 
 
@@ -329,10 +441,17 @@ the faster will be the spreading process.
 
 }
 \note{
-The structuralism brings a new paradigma where we understand language as system where elements stablish relations
-one to another and to a largerr structure creating the whole.
+The structuralism brings a new paradigm where we understand language as system where elements stablish relations
+one to another and to a larger structure creating the whole.
 
-It creates a dissociation of the signifier and signified and brings the linguistc analysis to multiple levels.
+\vspace{0.5cm}
+It creates a dissociation of the signifier and signified and brings the linguistic analysis to multiple levels.
+
+\vspace{0.5cm}
+In order to stablish a logical interpretation and understanding of language, it is necessary to 
+do so by establishing linguistic units that my be used in the process of structuring of the
+understanding of the linguistic system. As pointed by Saussure, it has always been suffcient
+to operate on ill-denied units.
 }
 
 %\frame
@@ -405,26 +524,56 @@ classified, according to the IPA classification as the same, may have considerab
 
 \frame
 {
+  \frametitle{Vowel system: Yoruba x Italian}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.75\textwidth]{imagespresentation/vowel_system_yoruba_italian.png}
+  \caption{Shared vowels of Yoruba (dotted) and Italian (solid) \citep{ferrari1983}.}
+  \label{fig:vowel_system_yoruba_italian}
+  \end{figure}
+}
+
+\frame
+{
+  \frametitle{Vowel system: German x Dutch}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.75\textwidth]{imagespresentation/vowel_system_german_dutch.png}
+  \caption{Shared vowels of German (solid) and Dutch (dotted) \citep{ferrari1983}.}
+  \label{fig:vowel_system_german_dutch}
+  \end{figure}
+}
+
+
+\frame
+{
   \frametitle{Language Structure - Combinations}
   Phonemic Rules
   
   \vspace{0.5cm}
   The consonantal cluster \textipa{[ts]} in
   \begin{description}
-  \item[German] is allowed. \\ examples: `Konferenz' (\textipa{[kOnfe'rEnts]}), `Zeit' (\textipa{[tsaIt]})
-  \item[English] is allowed only word initially. \\ examples: `cats' (\textipa{[k\ae ts]}), `splits' (\textipa{[splits]})
+  \item[German] is allowed. \\ examples: `Konferenz' (\textipa{[kOnfe'rEnts]}), `Zeit' (\textipa{[tsaIt]}), `umziehen' (\textipa{['PUmtsi:@n]})
+  \item[English] is allowed only in word final. \\ examples: `cats' (\textipa{[k\ae ts]}), `splits' (\textipa{[splits]})
   \item[Classical Arabic] no multiconsonant onsets are allowed at all.
   %\item[Portuguese] is not allowed.
   \end{description}
 }
 \note{
 We observe that speech inventory among languages is quite diverse, but there seems to exist some cornerstones
-and some patterns that are prefered over others.
+and some patterns that are preferred over others.
 Phonemic rules are also different among different languages, creating different patterns, but some
 of them are more frequent.
 
-It is important to investigate and understand what the reasons, what are the ubiquontous patterns and
+\vspace{0.5cm}
+It is important to investigate and understand what the reasons, what are the ubiquitous patterns and
 from this knowledge formulate/construct an explanation for how language works. 
+
+\vspace{0.5cm}
+Classical Arabic, also known as Quranic Arabic, is the form of the Arabic language used in 
+literary texts from Umayyad and Abbasid times (7th to 9th centuries). 
+It is based on the Medieval dialects of Arab tribes. Modern Standard Arabic (MSA) is the 
+direct descendant used today throughout the Arab World in writing and in formal speaking.
 }
 
 
@@ -469,6 +618,7 @@ from this knowledge formulate/construct an explanation for how language works.
 The frequency of clusters should also be inversely proportional to the complexity of the cluster and
 now, the complexity of a cluster needs to be defined by the relation created by its parts.
 
+\vspace{0.5cm}
 In the history of any language, the phonemic system undergoes constant changes
 that may affect the complexity and occurrence frequency of phonemes.
 }
@@ -679,14 +829,14 @@ database (which has an inventory of 652 consonants).
   \caption{List of the 10 most frequent vowels in UPSID.}
   \label{tbl:vowels_most_freq}
   \begin{tabular}{|c|c|c|c|c|c|}
-  \hline consonant 		& \textipa{i} & \textipa{a} & \textipa{u} & \textipa{E} & \textipa{o/O} \\ 
+  \hline vowel 		& \textipa{i} & \textipa{a} & \textipa{u} & \textipa{E} & \textipa{o/O} \\ 
   \hline n. of languages	& 393 & 392 & 369 & 186 & 181  \\ 
   \hline frequency 		& 87.1 & 86.9 & 81.8 & 41.2 & 40.1 \\ 
   \hline 
   \end{tabular} 
   
   \begin{tabular}{|c|c|c|c|c|c|}
-  \hline consonant 		& \textipa{e/E} & \textipa{O} & \textipa{o} & \textipa{e} & \textipa{~a} \\ 
+  \hline vowel 		& \textipa{e/E} & \textipa{O} & \textipa{o} & \textipa{e} & \textipa{~a} \\ 
   \hline n. of languages	& 169 & 162 & 131 & 124 & 83 \\ 
   \hline frequency 		& 37.5 & 35.9 & 29.0 & 27.5 & 18.4 \\ 
   \hline 
@@ -858,7 +1008,7 @@ Analyzing other pairs like \textipa{[t]}-\textipa{[d]} (alveolar plosive), \text
 }
 \note{
 For each phone we listed the cooccurring ones and the number of times they cooccur (how many languages). 
-We normalize by the number of languages in which the reference phone occurrs.
+We normalize by the number of languages in which the reference phone occurs.
 Observe that the most frequent phones in the database (left side) have a higher cooccurrence rate.
 }
 
@@ -1592,6 +1742,61 @@ probability of occurrence regardless which the prior phone is.
 \label{fig:wordsphoneslength_en}
 \end{figure}   
 }
+\note{
+Fucks (e.g. 1955, 1956) demonstrated both theoretically and empirically that word
+length, measured in terms of the number of syllables, follows a displaced Poisson distribution. 
+
+Frequent discrepancies between the data and this model led GROTJAHN (1982) to
+consider the parameter of the Poisson distribution as a random variable following a
+gamma distribution. This approach yielded a displaced negative binomial distribution
+which provided a much better fit than the original Poisson distribution, being merely a
+limiting form of the negative binomial.
+}
+\note{
+As long as the empirical data are consistent with the model there is no need for
+improvement; this is common practice in all sciences. However, since it can be shown
+that a great part of the published data does not fit the above models closely enough, it is
+advisable to reconsider the whole problem of modelling the distribution of word length.
+}
+\note{
+In addition to the purely linguistic difficulty of defining the concept of word and of
+delimiting wordlike units for example in texts, we encounter six practical and theoretical
+problems in modelling the distribution of word length:
+\begin{enumerate}[(i)]
+\item Up to now word length has been primarily measured in terms of letters, syllables and morphemes, 
+      although other possibilities are conceivable. This is the fundamental \emph{problem of the unit of measurement}.
+\item There are a number of factors which affect the distribution of word length in
+      a specific population. This phenomenon will be referred to as the \emph{population problem}.
+\item Different boundary conditions might lead to different models and hence to different 
+      laws rather than one general law, which would be the ideal state of affairs.  
+      This problem will be referred to as the \emph{modelling problem}.
+\end{enumerate}
+}
+\note{
+\begin{enumerate}[(i)]
+\setcounter{enumi}{3}
+\item The usual criterion for the goodness of fit of a probabilistic model to the data is
+      Pearson's chi-square test. This test  -- as well as others based on the divergence
+      of the observed frequencies from the expected frequencies -- 
+      is however strongly dependent on the sample size. In linguistics, where word length can be measured
+      on the basis of texts, dictionaries etc., sample size is often so large that Pearson's
+      chi-square test - as well as other power divergence tests --
+      necessarily lead to a falsification of the model. This is the \emph{goodness-of-fit problem}.
+\item Word length plays a role in the self-regulation of language and is thus partially
+      dependent on other linguistic properties. This is the problem of the \emph{interrelation-
+      ship of linguistic properties}.
+\end{enumerate}
+}
+\note{
+\begin{enumerate}[(i)]
+\setcounter{enumi}{5}
+\item Knowledge of the interrelationship of word length with other linguistic phenomena 
+      as well as of the mechanisms involved in generating the word length patterns
+      in various languages, helps us in establishing a valid explanation of the nature of
+      word length. This is the \emph{problem of explanation}.
+\end{enumerate}
+\citep{grotjan2007}
+}
 
 
 %\frame
@@ -1667,6 +1872,134 @@ probability of occurrence regardless which the prior phone is.
 
 
 
+\frame
+{
+  \frametitle{Analysis of Smaller Units}
+  Word is considered the smallest free form that can be uttered or written and carries a meaning \citep{bloomfield1926}.
+  
+  \vspace{1cm}
+  Basic units of speech perception:
+  \begin{itemize}
+  \item phones \citep{pisoni1982}
+  \item diphones \citep{klatt1979}
+  \item triphones (speech synthesis)
+  \item syllables \citep{studdert1976}
+  \item demisyllables \citep{fujimura1978} 
+  \end{itemize}
+} 
+
+
+
+\frame
+{
+  \frametitle{Distinctive Features}
+
+    \begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagespresentation/distinctivefeature_en_matrix.png}
+    \caption{English Distinctive Features Table.}
+    \label{fig:distinctivefeature_en_matrix}
+    \end{figure}
+
+}
+\note{
+The theory proposes the existence of a small finite set of features that may be used to analyze speech sounds, in such way that the description of each speech sound in terms of these features is unique.
+The analysis into distinctive features is a unambiguous process to associate speech sounds
+into arrays of features that describe these sounds. The features proposed are a conjunction of
+perceptual and articulatory factors. The classical statement of distinctive
+features was brought by \citet{chomsky1968a}.
+
+The most important contribution to phonology from the distinctive feature theory is
+that a set of segments may be analyzed into some features and it is possible to identify
+classes of segments in rules, creating the notion of natural class, as a set of sounds that
+has certain phonetic features in common and is affected in the same way in the same
+environment.
+}
+
+
+\frame
+{
+  \frametitle{Distinctive Feature Distance}
+  
+  \begin{block}{definition: distance measure between two segments}
+  we define a distance measure of two segments as the number of features not shared between
+  them (that dissimilarity definition resembles the natural class definition of \cite{flemming2005})
+  \end{block}
+}
+
+\frame
+{
+  \frametitle{Dissimilarity Matrix}
+  \vspace{-0.25cm}
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=0.75\textwidth]{imagespresentation/dissimilarity_en_matrix.png}
+  %\caption{}
+  \end{figure}
+}
+
+\frame
+{
+  \frametitle{Multidimensional Scaling (MDS)}
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{imagespresentation/mdsex.pdf}
+  \caption{Simple Multidimensional Scaling Example.}
+  \end{figure}
+}
+
+
+\frame
+{
+  \frametitle{MDS - Vowels}
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=0.65\textwidth]{imagespresentation/mds_vowels_en.pdf}
+  \caption{MDS for English vowels. The first two PCs account for 63\% of variance.}
+  \end{figure}
+}
+\note{
+Multidimensional scaling (MDS) is a means of visualizing the level of similarity of individual cases of a dataset.
+An MDS algorithm aims to place each object in N-dimensional space such that the between-object distances are preserved as well as possible. Each object is then assigned coordinates in each of the N dimensions. The number of dimensions of an MDS plot N can exceed 2 and are specified a priori. Choosing N=2 optimizes the object locations for a two-dimensional scatterplot.
+}
+
+
+\frame
+{
+  \frametitle{MDS - Consonants}
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=0.65\textwidth]{imagespresentation/mds_consonants_en_classes.pdf}
+  \caption{MDS for English consonants. The first two PCs account for 46\% of variance.}
+  \end{figure}
+}
+
+
+\frame
+{
+  \frametitle{Intradistances - triphones}
+  \vspace{-0.1cm}
+  \begin{figure}[h]
+  \centering  
+  \includegraphics[width=0.8\textwidth]{images/ulysses_triphones_intradistances_mesh.pdf} 
+  \caption{Probability of triphones given its intradistances.}
+  \end{figure} 
+}
+
+
+\frame
+{
+  \frametitle{Frequency of occurrence of words in logarithmic scale}
+  \vspace{-0.1cm}
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=0.6\textwidth]{imagespresentation/ulysses_words_intra_phone_distance_freq_occ_avg_std.pdf}
+  \caption{Relation in words between frequency of occurrence, average intra-phone distances and standard deviation of these distances.}
+  \end{figure}
+}
+
+
+
 
 
 \subsubsection{Zipf law}
@@ -1718,7 +2051,7 @@ As already pointed out by \cite{li1992}, ``Zipf's law is not a deep law in natur
   \begin{equation}
   H_{N,s} = \sum_{n=1}^{N} \frac{1}{n^s} \textmd{ .}
   \end{equation}
-  (converges for $s>1$)
+  (as $N \rightarrow \infty$, converges for $s>1$)
 }
 
 
@@ -1747,6 +2080,8 @@ As already pointed out by \cite{li1992}, ``Zipf's law is not a deep law in natur
   \item firms
   \item stocks
   \item game of life
+  \item lifespan of genera
+  \item etc 
   \end{enumerate}
 }
 
@@ -1759,11 +2094,14 @@ As already pointed out by \cite{li1992}, ``Zipf's law is not a deep law in natur
   \begin{columns}[c]
   \column{0.4\textwidth}
 
-  Relation between magnitude $m$ of a earthquake and the number $N$ of earthquakes with magnitude greater of equal to $m$:
+  Relation between magnitude $m$ of a earthquake and the number $N$ of earthquakes with magnitude greater or equal to $m$:
   \begin{equation}
   \log(N) = -b m + a \textmd{ . }
   \end{equation}
 
+  \begin{equation}
+  m = \log_{10} \left( \frac{A}{A_\mathrm{0}(\delta)} \right)
+  \end{equation}
 
   \column{0.6\textwidth}
 
@@ -1777,6 +2115,18 @@ As already pointed out by \cite{li1992}, ``Zipf's law is not a deep law in natur
 
   \end{columns}
 }
+\note{
+The Richter magnitude of an earthquake is determined from the logarithm of the 
+amplitude of waves recorded by seismographs (adjustments are included to compensate 
+for the variation in the distance between the various seismographs and the 
+epicenter of the earthquake). The original formula is:
+$M_\mathrm{L} = \log_{10} A - \log_{10} A_\mathrm{0}(\delta) = \log_{10} [A / A_\mathrm{0}(\delta)]$,
+where $A$ is the maximum excursion of the Wood-Anderson seismograph, the empirical function 
+$A_0$ depends only on the epicentral distance of the station, $\delta$. 
+In practice, readings from all observing stations are averaged after adjustment with 
+station-specific corrections to obtain the $M_L$ value.
+}
+
 
 \frame
 {
@@ -1881,9 +2231,37 @@ The concept was originally discovered in the 1940s by Stanislaw Ulam and John vo
 }
 
 
+\frame
+{
+  \frametitle{Lifespans of Genera}
+  \begin{columns}[c]
+  \column{0.5\textwidth}
+
+    \begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{imagespresentation/num_genera_hist.png}
+    \caption{Distribution of length of lifespans of genera (in millions of years).}
+    \label{fig:num_genera_hist}
+    \end{figure}
+
+  \column{0.5\textwidth}
+
+    \begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{imagespresentation/num_genera_loglog.pdf}
+    \caption{Loglog plot of the lifespans (data from Sepkoski Fossil Marine Genera Data Warehouse).}
+    \label{fig:num_genera_loglog}
+    \end{figure}
+ 
+  \end{columns}
+}
 
 
-\subsubsection{Random Text vs Natural Language}
+
+
+
+
+%\subsubsection{Random Text vs Natural Language}
 \frame
 {
   \frametitle{Random Texts}
@@ -1937,11 +2315,19 @@ The concept was originally discovered in the 1940s by Stanislaw Ulam and John vo
   \cite{biemann2007} proposes a model of Random Text generation that
   takes the properties of neighboring co-occurrence into account
   and introduces the notion of sentences in random text.
-  
-  It is is basically composed of: A word generator that produces random words 
+ 
+  \vspace{0.5cm} 
+  It is basically composed of: A word generator that produces random words 
   composed of letters and a sentence generator that composes random
   sentences of words.
 }
+\note{
+What distinguishes Biemann's proposal is that it is a hierarchical random text generator.
+In a higher level there is the random text generator that creates sentences, and in
+a lower level there is the random sentence generator which will create a random
+selection of words to built a sentence.
+}
+
 
 \frame
 {
@@ -1953,121 +2339,14 @@ The concept was originally discovered in the 1940s by Stanislaw Ulam and John vo
     \label{fig:biemann}
     \end{figure}
 }
-
-
-\frame
-{
-  \frametitle{Analysis of Smaller Units}
-  Word is considered the smallest free form that can be uttered or written and carries a meaning \citep{bloomfield1926}.
-  
-  \vspace{1cm}
-  Basic units of speech perception:
-  \begin{itemize}
-  \item phones \citep{pisoni1982}
-  \item diphones \citep{klatt1979}
-  \item triphones
-  \item syllables \citep{studdert1976}
-  \item demisyllables \citep{fujimura1978} 
-  \end{itemize}
-} 
-
-
-
-\frame
-{
-  \frametitle{Distinctive Features}
-
-    \begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.8\textwidth]{imagespresentation/distinctivefeature_en_matrix.png}
-    \caption{English Distinctive Features Table.}
-    \label{fig:distinctivefeature_en_matrix}
-    \end{figure}
-
-}
 \note{
-The theory proposes the existence of a small finite set of features that may be used to analyze speech sounds, in such way that the description of each speech sound in terms of these features is unique.
-The analysis into distinctive features is a unambiguous process to associate speech sounds
-into arrays of features that describe these sounds. The classical statement of distinctive
-features was brought by \citet{chomsky1968a}.
-
-The most important contribution to phonology from the distinctive feature theory is
-that a set of segments may be analyzed into some features and it is possible to identify
-classes of segments in rules, creating the notion of natural class, as a set of sounds that
-has certain phonetic features in common and is affected in the same way in the same
-environment.
+The creation of this hierarchy in the random text generation makes the resulted text much more 
+similar to a true Zippfian distributed process. That is observed in the Zipf's plot and also
+on the lexical spectrum plot (inverse Zipf plot).
 }
 
 
-\frame
-{
-  \frametitle{Distinctive Feature Distance}
-  
-  \begin{block}{definition: distance measure between two segments}
-  we define a distance measure of two segments as the number of features not shared between
-  them (that dissimilarity definition resembles the natural class definition of \cite{flemming2005})
-  \end{block}
-}
 
-\frame
-{
-  \frametitle{Dissimilarity Matrix}
-  \vspace{-0.25cm}
-  \begin{figure}[h]
-  \centering
-  \includegraphics[width=0.75\textwidth]{imagespresentation/dissimilarity_en_matrix.png}
-  %\caption{}
-  \end{figure}
-}
-
-\frame
-{
-  \frametitle{MDS - Vowels}
-  \begin{figure}[h]
-  \centering
-  \includegraphics[width=0.65\textwidth]{imagespresentation/mds_vowels_en.pdf}
-  \caption{MDS for English vowels. The first two PCs account for 63\% of variance.}
-  \end{figure}
-}
-\note{
-Multidimensional scaling (MDS) is a means of visualizing the level of similarity of individual cases of a dataset.
-An MDS algorithm aims to place each object in N-dimensional space such that the between-object distances are preserved as well as possible. Each object is then assigned coordinates in each of the N dimensions. The number of dimensions of an MDS plot N can exceed 2 and are specified a priori. Choosing N=2 optimizes the object locations for a two-dimensional scatterplot.
-}
-
-
-\frame
-{
-  \frametitle{MDS - Consonants}
-  \begin{figure}[h]
-  \centering
-  \includegraphics[width=0.65\textwidth]{imagespresentation/mds_consonants_en_classes.pdf}
-  \caption{MDS for English consonants. The first two PCs account for 46\% of variance.}
-  \end{figure}
-}
-
-
-\frame
-{
-  \frametitle{Intradistances - triphones}
-  \vspace{-0.1cm}
-  \begin{figure}[h]
-  \centering  
-  \includegraphics[width=0.8\textwidth]{images/ulysses_triphones_intradistances_mesh.pdf} 
-  \caption{Probability of triphones given its intradistances.}
-  \end{figure} 
-}
-
-
-\frame
-{
-  \frametitle{Frequency of occurrence of words in logarithmic scale}
-  \vspace{-0.1cm}
-  \begin{figure}[h]
-  \centering
-  \includegraphics[width=0.6\textwidth]{imagespresentation/ulysses_words_intra_phone_distance_freq_occ_avg_std.pdf}
-  \caption{Relation in words between frequency of occurrence, average intra-phone distances and standard deviation of these distances.}
-  \end{figure}
-}
 
 \frame
 {
@@ -2076,6 +2355,7 @@ An MDS algorithm aims to place each object in N-dimensional space such that the 
   The Zipf's exponent characterizes the source's distribution.
 
   \begin{itemize}
+  \item natural phenomena $1 \leq s \leq 2$ \citep{baek2011}
   \item natural languages $s \approx 1$ \citep{piotrovskii}
   \item children's speech $s \approx 1.66$ \citep{piotrovskii}
   \item military combat text $s \approx 1.42$ \citep{kolguskin1960}
@@ -2136,7 +2416,7 @@ L(s|k_1,\cdots,k_M,N) &=& f(k=(k_1, k_2, \cdots, k_M) | s, N) \nonumber \\
 
   given that
   \begin{equation}
-  \frac{d^2}{ds^2} \ln L(s|k_1,\cdots,k_M,N) = M \frac{  G_{N,s}^2 - I_{N,s} H_{N,s}  } {H_{N,s}^2} < 0 \textmd{ .}
+  \frac{\partial^2}{\partial s^2} \ln L(s|k_1,\cdots,k_M,N) = M \frac{  G_{N,s}^2 - I_{N,s} H_{N,s}  } {H_{N,s}^2} < 0 \textmd{ .}
   \end{equation}
 
   where
@@ -2339,7 +2619,7 @@ The logarithm of the likelihood is
   \item[S] set of signs (words)
   \item[R] set of estimula 
   \item[I(S,R)] transmitted information 
-  \item[H(S)] cost
+  \item[H(S)] cost (entropy of words) 
   \end{description}
 }
 
@@ -2452,6 +2732,19 @@ The logarithm of the likelihood is
 \frame
 {
   \frametitle{Entropy of a Zipfian Source}
+  \vspace{-0.5cm}
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/zipfmandelbrot_entropy_sq_surface.pdf}
+  \caption{Effect of the parameters $s$ and $q$ on the entropy $H$ (in bits) for a Zipf-Mandelbrot distribution.}
+  \label{fig:zipfmandelbrot_entropy_sq_surface}
+  \end{figure}
+}
+
+
+\frame
+{
+  \frametitle{Entropy of a Zipfian Source}
 \begin{table}[h!]
 \scriptsize
 \centering
@@ -2473,6 +2766,7 @@ The logarithm of the likelihood is
 \end{tabular}
 }
 \end{table} 
+
 }
 
 
@@ -2518,7 +2812,7 @@ The logarithm of the likelihood is
   \vspace{-0.3cm}
   \begin{figure}[h]
   \centering
-  \includegraphics[width=0.7\textwidth]{images/heapslawtexts.png}
+  \includegraphics[width=0.8\textwidth]{images/heapslawtexts.png}
   \caption{The relation between the number of tokens and types in 35 books from Gutenberg Database is presented in gray.} 
   \label{fig:heapslawtexts}
   \end{figure}
@@ -2578,7 +2872,7 @@ The logarithm of the likelihood is
   \vspace{-0.3cm}
   \begin{figure}[h]
   \centering
-  \includegraphics[width=0.75\textwidth]{images/ulysses_words_sentence_word_length_syllables_z100.png}
+  \includegraphics[width=0.8\textwidth]{images/ulysses_words_sentence_word_length_syllables_z100.png}
   \caption{Relation between sentence length (number of words) and average words length (number of syllables) in a sentence.}
   \label{fig:ulysses_words_sentence_word_length}
   \end{figure}
@@ -2609,6 +2903,9 @@ The logarithm of the likelihood is
   \end{itemize}
 }
 \note{
+It is important to note that the 425 languages in the UPSID are chosen
+so that they represent well all family branches in the language tree. 
+
 We adopt here a usage-based theory of language in which its cognitive 
 organization is based directly on one's experience with it, rather
 than being an abstract set of rules or structures that are only indirectly 
@@ -2649,8 +2946,8 @@ appear to be highly general can be seen as a by-product of this process:
 grammars are emergent phenomena dependent on idiosyncratic localized interactions.
 }
 \note{
-The ubiquity of scaling laws in nature suggests that complex systems organize them-
-selves, they are not just a collection of random independent realizations, but exhibit
+The ubiquity of scaling laws in nature suggests that complex systems organize themselves, 
+they are not just a collection of random independent realizations, but exhibit
 similar patterns and relations that are observed in different scales.
 Complex systems are more than mere collections of independent random variables, they
 have interdependent effects and behaviours.
