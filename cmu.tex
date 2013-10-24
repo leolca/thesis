@@ -94,7 +94,7 @@ in this purpose:
 \begin{description}
 \item[Moby Pronunciator II] contains 177,267 words with corresponding pronunciations
 fully International Phonetic Alphabet coded. Stress or emphasis is also marked in the data.
-It was createb by William Grady Ward and in 2007 has been place into the public domain.
+It was createb by William Grady Ward and in 2007 has been placed into the public domain.
 \item[TIMIT] corpus of read speech contains a total of 630 sentences spoken by
 10 different speakers from 8 major dialect regions of the United States. The total
 number of words in the corpus is only 659 words. The corpus has phonemically and lexically 
@@ -107,15 +107,16 @@ entries using a modified Prolex phonetic alphabet.
 It contains 133,746 entries of English words mapping between its written form and their 
 North American pronunciations.
 \end{description}
-These corpus cited above have been designed to provide data for
+These corpora cited above have been designed to provide data for
 the creation of acoustic-phonetic knowledge and for the development and
 evaluation of automatic speech recognition systems and speech synthesizers.
 
 The present work aims into acquiring statistical knowledge of the patterns found in
 the acoustic-phonetic behavior of the English language. To reach this sort of information
 from textual data, we chose to use the Carnegie Mellon University Pronouncing Dictionary
-(CMUdict) since it is available in public domain, is widely used and has a great number of
-entries.
+(CMUdict) since it is available in public domain, is widely used and has many entries.
+%a large number of
+%entries.
 
 \section[CMUdict]{The Carnegie Mellon University Pronouncing Dictionary}
 
@@ -146,9 +147,10 @@ are considered to be the places where local accent is most similar to General Am
 It doesn't make any 
 kind of surface reduction like flapping or reduced vowels, since
 ``predicting reduction requires knowledge of things outside the lexicon (the prosodic context, 
-rate of speech, etc.)'' \cite{jurafsky2009speech}.
-Instead, the vowels are marked by a number indicating the stress associated with them: 0 (unstressed),
-1 (stressed), and 2 (secondary stress).
+rate of speech, etc.)'' \citep{jurafsky2009speech}.
+Instead, the vowels are marked by a number indicating the stress associated with them.
+%: 0 (unstressed),
+%1 (stressed), and 2 (secondary stress).
 
 
 Tables \ref{tbl:vowels_arpabet_ipa} and \ref{tbl:consonants_arpabet_ipa} 
@@ -163,7 +165,7 @@ Festival Speech Synthesis System and the CMU Sphinx speech recognition system.
 The format used by the CMU Pronouncing Dictionary has mappings from words to their pronunciations
 using the phone set given by a modified ARPAbet system (the difference is the stress marks used on vowels). 
 The current phone set contains 39 phones
-(not counting varia due to lexical stress) and 
+(not counting variations due to lexical stress) and 
 the vowels may be marked by their lexical stress using the scale: 0 (no stress), 1 (primary stress)
 and 2 (secondary stress). When alternate pronunciations exist for a given word, they are
 marked by an index within parentheses. The first version of the dictionary was release on 16th of September 1993.
@@ -273,9 +275,9 @@ The analysis proposed consider words as isolated structures and for that reason 
 phonological rules are not taken in account. Various phonological changes that happen in
 a continuous speech, such as flapping, vowel reduction, and various coarticulation effects that
 happen as a postlexical phonological change are not considered, since we are not evaluating the
-effects of neighbors words on a continuous speech. Although we don't consider these changes,
-we believe that it will not alter the statistical results, since the same phonological changes
-also take places within the lexical structures.
+effects of neighbor words on a continuous speech. % Although we don't consider these changes,
+%we believe that it will not alter the statistical results, since the same phonological changes
+%also take places within the lexical structures.
 
 
 
